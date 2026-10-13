@@ -1,0 +1,2 @@
+{ "name": "kobutai-classifier", "version": "0.1.0", "type": "module", "main": "dist/classifier.js",
+  "types": "dist/classifier.d.ts", "scripts": { "build": "tsc -p .", "test": "tsc -p . && node test/vectors.test.mjs" } }

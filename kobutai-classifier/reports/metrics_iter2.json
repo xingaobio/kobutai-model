@@ -1,0 +1,330 @@
+{
+ "dev": {
+  "n": 401,
+  "type_acc": 0.9975062344139651,
+  "type_coverage": 1.0,
+  "type_acc_answered": 0.9975062344139651,
+  "music_n": 223,
+  "genre_coverage": 0.9955156950672646,
+  "genre_acc_answered": 0.9819819819819819,
+  "genre_acc_all": 0.9775784753363229,
+  "video_n": 95,
+  "vclass_coverage": 0.9894736842105263,
+  "vclass_acc_answered": 1.0,
+  "wrong_rate": 0.012468827930174564,
+  "generic_rate": 0.0024937655860349127,
+  "genre_via": {
+   "table_ok": 185,
+   "model_bad": 3,
+   "model_ok": 33,
+   "table_bad": 1
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    30,
+    1.0,
+    0.97
+   ],
+   "western-pop": [
+    34,
+    0.97,
+    0.97
+   ],
+   "jpop": [
+    26,
+    1.0,
+    1.0
+   ],
+   "anime": [
+    28,
+    1.0,
+    1.0
+   ],
+   "cpop": [
+    38,
+    1.0,
+    0.97
+   ],
+   "electronic": [
+    23,
+    1.0,
+    1.0
+   ],
+   "lofi": [
+    11,
+    1.0,
+    1.0
+   ],
+   "classical": [
+    10,
+    1.0,
+    1.0
+   ],
+   "hiphop": [
+    12,
+    1.0,
+    1.0
+   ],
+   "other": [
+    11,
+    1.0,
+    0.91
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 1.0,
+   "ja": 1.0,
+   "en": 0.995,
+   "xx": 1.0
+  }
+ },
+ "test": {
+  "n": 562,
+  "type_acc": 0.9857651245551602,
+  "type_coverage": 1.0,
+  "type_acc_answered": 0.9857651245551602,
+  "music_n": 309,
+  "genre_coverage": 0.9902912621359223,
+  "genre_acc_answered": 0.9771241830065359,
+  "genre_acc_all": 0.9676375404530745,
+  "video_n": 144,
+  "vclass_coverage": 0.9861111111111112,
+  "vclass_acc_answered": 0.9647887323943662,
+  "wrong_rate": 0.03558718861209965,
+  "generic_rate": 0.0017793594306049821,
+  "genre_via": {
+   "table_ok": 242,
+   "model_ok": 57,
+   "model_bad": 4,
+   "table_bad": 3
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    32,
+    1.0,
+    1.0
+   ],
+   "western-pop": [
+    36,
+    0.97,
+    0.97
+   ],
+   "jpop": [
+    33,
+    1.0,
+    0.97
+   ],
+   "anime": [
+    36,
+    1.0,
+    0.97
+   ],
+   "cpop": [
+    40,
+    1.0,
+    0.97
+   ],
+   "electronic": [
+    24,
+    1.0,
+    0.96
+   ],
+   "lofi": [
+    25,
+    0.92,
+    1.0
+   ],
+   "classical": [
+    22,
+    1.0,
+    1.0
+   ],
+   "hiphop": [
+    37,
+    1.0,
+    0.97
+   ],
+   "other": [
+    24,
+    1.0,
+    0.96
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 0.983,
+   "ja": 0.986,
+   "en": 0.987,
+   "xx": 1.0
+  }
+ },
+ "real_dev": {
+  "n": 254,
+  "type_acc": 0.9566929133858267,
+  "type_coverage": 1.0,
+  "type_acc_answered": 0.9566929133858267,
+  "music_n": 146,
+  "genre_coverage": 0.9178082191780822,
+  "genre_acc_answered": 0.835820895522388,
+  "genre_acc_all": 0.7671232876712328,
+  "video_n": 58,
+  "vclass_coverage": 0.9482758620689655,
+  "vclass_acc_answered": 0.8181818181818182,
+  "wrong_rate": 0.16929133858267717,
+  "generic_rate": 0.03543307086614173,
+  "genre_via": {
+   "table_ok": 92,
+   "model_ok": 20,
+   "model_bad": 18,
+   "table_bad": 4
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    17,
+    0.94,
+    0.81
+   ],
+   "western-pop": [
+    24,
+    0.92,
+    1.0
+   ],
+   "jpop": [
+    14,
+    1.0,
+    0.57
+   ],
+   "anime": [
+    9,
+    1.0,
+    0.67
+   ],
+   "cpop": [
+    20,
+    0.9,
+    0.94
+   ],
+   "electronic": [
+    12,
+    0.83,
+    0.8
+   ],
+   "lofi": [
+    10,
+    1.0,
+    0.7
+   ],
+   "classical": [
+    12,
+    0.92,
+    1.0
+   ],
+   "hiphop": [
+    14,
+    0.79,
+    0.91
+   ],
+   "other": [
+    14,
+    0.93,
+    0.77
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 0.968,
+   "ja": 0.934,
+   "en": 0.966,
+   "xx": 0.917
+  }
+ },
+ "real_test": {
+  "n": 383,
+  "type_acc": 0.9268929503916449,
+  "type_coverage": 1.0,
+  "type_acc_answered": 0.9268929503916449,
+  "music_n": 214,
+  "genre_coverage": 0.883177570093458,
+  "genre_acc_answered": 0.8412698412698413,
+  "genre_acc_all": 0.7429906542056075,
+  "video_n": 94,
+  "vclass_coverage": 0.925531914893617,
+  "vclass_acc_answered": 0.8505747126436781,
+  "wrong_rate": 0.185378590078329,
+  "generic_rate": 0.033942558746736295,
+  "genre_via": {
+   "table_ok": 126,
+   "model_bad": 28,
+   "model_ok": 33,
+   "table_bad": 2
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    23,
+    0.91,
+    0.76
+   ],
+   "western-pop": [
+    26,
+    0.92,
+    0.96
+   ],
+   "jpop": [
+    28,
+    0.96,
+    0.93
+   ],
+   "anime": [
+    29,
+    0.72,
+    0.86
+   ],
+   "cpop": [
+    24,
+    0.96,
+    0.96
+   ],
+   "electronic": [
+    14,
+    0.93,
+    0.77
+   ],
+   "lofi": [
+    15,
+    0.87,
+    0.69
+   ],
+   "classical": [
+    15,
+    1.0,
+    1.0
+   ],
+   "hiphop": [
+    18,
+    0.83,
+    0.67
+   ],
+   "other": [
+    22,
+    0.77,
+    0.65
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 0.936,
+   "ja": 0.881,
+   "en": 0.95,
+   "xx": 1.0
+  }
+ },
+ "config": {
+  "thresholds": {
+   "type": 0.4,
+   "genre": 0.3,
+   "vclass": 0.5
+  },
+  "artistBonus": {
+   "artist": 3,
+   "title": 0
+  }
+ },
+ "model_bytes": 2097256
+}

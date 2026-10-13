@@ -1,0 +1,601 @@
+Ludwig van Beethoven	Beethoven;贝多芬;ベートーヴェン	classical
+Wolfgang Amadeus Mozart	Mozart;莫扎特;モーツァルト	classical
+Johann Sebastian Bach	Bach;J.S. Bach;巴赫;バッハ	classical
+Frédéric Chopin	Chopin;Frederic Chopin;肖邦;ショパン	classical
+Franz Schubert	Schubert;舒伯特;シューベルト	classical
+Robert Schumann	Schumann;舒曼;シューマン	classical
+Johannes Brahms	Brahms;勃拉姆斯;ブラームス	classical
+Pyotr Ilyich Tchaikovsky	Tchaikovsky;Tchaikovsky Pyotr;柴可夫斯基;チャイコフスキー	classical
+Claude Debussy	Debussy;德彪西;ドビュッシー	classical
+Maurice Ravel	Ravel;拉威尔;ラヴェル	classical
+Erik Satie	Satie;萨蒂;サティ	classical
+Franz Liszt	Liszt;李斯特;リスト	classical
+Antonio Vivaldi	Vivaldi;维瓦尔第;ヴィヴァルディ	classical
+George Frideric Handel	Handel;Georg Friedrich Händel;亨德尔;ヘンデル	classical
+Joseph Haydn	Haydn;海顿;ハイドン	classical
+Felix Mendelssohn	Mendelssohn;门德尔松;メンデルスゾーン	classical
+Antonín Dvořák	Dvorak;Antonin Dvorak;德沃夏克;ドヴォルザーク	classical
+Sergei Rachmaninoff	Rachmaninov;Rachmaninoff;拉赫玛尼诺夫;ラフマニノフ	classical
+Igor Stravinsky	Stravinsky;斯特拉文斯基;ストラヴィンスキー	classical
+Dmitri Shostakovich	Shostakovich;肖斯塔科维奇;ショスタコーヴィチ	classical
+Sergei Prokofiev	Prokofiev;普罗科菲耶夫;プロコフィエフ	classical
+Nikolai Rimsky-Korsakov	Rimsky-Korsakov;里姆斯基-科萨科夫;リムスキー＝コルサコフ	classical
+Modest Mussorgsky	Mussorgsky;穆索尔斯基;ムソルグスキー	classical
+Edvard Grieg	Grieg;格里格;グリーグ	classical
+Jean Sibelius	Sibelius;西贝柳斯;シベリウス	classical
+Gustav Mahler	Mahler;马勒;マーラー	classical
+Richard Wagner	Wagner;瓦格纳;ワーグナー	classical
+Richard Strauss	R. Strauss;理查·施特劳斯;リヒャルト・シュトラウス	classical
+Johann Strauss II	Johann Strauss;小约翰·施特劳斯;ヨハン・シュトラウス2世	classical
+Giuseppe Verdi	Verdi;威尔第;ヴェルディ	classical
+Giacomo Puccini	Puccini;普契尼;プッチーニ	classical
+Gioachino Rossini	Rossini;罗西尼;ロッシーニ	classical
+Georges Bizet	Bizet;比才;ビゼー	classical
+Camille Saint-Saëns	Saint-Saens;圣-桑;サン＝サーンス	classical
+Gabriel Fauré	Faure;福雷;フォーレ	classical
+Édouard Lalo	Lalo;拉罗;ラロ	classical
+Jules Massenet	Massenet;马斯奈;マスネ	classical
+Hector Berlioz	Berlioz;柏辽兹;ベルリオーズ	classical
+César Franck	Franck;弗朗克;フランク	classical
+Béla Bartók	Bartok;Bela Bartok;巴托克;バルトーク	classical
+Zoltán Kodály	Kodaly;柯达伊;コダーイ	classical
+Leoš Janáček	Janacek;雅纳切克;ヤナーチェク	classical
+Bedřich Smetana	Smetana;斯美塔那;スメタナ	classical
+Antonio Salieri	Salieri;萨列里;サリエリ	classical
+Domenico Scarlatti	Scarlatti;斯卡拉蒂;スカルラッティ	classical
+Arcangelo Corelli	Corelli;柯雷利;コレッリ	classical
+Henry Purcell	Purcell;珀塞尔;パーセル	classical
+Claudio Monteverdi	Monteverdi;蒙特威尔第;モンテヴェルディ	classical
+Georg Philipp Telemann	Telemann;泰勒曼;テレマン	classical
+Jean-Philippe Rameau	Rameau;拉莫;ラモー	classical
+François Couperin	Couperin;库普兰;クープラン	classical
+Johann Pachelbel	Pachelbel;帕赫贝尔;パッヘルベル	classical
+Tomaso Albinoni	Albinoni;阿尔比诺尼;アルビノーニ	classical
+Christoph Willibald Gluck	Gluck;格鲁克;グルック	classical
+Carl Maria von Weber	Weber;韦伯;ウェーバー	classical
+Niccolò Paganini	Paganini;帕格尼尼;パガニーニ	classical
+Muzio Clementi	Clementi;克莱门蒂;クレメンティ	classical
+Carl Czerny	Czerny;车尔尼;チェルニー	classical
+Anton Bruckner	Bruckner;布鲁克纳;ブルックナー	classical
+Max Bruch	Bruch;布鲁赫;ブルッフ	classical
+Edward Elgar	Elgar;埃尔加;エルガー	classical
+Ralph Vaughan Williams	Vaughan Williams;沃恩·威廉斯;ヴォーン・ウィリアムズ	classical
+Gustav Holst	Holst;霍尔斯特;ホルスト	classical
+Benjamin Britten	Britten;布里顿;ブリテン	classical
+George Gershwin	Gershwin;格什温;ガーシュウィン	classical
+Aaron Copland	Copland;科普兰;コープランド	classical
+Leonard Bernstein	Bernstein;伯恩斯坦;バーンスタイン	classical
+Samuel Barber	Barber;巴伯;バーバー	classical
+Charles Ives	Ives;艾夫斯;アイヴズ	classical
+John Cage	Cage;约翰·凯奇;ジョン・ケージ	classical
+Philip Glass	Glass;菲利普·格拉斯;フィリップ・グラス	classical
+Steve Reich	Reich;史蒂夫·赖希;スティーヴ・ライヒ	classical
+Arvo Pärt	Arvo Part;阿沃·帕特;アルヴォ・ペルト	classical
+Henryk Górecki	Gorecki;格雷茨基;グレツキ	classical
+Krzysztof Penderecki	Penderecki;潘德列茨基;ペンデレツキ	classical
+György Ligeti	Ligeti;利盖蒂;リゲティ	classical
+Olivier Messiaen	Messiaen;梅西安;メシアン	classical
+Arnold Schoenberg	Schoenberg;勋伯格;シェーンベルク	classical
+Alban Berg	Berg;贝尔格;ベルク	classical
+Anton Webern	Webern;韦伯恩;ウェーベルン	classical
+Paul Hindemith	Hindemith;欣德米特;ヒンデミット	classical
+Carl Orff	Orff;奥尔夫;オルフ	classical
+Francis Poulenc	Poulenc;普朗克;プーランク	classical
+Darius Milhaud	Milhaud;米约;ミヨー	classical
+Maurice Duruflé	Durufle;迪吕弗莱	classical
+Joaquín Rodrigo	Rodrigo;罗德里戈;ロドリーゴ	classical
+Manuel de Falla	de Falla;法雅;ファリャ	classical
+Isaac Albéniz	Albeniz;阿尔贝尼兹;アルベニス	classical
+Enrique Granados	Granados;格拉纳多斯;グラナドス	classical
+Francisco Tárrega	Tarrega;塔雷加;タレガ	classical
+Heitor Villa-Lobos	Villa-Lobos;维拉-罗伯斯;ヴィラ＝ロボス	classical
+Astor Piazzolla	Piazzolla;皮亚佐拉;ピアソラ	classical
+Alberto Ginastera	Ginastera;希纳斯特拉;ヒナステラ	classical
+Alexander Scriabin	Scriabin;斯克里亚宾;スクリャービン	classical
+Alexander Borodin	Borodin;鲍罗丁;ボロディン	classical
+Mikhail Glinka	Glinka;格林卡;グリンカ	classical
+Aram Khachaturian	Khachaturian;哈恰图良;ハチャトゥリアン	classical
+Nikolai Medtner	Medtner;梅特纳;メトネル	classical
+Henryk Wieniawski	Wieniawski;维尼亚夫斯基	classical
+Fritz Kreisler	Kreisler;克莱斯勒;クライスラー	classical
+Pablo de Sarasate	Sarasate;萨拉萨蒂;サラサーテ	classical
+Ottorino Respighi	Respighi;雷斯庇基;レスピーギ	classical
+Pietro Mascagni	Mascagni;马斯卡尼;マスカーニ	classical
+Ruggero Leoncavallo	Leoncavallo;列昂卡瓦洛;レオンカヴァッロ	classical
+Gaetano Donizetti	Donizetti;多尼采蒂;ドニゼッティ	classical
+Vincenzo Bellini	Bellini;贝利尼;ベッリーニ	classical
+Ennio Morricone	Morricone;莫里康内;エンニオ・モリコーネ	classical
+Nino Rota	Rota;尼诺·罗塔;ニーノ・ロータ	classical
+Jacques Offenbach	Offenbach;奥芬巴赫;オッフェンバック	classical
+Léo Delibes	Delibes;德利布;ドリーブ	classical
+Charles Gounod	Gounod;古诺;グノー	classical
+Arthur Honegger	Honegger;奥涅格;オネゲル	classical
+Pierre Boulez	Boulez;布列兹;ブーレーズ	classical
+Karlheinz Stockhausen	Stockhausen;施托克豪森;シュトックハウゼン	classical
+Iannis Xenakis	Xenakis;克塞纳基斯;クセナキス	classical
+Luciano Berio	Berio;贝里奥;ベリオ	classical
+Witold Lutosławski	Lutoslawski;卢托斯瓦夫斯基	classical
+Alfred Schnittke	Schnittke;施尼特克;シュニトケ	classical
+Sofia Gubaidulina	Gubaidulina;古拜杜丽娜;グバイドゥーリナ	classical
+John Adams	John Coolidge Adams;约翰·亚当斯;ジョン・アダムズ	classical
+Ola Gjeilo	Gjeilo;奥拉·吉洛	classical
+Eric Whitacre	Whitacre;埃里克·惠特克;エリック・ウィテカー	classical
+Karl Jenkins	Jenkins;卡尔·詹金斯;カール・ジェンキンス	classical
+Tan Dun	谭盾;タン・ドゥン	classical
+Chen Gang	陈钢;チェン・ガン	classical
+He Zhanhao	何占豪	classical
+Toru Takemitsu	武満徹;武满彻;Takemitsu	classical
+Ryuichi Sakamoto	坂本龍一;坂本龙一;Sakamoto	classical
+Yasushi Akutagawa	芥川也寸志	classical
+Kosaku Yamada	山田耕筰;山田耕作	classical
+Rentaro Taki	滝廉太郎;瀧廉太郎	classical
+Hans Zimmer	汉斯·季默;ハンス・ジマー	classical
+John Williams	约翰·威廉姆斯;ジョン・ウィリアムズ	classical
+Joe Hisaishi	久石譲;久石让	classical
+Howard Shore	霍华德·肖;ハワード・ショア	classical
+Danny Elfman	丹尼·艾尔夫曼;ダニー・エルフマン	classical
+James Horner	詹姆斯·霍纳;ジェームズ・ホーナー	classical
+Alan Silvestri	艾伦·席尔维斯特里;アラン・シルヴェストリ	classical
+Jerry Goldsmith	杰瑞·戈德史密斯;ジェリー・ゴールドスミス	classical
+Bernard Herrmann	赫尔曼;バーナード・ハーマン	classical
+Max Steiner	麦克斯·斯泰纳	classical
+Elmer Bernstein	埃尔默·伯恩斯坦	classical
+Henry Mancini	曼西尼;ヘンリー・マンシーニ	classical
+Maurice Jarre	莫里斯·雅尔;モーリス・ジャール	classical
+Vangelis	范吉利斯;ヴァンゲリス	classical
+Thomas Newman	托马斯·纽曼;トーマス・ニューマン	classical
+Alexandre Desplat	亚历山大·德斯普拉;アレクサンドル・デスプラ	classical
+Michael Giacchino	迈克尔·吉亚奇诺;マイケル・ジアッチーノ	classical
+Ramin Djawadi	拉明·贾瓦迪;ラミン・ジャワディ	classical
+Harry Gregson-Williams	哈里·格雷格森-威廉姆斯	classical
+Patrick Doyle	帕特里克·多伊尔	classical
+Rachel Portman	蕾切尔·波特曼	classical
+Dario Marianelli	马里亚内利	classical
+Jóhann Jóhannsson	Johann Johannsson;约翰·约翰松	classical
+Hildur Guðnadóttir	Hildur Gudnadottir;希尔杜尔·古德纳多蒂尔	classical
+Clint Mansell	克林特·曼塞尔	classical
+Trent Reznor and Atticus Ross	Trent Reznor & Atticus Ross	classical
+Ludwig Göransson	Ludwig Goransson;路德维希·格兰森	classical
+Michael Kamen	迈克尔·卡门	classical
+Basil Poledouris	巴兹尔·波利多罗斯	classical
+Bear McCreary	贝尔·麦克雷利	classical
+Brian Tyler	布莱恩·泰勒	classical
+Lorne Balfe	洛恩·巴尔夫	classical
+Steve Jablonsky	史蒂夫·雅布隆斯基	classical
+Rupert Gregson-Williams	鲁珀特·格雷格森-威廉姆斯	classical
+Gustavo Santaolalla	圣塔奥拉拉	classical
+Yann Tiersen	扬·蒂尔森;ヤン・ティルセン	classical
+Nicholas Britell	尼古拉斯·布里特尔	classical
+Michael Nyman	迈克尔·尼曼;マイケル・ナイマン	classical
+Zbigniew Preisner	普赖斯纳	classical
+Gabriel Yared	加布里埃尔·雅雷德	classical
+Shigeru Umebayashi	梅林茂	classical
+Ludovico Einaudi	Einaudi;鲁多维科·艾奥迪;ルドヴィコ・エイナウディ	classical
+Yiruma	이루마;李闰珉;イルマ	classical
+Max Richter	马克斯·里希特;マックス・リヒター	classical
+Ólafur Arnalds	Olafur Arnalds;奥拉福·阿纳尔兹;オーラヴル・アルナルズ	classical
+Nils Frahm	尼尔斯·弗拉姆;ニルス・フラーム	classical
+Joep Beving	乔普·贝文	classical
+Dustin O'Halloran	达斯汀·奥哈洛兰	classical
+Hauschka	豪施卡	classical
+Hania Rani	哈尼亚·拉妮	classical
+Lang Lang	郎朗;ラン・ラン	classical
+Yuja Wang	王羽佳;ユジャ・ワン	classical
+Daniil Trifonov	Trifonov;特里福诺夫;ダニール・トリフォノフ	classical
+Evgeny Kissin	Kissin;基辛;エフゲニー・キーシン	classical
+Martha Argerich	Argerich;阿格里奇;マルタ・アルゲリッチ	classical
+Vladimir Horowitz	Horowitz;霍洛维茨;ウラディミール・ホロヴィッツ	classical
+Arthur Rubinstein	Rubinstein;鲁宾斯坦;アルトゥール・ルービンシュタイン	classical
+Glenn Gould	Gould;格伦·古尔德;グレン・グールド	classical
+Alfred Brendel	Brendel;布伦德尔;アルフレート・ブレンデル	classical
+Daniel Barenboim	Barenboim;巴伦博伊姆;ダニエル・バレンボイム	classical
+Maurizio Pollini	Pollini;波里尼;マウリツィオ・ポリーニ	classical
+Murray Perahia	Perahia;佩拉希亚;マレイ・ペライア	classical
+András Schiff	Andras Schiff;席夫;アンドラーシュ・シフ	classical
+Krystian Zimerman	Zimerman;齐默尔曼;クリスティアン・ツィメルマン	classical
+Grigory Sokolov	Sokolov;索科洛夫;グリゴリー・ソコロフ	classical
+Sviatoslav Richter	Richter;里赫特;スヴャトスラフ・リヒテル	classical
+Emil Gilels	Gilels;吉列尔斯;エミール・ギレリス	classical
+Wilhelm Kempff	Kempff;肯普夫;ヴィルヘルム・ケンプ	classical
+Claudio Arrau	Arrau;阿劳;クラウディオ・アラウ	classical
+Dinu Lipatti	Lipatti;李帕蒂;ディヌ・リパッティ	classical
+Vladimir Ashkenazy	Ashkenazy;阿什肯纳齐;ウラディーミル・アシュケナージ	classical
+Mitsuko Uchida	内田光子	classical
+Seong-Jin Cho	조성진;赵成珍;チョ・ソンジン	classical
+Igor Levit	Levit;列维特;イゴール・レヴィット	classical
+Khatia Buniatishvili	Buniatishvili;布尼亚季什维利;カティア・ブニアティシヴィリ	classical
+Hélène Grimaud	Helene Grimaud;格里莫;エレーヌ・グリモー	classical
+Benjamin Grosvenor	Grosvenor;格罗夫纳	classical
+Jan Lisiecki	Lisiecki;利西耶茨基	classical
+Fazil Say	Say;法兹·塞	classical
+Yundi Li	李云迪;Li Yundi;ユンディ・リ	classical
+Nobuyuki Tsujii	辻井伸行	classical
+Jascha Heifetz	Heifetz;海菲兹;ヤッシャ・ハイフェッツ	classical
+Itzhak Perlman	Perlman;帕尔曼;イツァーク・パールマン	classical
+Anne-Sophie Mutter	Mutter;穆特;アンネ＝ゾフィー・ムター	classical
+Hilary Hahn	Hahn;希拉里·哈恩;ヒラリー・ハーン	classical
+Joshua Bell	Bell;约书亚·贝尔;ジョシュア・ベル	classical
+Maxim Vengerov	Vengerov;文格洛夫;マキシム・ヴェンゲーロフ	classical
+Gidon Kremer	Kremer;克莱默;ギドン・クレーメル	classical
+Nigel Kennedy	Kennedy;奈杰尔·肯尼迪;ナイジェル・ケネディ	classical
+David Garrett	大卫·葛瑞特;デイヴィッド・ギャレット	classical
+Lindsey Stirling	林赛·斯特林;リンジー・スターリング	classical
+Janine Jansen	Jansen;雅宁·扬森	classical
+Sarah Chang	张莎拉;장영주	classical
+Vanessa-Mae	凡妮莎·梅;ヴァネッサ・メイ	classical
+Midori	五嶋みどり	classical
+Ray Chen	陈锐;レイ・チェン	classical
+Leonidas Kavakos	Kavakos;卡瓦科斯	classical
+Isaac Stern	Stern;斯特恩;アイザック・スターン	classical
+David Oistrakh	Oistrakh;奥伊斯特拉赫;ダヴィッド・オイストラフ	classical
+Yehudi Menuhin	Menuhin;梅纽因;ユーディ・メニューイン	classical
+Lü Siqing	吕思清	classical
+Yo-Yo Ma	马友友;ヨーヨー・マ	classical
+Mstislav Rostropovich	Rostropovich;罗斯特罗波维奇;ムスティスラフ・ロストロポーヴィチ	classical
+Jacqueline du Pré	Jacqueline du Pre;杜普蕾;ジャクリーヌ・デュ・プレ	classical
+Pablo Casals	Casals;卡萨尔斯;パブロ・カザルス	classical
+Steven Isserlis	Isserlis;伊瑟利斯	classical
+Sheku Kanneh-Mason	Kanneh-Mason;谢库·卡内-梅森	classical
+Gautier Capuçon	Gautier Capucon;戈蒂埃·卡普松	classical
+2CELLOS	Two Cellos;二重大提琴	classical
+Hauser	豪瑟	classical
+Andrés Segovia	Andres Segovia;塞戈维亚;アンドレス・セゴビア	classical
+Julian Bream	Bream;布里姆	classical
+Luciano Pavarotti	Pavarotti;帕瓦罗蒂;ルチアーノ・パヴァロッティ	classical
+Plácido Domingo	Placido Domingo;多明戈;プラシド・ドミンゴ	classical
+José Carreras	Jose Carreras;卡雷拉斯;ホセ・カレーラス	classical
+The Three Tenors	三大男高音;三大テノール	classical
+Andrea Bocelli	博切利;波切利;アンドレア・ボチェッリ	classical
+Maria Callas	Callas;卡拉斯;マリア・カラス	classical
+Anna Netrebko	Netrebko;内特列布科;アンナ・ネトレプコ	classical
+Renée Fleming	Renee Fleming;弗莱明;ルネ・フレミング	classical
+Cecilia Bartoli	Bartoli;巴托利;チェチーリア・バルトリ	classical
+Jonas Kaufmann	Kaufmann;考夫曼;ヨナス・カウフマン	classical
+Joyce DiDonato	DiDonato;迪多娜托	classical
+Kiri Te Kanawa	Te Kanawa;基里·蒂·卡纳娃	classical
+Montserrat Caballé	Montserrat Caballe;卡芭叶;モンセラート・カバリエ	classical
+Joan Sutherland	Sutherland;萨瑟兰;ジョーン・サザーランド	classical
+Dietrich Fischer-Dieskau	Fischer-Dieskau;费舍尔-迪斯考;ディートリヒ・フィッシャー＝ディースカウ	classical
+Sumi Jo	조수미;曺秀美;スミ・ジョー	classical
+Sarah Brightman	莎拉·布莱曼;サラ・ブライトマン	classical
+Katherine Jenkins	凯瑟琳·詹金斯	classical
+Il Divo	美声男伶	classical
+Andre Rieu	André Rieu;安德烈·瑞欧;アンドレ・リュウ	classical
+Herbert von Karajan	Karajan;卡拉扬;ヘルベルト・フォン・カラヤン	classical
+Wilhelm Furtwängler	Furtwangler;富特文格勒;ヴィルヘルム・フルトヴェングラー	classical
+Carlos Kleiber	Kleiber;克莱伯;カルロス・クライバー	classical
+Arturo Toscanini	Toscanini;托斯卡尼尼;アルトゥーロ・トスカニーニ	classical
+Claudio Abbado	Abbado;阿巴多;クラウディオ・アバド	classical
+Simon Rattle	Rattle;拉特尔;サイモン・ラトル	classical
+Gustavo Dudamel	Dudamel;杜达梅尔;グスターボ・ドゥダメル	classical
+Riccardo Muti	Muti;穆蒂;リッカルド・ムーティ	classical
+Seiji Ozawa	小澤征爾;小泽征尔	classical
+Valery Gergiev	Gergiev;捷杰耶夫;ワレリー・ゲルギエフ	classical
+Zubin Mehta	Mehta;祖宾·梅塔;ズービン・メータ	classical
+Yannick Nézet-Séguin	Yannick Nezet-Seguin;内泽-塞甘	classical
+Andris Nelsons	Nelsons;安德里斯·尼尔森斯	classical
+Nikolaus Harnoncourt	Harnoncourt;阿尔农古特	classical
+John Eliot Gardiner	Gardiner;加德纳	classical
+Berliner Philharmoniker	Berlin Philharmonic;柏林爱乐乐团;ベルリン・フィルハーモニー管弦楽団;Berlin Philharmonic Orchestra	classical
+Wiener Philharmoniker	Vienna Philharmonic;维也纳爱乐乐团;ウィーン・フィルハーモニー管弦楽団	classical
+London Symphony Orchestra	LSO;伦敦交响乐团;ロンドン交響楽団	classical
+Royal Philharmonic Orchestra	RPO;皇家爱乐乐团;ロイヤル・フィルハーモニー管弦楽団	classical
+Philharmonia Orchestra	爱乐乐团	classical
+London Philharmonic Orchestra	LPO;伦敦爱乐乐团	classical
+Royal Concertgebouw Orchestra	Concertgebouworkest;阿姆斯特丹皇家音乐厅管弦乐团	classical
+Chicago Symphony Orchestra	CSO;芝加哥交响乐团;シカゴ交響楽団	classical
+New York Philharmonic	纽约爱乐乐团;ニューヨーク・フィルハーモニック	classical
+Boston Symphony Orchestra	BSO;波士顿交响乐团;ボストン交響楽団	classical
+Philadelphia Orchestra	费城交响乐团;フィラデルフィア管弦楽団	classical
+Los Angeles Philharmonic	LA Phil;洛杉矶爱乐乐团	classical
+San Francisco Symphony	旧金山交响乐团	classical
+Cleveland Orchestra	克利夫兰管弦乐团	classical
+Bavarian Radio Symphony Orchestra	Symphonieorchester des Bayerischen Rundfunks;巴伐利亚广播交响乐团	classical
+NHK Symphony Orchestra	NHK交響楽団;N響;NHK交响乐团	classical
+China Philharmonic Orchestra	中国爱乐乐团	classical
+Shanghai Symphony Orchestra	上海交响乐团	classical
+Academy of St Martin in the Fields	Academy of St. Martin in the Fields;圣马丁室内乐团	classical
+The Metropolitan Opera	Metropolitan Opera;Met Opera;大都会歌剧院	classical
+Vienna Boys' Choir	Wiener Sängerknaben;维也纳少年合唱团	classical
+The King's Singers	King's Singers;国王歌手	classical
+Kronos Quartet	克罗诺斯四重奏	classical
+Emerson String Quartet	Emerson Quartet	classical
+The Piano Guys	Piano Guys;ピアノ・ガイズ	classical
+Vitamin String Quartet	VSQ	classical
+Deutsche Grammophon	DG;Deutsche Grammophon (DG);德意志留声机;ドイツ・グラモフォン	classical
+Decca Classics	Decca;Decca Records Classical;迪卡	classical
+Sony Classical	Sony Classical Music	classical
+Naxos	Naxos of America;Naxos Classical;纳克索斯	classical
+Harmonia Mundi	Harmonia Mundi Classical	classical
+Warner Classics	Erato	classical
+EMI Classics		classical
+HALIDONMUSIC	Halidon Music;Halidon	classical
+Relax With Classical Music	Relax with Classical Music	classical
+Rousseau	Rousseau Piano	classical
+Paul Barton	Paul Barton Piano	classical
+Valentina Lisitsa	Lisitsa;丽西察	classical
+Daniel Hope	丹尼尔·霍普	classical
+Miles Davis	迈尔斯·戴维斯;マイルス・デイヴィス	other
+John Coltrane	约翰·柯川;ジョン・コルトレーン	other
+Louis Armstrong	路易斯·阿姆斯特朗;ルイ・アームストロング	other
+Duke Ellington	艾灵顿;デューク・エリントン	other
+Ella Fitzgerald	艾拉·菲茨杰拉德;エラ・フィッツジェラルド	other
+Billie Holiday	比莉·哈乐黛;ビリー・ホリデイ	other
+Sarah Vaughan	莎拉·沃恩;サラ・ヴォーン	other
+Charlie Parker	查理·帕克;チャーリー・パーカー	other
+Dizzy Gillespie	迪齐·吉莱斯皮;ディジー・ガレスピー	other
+Thelonious Monk	塞隆尼斯·蒙克;セロニアス・モンク	other
+Bill Evans	比尔·埃文斯;ビル・エヴァンス	other
+Dave Brubeck	Dave Brubeck Quartet;布鲁贝克;デイヴ・ブルーベック	other
+Herbie Hancock	赫比·汉考克;ハービー・ハンコック	other
+Chick Corea	奇克·柯瑞亚;チック・コリア	other
+Keith Jarrett	基思·贾勒特;キース・ジャレット	other
+Oscar Peterson	奥斯卡·彼得森;オスカー・ピーターソン	other
+Art Blakey	Art Blakey & The Jazz Messengers;艾特·布莱基;アート・ブレイキー	other
+Charles Mingus	查尔斯·明格斯;チャールズ・ミンガス	other
+Sonny Rollins	索尼·罗林斯;ソニー・ロリンズ	other
+Stan Getz	斯坦·盖茨;スタン・ゲッツ	other
+Wes Montgomery	韦斯·蒙哥马利;ウェス・モンゴメリー	other
+Count Basie	贝西伯爵;カウント・ベイシー	other
+Benny Goodman	本尼·古德曼;ベニー・グッドマン	other
+Glenn Miller	格伦·米勒;グレン・ミラー	other
+Chet Baker	切特·贝克;チェット・ベイカー	other
+Ornette Coleman	奥奈特·科尔曼;オーネット・コールマン	other
+Cannonball Adderley	坎农鲍尔·阿德利;キャノンボール・アダレイ	other
+Horace Silver	霍勒斯·西尔弗;ホレス・シルヴァー	other
+Lee Morgan	李·摩根;リー・モーガン	other
+Freddie Hubbard	弗雷迪·哈伯德;フレディ・ハバード	other
+Clifford Brown	克利福德·布朗;クリフォード・ブラウン	other
+Art Tatum	阿特·塔图姆;アート・テイタム	other
+Django Reinhardt	Django Reinhardt & Stéphane Grappelli;金杰·莱恩哈特;ジャンゴ・ラインハルト	other
+Stéphane Grappelli	Stephane Grappelli	other
+Joe Pass	乔·帕斯;ジョー・パス	other
+Pat Metheny	Pat Metheny Group;派特·麦席尼;パット・メセニー	other
+John Scofield	约翰·斯科菲尔德	other
+Jaco Pastorius	雅科·帕斯托瑞斯;ジャコ・パストリアス	other
+Weather Report	气象报告;ウェザー・リポート	other
+Pharoah Sanders	法老·桑德斯	other
+Alice Coltrane	爱丽丝·柯川	other
+Ahmad Jamal	艾哈迈德·贾马尔	other
+McCoy Tyner	麦考伊·泰纳	other
+Tony Bennett	东尼·班尼特;トニー・ベネット	other
+Nat King Cole	纳·京·科尔;ナット・キング・コール	other
+Dean Martin	迪恩·马丁;ディーン・マーティン	other
+Bing Crosby	宾·克罗斯比;ビング・クロスビー	other
+Peggy Lee	佩吉·李;ペギー・リー	other
+Diana Krall	戴安娜·克拉尔;ダイアナ・クラール	other
+Jamie Cullum	詹米·卡勒姆;ジェイミー・カラム	other
+Gregory Porter	格雷戈里·波特;グレゴリー・ポーター	other
+Esperanza Spalding	埃斯佩兰扎·斯伯丁	other
+Kamasi Washington	卡马西·华盛顿	other
+Robert Glasper	罗伯特·格拉斯珀;ロバート・グラスパー	other
+Snarky Puppy		other
+Jacob Collier	雅各布·科利尔;ジェイコブ・コリアー	other
+Melody Gardot	梅洛迪·加多	other
+Madeleine Peyroux	玛德琳·佩鲁	other
+Cassandra Wilson	卡桑德拉·威尔逊	other
+Cécile McLorin Salvant	Cecile McLorin Salvant	other
+Samara Joy		other
+Stacey Kent	史黛西·肯特;ステイシー・ケント	other
+Eva Cassidy	伊娃·凯西迪	other
+Wynton Marsalis	温顿·马萨利斯;ウィントン・マルサリス	other
+Branford Marsalis	布兰福德·马萨利斯	other
+Christian McBride		other
+Brad Mehldau	布拉德·梅尔道	other
+Joshua Redman	乔舒亚·雷德曼	other
+GoGo Penguin		other
+Esbjörn Svensson Trio	e.s.t.;Esbjorn Svensson Trio	other
+Jan Garbarek	扬·加巴雷克	other
+Hiromi	上原ひろみ;上原广美;Hiromi Uehara	other
+Casiopea	カシオペア	other
+T-Square	T-SQUARE;ティースクエア;ザ・スクエア	other
+Sadao Watanabe	渡辺貞夫;渡边贞夫	other
+Ryo Fukui	福居良	other
+Kenny G	肯尼·吉	other
+David Sanborn	大卫·桑伯恩	other
+Grover Washington Jr.	Grover Washington Jr	other
+George Benson	乔治·班森;ジョージ・ベンソン	other
+Sergio Mendes	Sérgio Mendes;塞尔吉奥·门德斯	other
+Pink Martini		other
+Postmodern Jukebox	Scott Bradlee's Postmodern Jukebox;PMJ	other
+Caro Emerald		other
+Johnny Cash	约翰尼·凯许;ジョニー・キャッシュ	other
+Dolly Parton	多莉·帕顿;ドリー・パートン	other
+Willie Nelson	威利·尼尔森;ウィリー・ネルソン	other
+Hank Williams	汉克·威廉姆斯;ハンク・ウィリアムス	other
+Patsy Cline	佩茜·克莱恩	other
+Kenny Rogers	肯尼·罗杰斯;ケニー・ロジャース	other
+John Denver	约翰·丹佛;ジョン・デンバー	other
+Glen Campbell	格伦·坎贝尔	other
+Garth Brooks	加斯·布鲁克斯	other
+George Strait	乔治·斯特雷特	other
+Shania Twain	仙妮亚·唐恩;シャナイア・トゥウェイン	other
+Reba McEntire		other
+Tim McGraw		other
+Keith Urban	基斯·厄本	other
+Blake Shelton	布雷克·谢尔顿	other
+Luke Combs	卢克·库姆斯	other
+Morgan Wallen	摩根·沃伦	other
+Zach Bryan	扎克·布莱恩	other
+Chris Stapleton	克里斯·斯台普顿	other
+Kacey Musgraves	凯西·马斯格雷夫斯	other
+Miranda Lambert	米兰达·兰伯特	other
+Carrie Underwood	嘉莉·安德伍德;キャリー・アンダーウッド	other
+Lainey Wilson		other
+Jelly Roll		other
+Tyler Childers		other
+Sturgill Simpson		other
+Jason Isbell		other
+Alison Krauss	艾莉森·克劳斯	other
+Alison Krauss & Union Station		other
+Emmylou Harris		other
+Joan Baez	琼·贝兹;ジョーン・バエズ	other
+Joni Mitchell	琼妮·米切尔;ジョニ・ミッチェル	other
+Leonard Cohen	莱昂纳德·科恩;レナード・コーエン	other
+Cat Stevens	Yusuf / Cat Stevens;Yusuf Islam;凯特·史蒂文斯;キャット・スティーヴンス	other
+Nick Drake	尼克·德雷克;ニック・ドレイク	other
+Fleet Foxes		other
+Bon Iver		other
+The Lumineers	卢米尼尔乐队	other
+Mumford & Sons	Mumford and Sons;马姆福德与儿子;マムフォード&サンズ	other
+The Avett Brothers		other
+Hozier	霍兹尔	other
+Passenger		other
+Noah Kahan		other
+Lord Huron		other
+Brandi Carlile		other
+Tracy Chapman	特雷西·查普曼;トレイシー・チャップマン	other
+Jack Johnson	杰克·强森;ジャック・ジョンソン	other
+Muddy Waters	马迪·沃特斯;マディ・ウォーターズ	other
+B.B. King	BB King;B.B.金;B.B.キング	other
+Robert Johnson	罗伯特·约翰逊;ロバート・ジョンソン	other
+Howlin' Wolf		other
+John Lee Hooker	约翰·李·胡克	other
+Lead Belly	Leadbelly	other
+Joe Bonamassa	乔·博纳马萨;ジョー・ボナマッサ	other
+Gary Clark Jr.	Gary Clark Jr	other
+Bonnie Raitt	邦妮·雷特	other
+Bob Marley	鲍勃·马利;ボブ・マーリー	other
+Bob Marley & The Wailers	The Wailers	other
+Peter Tosh		other
+Jimmy Cliff		other
+Toots and the Maytals	Toots & The Maytals	other
+Burning Spear		other
+Damian Marley		other
+Ziggy Marley		other
+UB40		other
+Chronixx		other
+Protoje		other
+Koffee		other
+João Gilberto	Joao Gilberto;若昂·吉尔贝托;ジョアン・ジルベルト	other
+Antonio Carlos Jobim	Tom Jobim;António Carlos Jobim;安东尼奥·卡洛斯·裘宾;アントニオ・カルロス・ジョビン	other
+Astrud Gilberto	阿斯特鲁德·吉尔贝托;アストラッド・ジルベルト	other
+Vinicius de Moraes	Vinícius de Moraes	other
+Caetano Veloso	卡埃塔诺·维罗佐	other
+Gilberto Gil		other
+Elis Regina		other
+Bebel Gilberto		other
+Eliane Elias		other
+Rosa Passos		other
+Roberto Menescal	Menescal	other
+Buena Vista Social Club		other
+Compay Segundo		other
+Celia Cruz	赛莉亚·克鲁兹	other
+Gipsy Kings		other
+Paco de Lucía	Paco de Lucia	other
+Ravi Shankar	拉维·香卡	other
+Nusrat Fateh Ali Khan	努斯拉特·法特赫·阿里·汗	other
+Fela Kuti		other
+Ladysmith Black Mambazo		other
+Youssou N'Dour		other
+Ali Farka Touré	Ali Farka Toure	other
+Fairuz	فيروز	other
+Oum Kalthoum	Umm Kulthum	other
+Clannad		other
+The Chieftains		other
+Loreena McKennitt	罗琳娜·麦肯尼特	other
+Lisa Gerrard		other
+Dead Can Dance		other
+Secret Garden	神秘园;シークレット・ガーデン	other
+Yanni	雅尼;ヤニ	other
+George Winston	乔治·温斯顿	other
+Andreas Vollenweider		other
+Hamilton Original Broadway Cast	Original Broadway Cast of Hamilton	other
+Les Misérables Original London Cast	Les Miserables Original London Cast;悲惨世界	other
+The Phantom of the Opera Original London Cast	Phantom of the Opera;歌剧魅影	other
+Wicked Original Broadway Cast	Wicked Original Cast;魔法坏女巫	other
+Dear Evan Hansen Original Broadway Cast		other
+The Lion King Original Broadway Cast		other
+Cats Original London Cast		other
+Chicago Original Broadway Cast		other
+Mamma Mia! Original Cast	Mamma Mia Original Cast	other
+Rent Original Broadway Cast		other
+Hadestown Original Broadway Cast		other
+Idina Menzel	伊迪娜·门泽尔;イディナ・メンゼル	other
+Kristin Chenoweth		other
+Lea Salonga		other
+Julie Andrews	朱莉·安德鲁斯;ジュリー・アンドリュース	other
+Barbra Streisand	芭芭拉·史翠珊;バーブラ・ストライサンド	other
+Andrew Lloyd Webber	安德鲁·劳埃德·韦伯;アンドリュー・ロイド=ウェバー	other
+Stephen Sondheim	斯蒂芬·桑坦	other
+Lin-Manuel Miranda	林-曼努尔·米兰达	other
+Cocomelon	CoComelon;Cocomelon - Nursery Rhymes;可可瓜	other
+Super Simple Songs	Super Simple;Super Simple Learning	other
+Baby Bus	宝宝巴士;BabyBus;BabyBus - Nursery Rhymes;ベビーバス	other
+Pinkfong	Baby Shark;Pinkfong Baby Shark;碰碰狐;ピンクフォン	other
+Little Baby Bum		other
+Wiggles	The Wiggles	other
+Raffi		other
+The Singing Walrus		other
+Dave and Ava	Dave and Ava Nursery Rhymes	other
+ChuChu TV		other
+Sesame Street	芝麻街;セサミストリート	other
+Little Fox	Little Fox - Kids Songs and Stories	other
+贝瓦儿歌	贝瓦;Beva	other
+おかあさんといっしょ	NHK Okaasan to Issho;Okaasan to Issho;NHK おかあさんといっしょ	other
+いないいないばあっ!	Inai Inai Baa	other
+Hillsong Worship	Hillsong;Hillsong United;赞美之泉	other
+Elevation Worship		other
+Bethel Music		other
+Chris Tomlin		other
+Matt Redman		other
+Phil Wickham		other
+Maverick City Music		other
+Passion	Passion Music	other
+Jesus Culture		other
+Lauren Daigle		other
+for KING & COUNTRY	For King & Country	other
+Casting Crowns		other
+MercyMe		other
+Third Day		other
+Michael W. Smith		other
+Amy Grant		other
+Kirk Franklin		other
+CeCe Winans		other
+Mahalia Jackson		other
+Tasha Cobbs Leonard		other
+Planetshakers		other
+Taizé	Taize;Community of Taizé	other
+Gregorian Chant	Gregorian Chants;格里高利圣咏	other
+Benedictine Monks of Santo Domingo de Silos	Monks of Santo Domingo de Silos	other
+Abing	阿炳;华彦钧;阿炳 华彦钧	other
+Liu Tianhua	刘天华	other
+Min Huifen	闵惠芬	other
+Song Fei	宋飞	other
+Zhu Changyao	朱昌耀	other
+Jiang Jianhua	姜建华	other
+Wu Man	吴蛮	other
+Lin Shicheng	林石城	other
+Yu Hongmei	俞红梅	other
+Zhang Weiliang	张维良	other
+Guo Yazhi	郭雅志	other
+Liu Fang	刘芳	other
+Yuan Sha	袁莎	other
+Zhao Cong	赵聪	other
+Gao Hong	高红	other
+Ma Xiaohui	马晓晖	other
+Fang Jinlong	方锦龙	other
+Wu Yuxia	吴玉霞	other
+Li Xiangting	李祥霆	other
+Lu Chunling	陆春龄	other
+Bandari	班得瑞;Bandari Music;バンダリ	other
+Hibari Misora	美空ひばり	other
+Sayuri Ishikawa	石川さゆり	other
+Saburo Kitajima	北島三郎	other
+Kiyoshi Hikawa	氷川きよし	other
+Takashi Hosokawa	細川たかし	other
+Harumi Miyako	都はるみ	other
+Fuyumi Sakamoto	坂本冬美	other
+Aki Yashiro	八代亜紀	other
+Shinichi Mori	森進一	other
+Hiroshi Itsuki	五木ひろし	other
+Yoshimi Tendo	天童よしみ	other
+Ikuzo Yoshi	吉幾三	other
+Shiro Miya	宮史郎	other
+Kaoru Mizuki	水森かおり	other
+Sachiko Kobayashi	小林幸子	other
+Jero	ジェロ	other
+Joji Yamamoto	山本譲二	other
+Kenji Niinuma	新沼謙治	other
+Masao Sen	千昌夫	other
+Mina Aoe	青江三奈	other

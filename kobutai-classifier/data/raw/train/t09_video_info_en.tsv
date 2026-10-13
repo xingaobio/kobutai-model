@@ -1,0 +1,627 @@
+video	-	info	en	www.youtube.com	1043	3Blue1Brown	But what is a neural network? | Deep learning chapter 1
+video	-	info	en	www.youtube.com	1294		Gradient descent, how neural networks learn | DL2
+video	-	info	en	www.youtube.com	1253	3Blue1Brown	Backpropagation, intuitively | DL3
+video	-	info	en	www.youtube.com	3189	3Blue1Brown	Attention in transformers, step-by-step | DL6
+video	-	info	en	www.youtube.com	1635	3Blue1Brown	The essence of calculus | Chapter 1
+video	-	info	en	www.youtube.com	1020	3Blue1Brown	Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra
+video	-	info	en	www.youtube.com	1048	3Blue1Brown	Vectors | Chapter 1, Essence of linear algebra
+video	-	info	en	www.youtube.com	2025	3Blue1Brown	But what is the Fourier Transform? A visual introduction.
+video	-	info	en	www.youtube.com	1380	3Blue1Brown	How might LLMs store facts | DL7
+video	-	info	en	www.youtube.com	1500	3Blue1Brown	The Hairy Ball Theorem
+video	-	info	en	www.youtube.com	1475	3Blue1Brown	Why π is in the normal distribution (beyond integral tricks)
+video	-	info	en	www.youtube.com	1260	3Blue1Brown	But what is a convolution?
+video	-	info	en	www.youtube.com	1175	3Blue1Brown	How colliding blocks act like a beam of light...to compute pi
+video	-	info	en	www.youtube.com	0	3Blue1Brown	The most beautiful formula not enough people understand
+video	-	info	en	www.youtube.com	1272	Veritasium	The Surprising Secret of Synchronization
+video	-	info	en	www.youtube.com	1156	Veritasium	Why Gravity is NOT a Force
+video	-	info	en	www.youtube.com	1325	Veritasium	The Man Who Accidentally Killed The Most People In History
+video	-	info	en	www.youtube.com	1054	Veritasium	The Strange Physics Principle That Shapes Reality
+video	-	info	en	www.youtube.com	1090	Veritasium	Math's Fundamental Flaw
+video	-	info	en	www.youtube.com	1306	Veritasium	How Imaginary Numbers Were Invented
+video	-	info	en	www.youtube.com	0	Veritasium	Is Success Luck or Hard Work?
+video	-	info	en	www.youtube.com	2130	Veritasium	The Most Misunderstood Concept in Physics
+video	-	info	en	www.youtube.com	1010	Veritasium	The Illusion of Truth
+video	-	info	en	www.youtube.com	1148	Veritasium	Why The Metric System Matters
+video	-	info	en	www.youtube.com	0	Veritasium	The Quantum Experiment That Broke Reality
+video	-	info	en	www.youtube.com	754	Kurzgesagt – In a Nutshell	The Egg - A Short Story
+video	-	info	en	www.youtube.com	810	Kurzgesagt – In a Nutshell	What Happens If We Detonate All Nuclear Bombs At Once?
+video	-	info	en	www.youtube.com	704	Kurzgesagt – In a Nutshell	The Deadliest Being in the Universe
+video	-	info	en	www.youtube.com	689	Kurzgesagt – In a Nutshell	The Largest Black Holes in the Universe
+video	-	info	en	www.youtube.com	761	Kurzgesagt – In a Nutshell	How Bacteria Rule Your Body
+video	-	info	en	www.youtube.com	935	Kurzgesagt – In a Nutshell	Why Alien Life Would Be our Doom - The Great Filter
+video	-	info	en	www.youtube.com	728	Kurzgesagt – In a Nutshell	Can You Live Forever? Let's Cure Aging
+video	-	info	en	www.youtube.com	620	Kurzgesagt – In a Nutshell	Optimistic Nihilism
+video	-	info	en	www.youtube.com	545	Kurzgesagt – In a Nutshell	What If Earth Had Rings?
+video	-	info	en	www.youtube.com	1072	Kurzgesagt – In a Nutshell	The Immune System Explained – Bacteria Infection
+video	-	info	en	www.youtube.com	1008	Vsauce	How Much Of The Universe Can We See?
+video	-	info	en	www.youtube.com	1372	Vsauce	What Is The Fourth Dimension?
+video	-	info	en	www.youtube.com	1275	Vsauce	The Banach–Tarski Paradox
+video	-	info	en	www.youtube.com	1134	Vsauce	Is Zero Even or Odd?
+video	-	info	en	www.youtube.com	0	Vsauce2	The Paradox of the Missing Square
+video	-	info	en	www.youtube.com	765	minutephysics	Why Is The Sky Blue?
+video	-	info	en	www.youtube.com	456	minutephysics	The Twin Paradox Explained
+video	-	info	en	www.youtube.com	412	minutephysics	How Does a Quantum Computer Work?
+video	-	info	en	www.youtube.com	594	minutephysics	Special Relativity Explained in 8 Minutes
+video	-	info	en	www.youtube.com	1014	Numberphile	Why 0.999... = 1
+video	-	info	en	www.youtube.com	726	Numberphile	The Problem with 7 and 1/7
+video	-	info	en	www.youtube.com	1158	Numberphile	Graham's Number - Numberphile
+video	-	info	en	www.youtube.com	532	Numberphile	Cicadas and Prime Numbers
+video	-	info	en	www.youtube.com	874	Numberphile	Infinity is bigger than you think
+video	-	info	en	www.youtube.com	1181	Computerphile	Public Key Cryptography - Computerphile
+video	-	info	en	www.youtube.com	968	Computerphile	How Does Hashing Work? - Computerphile
+video	-	info	en	www.youtube.com	1432	Computerphile	Large Language Models Explained Briefly
+video	-	info	en	www.youtube.com	818	Computerphile	Bloom Filters - Computerphile
+video	-	info	en	www.youtube.com	1102	Computerphile	The Halting Problem - Computerphile
+video	-	info	en	www.youtube.com	1243	SmarterEveryDay	How Does a Thermal Camera Actually See Heat?
+video	-	info	en	www.youtube.com	1035	Real Engineering	How the F-35's Engine Works
+video	-	info	en	www.youtube.com	1262	Real Engineering	Why Nuclear Waste Is Not as Scary as You Think
+video	-	info	en	www.youtube.com	1420	Practical Engineering	How Do Dams Actually Work?
+video	-	info	en	www.youtube.com	1161	Practical Engineering	Why Bridges Fall Down
+video	-	info	en	www.youtube.com	1322	Practical Engineering	The Hidden Engineering of Roundabouts
+video	-	info	en	www.youtube.com	870	Practical Engineering	What Happens When a Levee Fails?
+video	-	info	en	www.youtube.com	1148	Mark Rober	Glitterbomb Trap Catches Phone Thieves
+video	-	info	en	www.youtube.com	0	Physics Girl	The Surprising Physics of Rainbows
+video	-	info	en	www.youtube.com	0	PBS Space Time	How Does Quantum Entanglement Work?
+video	-	info	en	www.youtube.com	1021	PBS Space Time	What Happens at the Edge of the Universe?
+video	-	info	en	www.youtube.com	1185	PBS Space Time	The Misunderstood Nature of Entropy
+video	-	info	en	www.youtube.com	702	SciShow	How Do Vaccines Actually Work?
+video	-	info	en	www.youtube.com	613	SciShow	Why Do We Dream?
+video	-	info	en	www.youtube.com	0	SciShow Space	What Would Happen If You Fell Into Jupiter?
+video	-	info	en	www.youtube.com	689	CrashCourse	The Scientific Method: Crash Course Biology #5
+video	-	info	en	www.youtube.com	712	CrashCourse	The Industrial Revolution: Crash Course World History #32
+video	-	info	en	www.youtube.com	721	CrashCourse	Thermodynamics: Crash Course Physics #23
+video	-	info	en	www.youtube.com	708	CrashCourse	Intro to Computer Science: Crash Course Computer Science #1
+video	-	info	en	www.youtube.com	0	CrashCourse	Cellular Respiration and the Mighty Mitochondria: Crash Course Biology #7
+video	-	info	en	www.youtube.com	934	Kurzgesagt – In a Nutshell	The Fermi Paradox — Where Are All The Aliens?
+video	-	info	en	www.youtube.com	1236	Fireship	100+ Web Development Things you Should Know
+video	-	info	en	www.youtube.com	143	Fireship	React in 100 Seconds
+video	-	info	en	www.youtube.com	0	Fireship	Rust in 100 Seconds
+video	-	info	en	www.youtube.com	689	Fireship	Docker in 7 Minutes
+video	-	info	en	www.youtube.com	0	Fireship	10 Programming Paradigms You Should Know
+video	-	info	en	www.youtube.com	421	Fireship	I tried every JavaScript framework
+video	-	info	en	www.youtube.com	187	Fireship	TypeScript in 100 Seconds
+video	-	info	en	www.youtube.com	0	Fireship	Kubernetes Explained in 100 Seconds
+video	-	info	en	www.youtube.com	13561	freeCodeCamp.org	Learn Python - Full Course for Beginners [Tutorial]
+video	-	info	en	www.youtube.com	33624	freeCodeCamp.org	Python for Everybody - Full University Python Course
+video	-	info	en	www.youtube.com	35420	freeCodeCamp.org	Full Stack Web Development Course - HTML, CSS, JavaScript, Node, React
+video	-	info	en	www.youtube.com	21420	freeCodeCamp.org	Harvard CS50 – Full Computer Science University Course
+video	-	info	en	www.youtube.com	14400	freeCodeCamp.org	SQL Tutorial - Full Database Course for Beginners
+video	-	info	en	www.youtube.com	30960	freeCodeCamp.org	Machine Learning for Everybody – Full Course
+video	-	info	en	www.youtube.com	18240	freeCodeCamp.org	Docker Containers and Kubernetes Fundamentals – Full Hands-On Course
+video	-	info	en	www.youtube.com	27360	freeCodeCamp.org	Data Structures and Algorithms in JavaScript - Full Course for Beginners
+video	-	info	en	www.youtube.com	7620	Traversy Media	Node.js Crash Course
+video	-	info	en	www.youtube.com	5640	Traversy Media	React JS Crash Course 2024
+video	-	info	en	www.youtube.com	4980	Traversy Media	Next.js 14 Crash Course | Full Stack Development
+video	-	info	en	www.youtube.com	0	Traversy Media	Tailwind CSS Crash Course
+video	-	info	en	www.youtube.com	6120	Programming with Mosh	Python Tutorial - Python for Beginners [Full Course]
+video	-	info	en	www.youtube.com	13380	Programming with Mosh	C# Tutorial - Full Course for Beginners
+video	-	info	en	www.youtube.com	7380		JavaScript Tutorial for Beginners - Learn JavaScript in 1 Hour
+video	-	info	en	www.youtube.com	5880	Net Ninja	Modern JavaScript Tutorial #1 - Introduction & Setup
+video	-	info	en	www.youtube.com	482	Net Ninja	Svelte Tutorial for Beginners #1 - Introduction
+video	-	info	en	www.youtube.com	0	Net Ninja	Git & GitHub Tutorial for Beginners #1 - Introduction
+video	-	info	en	www.youtube.com	1043	Web Dev Simplified	Learn React In 30 Minutes
+video	-	info	en	www.youtube.com	1320	Web Dev Simplified	How To Build A Responsive Navbar With CSS Grid
+video	-	info	en	www.youtube.com	2320	Web Dev Simplified	Learn Flexbox CSS in 15 Minutes
+video	-	info	en	www.youtube.com	940	Tech With Tim	Python Tutorial for Beginners - Build a Text Adventure Game
+video	-	info	en	www.youtube.com	2540	Tech With Tim	Python Web Scraping Tutorial with BeautifulSoup
+video	-	info	en	www.youtube.com	1850	Corey Schafer	Python Tutorial: Virtual Environments - Why, What, and How
+video	-	info	en	www.youtube.com	1442	Corey Schafer	Python OOP Tutorial 1: Classes and Instances
+video	-	info	en	www.youtube.com	1021	Corey Schafer	Python Tutorial: if __name__ == '__main__'
+video	-	info	en	www.youtube.com	1512	ArjanCodes	The Perfect Python Project Setup in 2024
+video	-	info	en	www.youtube.com	0	ArjanCodes	7 Python Design Patterns You Should Be Using
+video	-	info	en	www.youtube.com	0	Sentdex	Neural Networks from Scratch - P.1 Intro and Neuron Code
+video	-	info	en	www.youtube.com	3420	Andrej Karpathy	Let's build GPT: from scratch, in code, spelled out.
+video	-	info	en	www.youtube.com	8040	Andrej Karpathy	Let's reproduce GPT-2 (124M)
+video	-	info	en	www.youtube.com	14100	Andrej Karpathy	Deep Dive into LLMs like ChatGPT
+video	-	info	en	www.youtube.com	8760	Andrej Karpathy	The spelled-out intro to neural networks and backpropagation: building micrograd
+video	-	info	en	www.youtube.com	1840	StatQuest with Josh Starmer	Neural Networks Pt. 1: Inside the Black Box
+video	-	info	en	www.youtube.com	0	StatQuest with Josh Starmer	Principal Component Analysis (PCA), Step-by-Step
+video	-	info	en	www.youtube.com	1032	StatQuest with Josh Starmer	Gradient Descent, Step-by-Step
+video	-	info	en	www.youtube.com	0	StatQuest with Josh Starmer	Decision and Classification Trees, Clearly Explained!!!
+video	-	info	en	www.youtube.com	1054	Two Minute Papers	OpenAI's New AI Is Shockingly Good!
+video	-	info	en	www.youtube.com	512	Two Minute Papers	DeepMind's AlphaFold 3 Is Here: A Game Changer for Biology
+video	-	info	en	www.youtube.com	1010	ThePrimeagen	The Programming Language Wars Are Pointless
+video	-	info	en	www.youtube.com	1280	NeetCode	Two Sum - Leetcode 1 - HashMap - Python
+video	-	info	en	www.youtube.com	898	NeetCode	Valid Parentheses - Stack - Leetcode 20 - Python
+video	-	info	en	www.youtube.com	0	NeetCode	Climbing Stairs - Dynamic Programming - Leetcode 70
+video	-	info	en	www.youtube.com	918	NeetCode	Reverse Linked List - Iterative AND Recursive - Leetcode 206
+video	-	info	en	www.youtube.com	1760	Abdul Bari	Introduction to Algorithms | How to Analyse Algorithms
+video	-	info	en	www.youtube.com	1210	Abdul Bari	Quick Sort Algorithm Explained
+video	-	info	en	www.youtube.com	1850	Hussein Nasser	How Does TLS Work? The Handshake Explained
+video	-	info	en	www.youtube.com	2410	Hussein Nasser	Database Indexing Explained in Detail
+video	-	info	en	www.youtube.com	972	ByteByteGo	System Design: How Does Netflix Stream to Millions?
+video	-	info	en	www.youtube.com	610	ByteByteGo	Top 7 Ways to Improve API Performance
+video	-	info	en	www.youtube.com	421	ByteByteGo	How Does HTTPS Work? What is SSL/TLS?
+video	-	info	en	www.youtube.com	1385	Coding Train	Coding Challenge #1: Starfield in Processing
+video	-	info	en	www.youtube.com	2012	The Cherno	How to Write Your First C++ Program
+video	-	info	en	www.youtube.com	1622	The Cherno	Pointers in C++
+video	-	info	en	www.youtube.com	1822	Jeff Delaney	Docker Compose Tutorial for Developers
+video	-	info	en	www.youtube.com	0	NetworkChuck	You NEED to learn Linux RIGHT NOW!! // Day 1 // Linux for Beginners
+video	-	info	en	www.youtube.com	1740	NetworkChuck	how to build a HOME LAB (full beginner guide)
+video	-	info	en	www.youtube.com	1432	David Bombal	Wireshark Tutorial for Beginners - Network Scanning Made Easy
+video	-	info	en	www.youtube.com	2750	Network Chuck	Python for Hackers FREE Course
+video	-	info	en	www.youtube.com	1042	Linus Tech Tips	How to Build a PC! - Step by Step Guide (2024)
+video	-	info	en	www.youtube.com	1230		The Hidden Complexity of the x86 Instruction Set
+video	-	info	en	www.youtube.com	1260	Ben Eater	How does a CPU work? Building an 8-bit computer from scratch
+video	-	info	en	www.youtube.com	1054	Ben Eater	How do hard drives work? Reading the bits
+video	-	info	en	www.youtube.com	1470	Low Level	How Hackers Exploit a Buffer Overflow
+video	-	info	en	www.youtube.com	0	LiveOverflow	Binary Exploitation / Memory Corruption - Introduction (stack0)
+video	-	info	en	www.youtube.com	2989	MIT OpenCourseWare	Lecture 1: Introduction to Computation and Programming Using Python
+video	-	info	en	www.youtube.com	0	MIT OpenCourseWare	Lecture 3: Strings, Input/Output, and Loops
+video	-	info	en	www.youtube.com	2860	MIT OpenCourseWare	Lecture 2: Operators and Operands
+video	-	info	en	www.youtube.com	2745	MIT OpenCourseWare	Lecture 1: The Column Space of A Contains All Vectors Ax
+video	-	info	en	www.youtube.com	3121	MIT OpenCourseWare	Lecture 5: Singular Value Decomposition
+video	-	info	en	www.youtube.com	2934	MIT OpenCourseWare	Lecture 4: Dynamic Programming
+video	-	info	en	www.youtube.com	3205	MIT OpenCourseWare	Lecture 7: Hashing and Hash Functions
+video	-	info	en	www.youtube.com	3018	MIT OpenCourseWare	Lecture 10: Quantum Mechanics - Wave Functions
+video	-	info	en	www.youtube.com	2760	MIT OpenCourseWare	Lecture 12: Thermodynamics and Entropy
+video	-	info	en	www.youtube.com	0	MIT OpenCourseWare	Lecture 1: Introduction to Deep Learning
+video	-	info	en	www.youtube.com	2870	MIT OpenCourseWare	1. Introduction to Cognitive Science
+video	-	info	en	www.youtube.com	3411	MIT OpenCourseWare	Lec 1 | MIT 18.01 Single Variable Calculus, Fall 2007
+video	-	info	en	www.youtube.com	3570	Stanford Online	Stanford CS229: Machine Learning Course, Lecture 1 - Andrew Ng
+video	-	info	en	www.youtube.com	4510	Stanford Online	Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors
+video	-	info	en	www.youtube.com	4120	Stanford Online	Stanford CS25: V2 I Introduction to Transformers w/ Andrej Karpathy
+video	-	info	en	www.youtube.com	4980	Stanford Online	Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 1
+video	-	info	en	www.youtube.com	3480	Stanford Online	Stanford CS231N | Spring 2025 | Lecture 2: Image Classification with Linear Classifiers
+video	-	info	en	www.youtube.com	3560	Stanford University	Stanford Webinar - How to Think About Climate Change
+video	-	info	en	www.youtube.com	3810	Stanford	Robert Sapolsky: Behavioral Biology Lecture 1 - Introduction
+video	-	info	en	www.youtube.com	3720	Stanford	Lecture 3: Chemistry of Life and Cells
+video	-	info	en	www.youtube.com	4890	Harvard University	Justice: What's The Right Thing To Do? Episode 01 "THE MORAL SIDE OF MURDER"
+video	-	info	en	www.youtube.com	3150	Harvard University	CS50x 2024 - Lecture 0 - Scratch
+video	-	info	en	www.youtube.com	3680	CS50	CS50 2023 - Lecture 1 - C
+video	-	info	en	www.youtube.com	5630	CS50	CS50's Introduction to Programming with Python - Full Course
+video	-	info	en	www.youtube.com	3980	Yale Courses	Introduction to Ancient Greek History: Lecture 1
+video	-	info	en	www.youtube.com	3240	Yale Courses	PSYC 110 - Introduction to Psychology: Lecture 1
+video	-	info	en	www.youtube.com	0	Yale University	Financial Markets with Robert Shiller: 1. Introduction
+video	-	info	en	www.youtube.com	2820	Oxford Mathematics	Oxford Mathematics 1st Year Student Lecture: Linear Algebra
+video	-	info	en	www.youtube.com	3110	Oxford University	Oxford Philosophy Lecture - What Is Consciousness?
+video	-	info	en	www.youtube.com	3340	Cambridge University	Why Quantum Computing Matters - Public Lecture
+video	-	info	en	www.youtube.com	3490	Caltech	The Feynman Lectures: The Character of Physical Law Lecture 1
+video	-	info	en	www.youtube.com	2760	Royal Institution	The Mathematics of Cryptography - Christmas Lectures
+video	-	info	en	www.youtube.com	3650	The Royal Institution	The Science of Sleep - with Matthew Walker
+video	-	info	en	www.youtube.com	3020	Khan Academy	Introduction to Derivatives | Differential Calculus
+video	-	info	en	www.youtube.com	645	Khan Academy	What is a Function? | Algebra Basics
+video	-	info	en	www.youtube.com	812	Khan Academy	The Krebs / citric acid cycle | Biology
+video	-	info	en	www.youtube.com	734	Khan Academy	Supply and Demand Explained | Microeconomics
+video	-	info	en	www.youtube.com	0	Khan Academy	The Causes of World War I | US History
+video	-	info	en	www.khanacademy.org	548	Khan Academy	Introduction to the quadratic formula
+video	-	info	en	www.khanacademy.org	622	Khan Academy	Newton's first law of motion
+video	-	info	en	www.khanacademy.org	701	Khan Academy	Photosynthesis in plants | Biology
+video	-	info	en	www.khanacademy.org	474	Khan Academy	Compound interest introduction
+video	-	info	en	www.khanacademy.org	535	Khan Academy	Intro to the Cold War
+video	-	info	en	www.khanacademy.org	1021	Khan Academy	Introduction to limits | Limits and continuity
+video	-	info	en	www.khanacademy.org	620	Khan Academy	What is a variable? | Pre-algebra
+video	-	info	en	www.khanacademy.org	0	Khan Academy	Understanding Mendelian inheritance
+video	-	info	en	www.khanacademy.org	723	Khan Academy	Intro to inflation | Macroeconomics
+video	-	info	en	www.khanacademy.org	541	Khan Academy	Meiosis | Cells | Biology
+video	-	info	en	www.khanacademy.org	690	Khan Academy	Newton's law of gravitation
+video	-	info	en	www.khanacademy.org	0	Khan Academy	Intro to chemical bonds
+video	-	info	en	www.khanacademy.org	1103	Khan Academy	The Roman Republic | World History
+video	-	info	en	www.coursera.org	412	Andrew Ng	Week 1 – What is a Neural Network?
+video	-	info	en	www.coursera.org	506	Andrew Ng	Week 2 – Gradient Descent for Logistic Regression
+video	-	info	en	www.coursera.org	0	DeepLearning.AI	Week 3 – Planar data classification with a hidden layer
+video	-	info	en	www.coursera.org	342	Google Career Certificates	Module 1 – Introduction to cybersecurity
+video	-	info	en	www.coursera.org	475	Google Career Certificates	Week 2 – Understand the role of data in business
+video	-	info	en	www.coursera.org	398	Johns Hopkins University	Week 1 – Introduction to R Programming
+video	-	info	en	www.coursera.org	612	University of Michigan	Week 1 – Why Python? Installing Python and getting started
+video	-	info	en	www.coursera.org	557	Yale University	Week 4 – Applying Marginal Analysis
+video	-	info	en	www.coursera.org	503	University of Pennsylvania	Week 2 – Introduction to Positive Psychology
+video	-	info	en	www.coursera.org	431	IBM	Module 3 – What is a Large Language Model?
+video	-	info	en	www.coursera.org	625	Stanford University	Week 5 – Support Vector Machines: Optimization Objective
+video	-	info	en	www.coursera.org	0	Duke University	Module 2 – Basics of Probability and Conditional Probability
+video	-	info	en	www.coursera.org	389	Meta	Module 1 – Introduction to Front-End Development
+video	-	info	en	www.coursera.org	0		Week 1 – Introduction to Multivariate Calculus
+video	-	info	en	www.coursera.org	470	University of Illinois	Week 3 – Introduction to Blockchain Consensus
+video	-	info	en	www.coursera.org	522	Coursera Project Network	Task 2: Create a basic pivot table in Excel
+video	-	info	en	www.coursera.org	433	Microsoft	Module 2 – Introduction to Azure Fundamentals
+video	-	info	en	www.coursera.org	581	Wharton Online	Module 1 – Introduction to Financial Accounting
+video	-	info	en	www.coursera.org	608	The University of Edinburgh	Week 1 – Introduction to Philosophy: What is Philosophy?
+video	-	info	en	www.udemy.com	603	Udemy Instructor	Section 2: Setting Up Your Development Environment
+video	-	info	en	www.udemy.com	472	Angela Yu	Day 1 - Working with Variables in Python to Manage Data
+video	-	info	en	www.udemy.com	721	Angela Yu	Day 17 - Python Classes and Objects
+video	-	info	en	www.udemy.com	532	Jonas Schmedtmann	Section 3: Fundamentals of JavaScript - Variables and Data Types
+video	-	info	en	www.udemy.com	0	Maximilian Schwarzmüller	Understanding the Core Concepts of React
+video	-	info	en	www.udemy.com	581	Colt Steele	Lecture 4: Arrays and Array Methods
+video	-	info	en	www.udemy.com	404	Stephane Maarek	AWS Certified Cloud Practitioner - Introduction to IAM
+video	-	info	en	www.udemy.com	519	Jose Portilla	Introduction to Pandas DataFrames
+video	-	info	en	www.udemy.com	366	Brad Traversy	Section 1: Course Overview and Setup
+video	-	info	en	www.udemy.com	0	Dr. Angela Yu	Lecture 27: Intro to CSS Selectors
+video	-	info	en	www.udemy.com	448	Andrei Neagoie	Why Learn Python? Course Introduction
+video	-	info	en	www.udemy.com	635	Kirill Eremenko	Lecture 11: Simple Linear Regression Intuition
+video	-	info	en	www.udemy.com	417	Valentin Despa	Postman Beginner to Pro - What is an API?
+video	-	info	en	www.udemy.com	508	Rob Percival	Section 4: Building Your First iOS App in Swift
+video	-	info	en	www.linkedin.com	363	LinkedIn Learning	Excel Essential Training: Welcome
+video	-	info	en	www.linkedin.com	327	LinkedIn Learning	Learning Python: What is Python?
+video	-	info	en	www.linkedin.com	498	LinkedIn Learning	Time Management: Working From Home - Setting Boundaries
+video	-	info	en	www.linkedin.com	0	LinkedIn Learning	Project Management Foundations: Defining Project Scope
+video	-	info	en	www.linkedin.com	285	LinkedIn Learning	SQL Essential Training: Understanding Relational Databases
+video	-	info	en	www.linkedin.com	534	LinkedIn Learning	Public Speaking Foundations: Handling Nerves
+video	-	info	en	www.linkedin.com	370	LinkedIn Learning	Learning Power BI: Create Your First Report
+video	-	info	en	www.linkedin.com	0	LinkedIn Learning	Leadership Foundations: Giving Feedback That Works
+video	-	info	en	www.linkedin.com	441	LinkedIn Learning	Learning Generative AI: Prompting Basics
+video	-	info	en	www.ted.com	0	TED	Simon Sinek: How great leaders inspire action
+video	-	info	en	www.ted.com	1202	TED	Sir Ken Robinson: Do schools kill creativity?
+video	-	info	en	www.ted.com	1243	TED	Amy Cuddy: Your body language may shape who you are
+video	-	info	en	www.ted.com	1096	TED	Brené Brown: The power of vulnerability
+video	-	info	en	www.ted.com	0	TED	Tim Urban: Inside the mind of a master procrastinator
+video	-	info	en	www.ted.com	1011	TED	Angela Duckworth: Grit: the power of passion and perseverance
+video	-	info	en	www.ted.com	1105	TED	Hans Rosling: The best stats you've ever seen
+video	-	info	en	www.ted.com	0	TED	Bill Gates: The next outbreak? We're not ready
+video	-	info	en	www.ted.com	886	TED	Mary Roach: 10 things you didn't know about orgasm
+video	-	info	en	www.ted.com	1103	TED	Sam Altman: The future of AI and what it means for humanity
+video	-	info	en	www.ted.com	985	TED	Kevin Kelly: How AI can bring on a second Industrial Revolution
+video	-	info	en	www.ted.com	872	TED	Elizabeth Gilbert: Your elusive creative genius
+video	-	info	en	www.ted.com	1070	TED	Robert Waldinger: What makes a good life? Lessons from the longest study on happiness
+video	-	info	en	www.ted.com	1249	TED	Esther Perel: The secret to desire in a long-term relationship
+video	-	info	en	www.ted.com	1160	TED	Daniel Kahneman: The riddle of experience vs. memory
+video	-	info	en	www.ted.com	820	TED	Jill Bolte Taylor: My stroke of insight
+video	-	info	en	www.ted.com	0	TED	Carol Dweck: The power of believing that you can improve
+video	-	info	en	www.ted.com	1211		Lera Boroditsky: How language shapes the way we think
+video	-	info	en	www.ted.com	0	TED	Yuval Noah Harari: What explains the rise of humans?
+video	-	info	en	www.youtube.com	0	TEDx Talks	How to speak so that people want to listen | Julian Treasure
+video	-	info	en	www.youtube.com	1088	TEDx Talks	The skill of self confidence | Dr. Ivan Joseph
+video	-	info	en	www.youtube.com	991	TEDx Talks	The happy secret to better work | Shawn Achor
+video	-	info	en	www.youtube.com	1198	TED-Ed	How does the stock market work? - Oliver Elfenbaum
+video	-	info	en	www.youtube.com	301		The history of chocolate - Deanna Pucciarelli
+video	-	info	en	www.youtube.com	278	TED-Ed	What causes economic recessions? - Richard Coffin
+video	-	info	en	www.youtube.com	347	TED-Ed	How do vaccines work? - Kelwalin Dhanasarnsombut
+video	-	info	en	www.youtube.com	298	TED-Ed	The myth of Pandora's box - Kristina Dimitriadi
+video	-	info	en	www.youtube.com	322	TED-Ed	Can you solve the Alice in Wonderland riddle?
+video	-	info	en	www.youtube.com	289	TED-Ed	How do airplanes actually fly? - Joshua Kuhn
+video	-	info	en	www.youtube.com	1034	Google Tech Talks	The Next Generation of Neural Networks
+video	-	info	en	www.youtube.com	0	Google for Developers	What's new in Android Development Tools | Google I/O 2024
+video	-	info	en	www.youtube.com	2156	Google Cloud Tech	Introduction to Generative AI on Vertex AI
+video	-	info	en	www.youtube.com	2700	Microsoft Developer	Build 2024 keynote: Satya Nadella on AI and Copilot
+video	-	info	en	www.youtube.com	3240	PyCon US	Keynote: The Future of Python | PyCon US 2024
+video	-	info	en	www.youtube.com	2160	GOTO Conferences	Microservices Architecture Lessons Learned • Sam Newman • GOTO 2023
+video	-	info	en	www.youtube.com	2700	NDC Conferences	Clean Architecture with ASP.NET Core - Steve Smith - NDC London
+video	-	info	en	www.youtube.com	2310	InfoQ	Scaling Instagram Infrastructure | QCon SF
+video	-	info	en	www.youtube.com	1860	Strange Loop	"Simple Made Easy" - Rich Hickey (2011)
+video	-	info	en	www.youtube.com	3120	Chaos Communication Congress	37C3 - Hacking Neural Networks
+video	-	info	en	www.youtube.com	2640	DEFCON	DEF CON 32 - Hacking Cars: A Practical Guide
+video	-	info	en	www.youtube.com	2400	Black Hat	Black Hat USA 2023 - Cyber Threat Landscape Briefing
+video	-	info	en	www.youtube.com	1980	React Conf	React Conf 2024 Keynote
+video	-	info	en	www.youtube.com	2310		WWDC24 Keynote Highlights in 8 Minutes
+video	-	info	en	www.youtube.com	3600	Apple Developer	Meet SwiftUI - WWDC24
+video	-	info	en	www.youtube.com	0	NVIDIA	NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2025
+video	-	info	en	vimeo.com	1230	Vimeo Staff Picks	How a Tornado Forms - Explained
+video	-	info	en	vimeo.com	846	The Royal Society	Introduction to Gene Editing - CRISPR Explained
+video	-	info	en	vimeo.com	1620		Stripe Sessions 2024 | Opening Keynote
+video	-	info	en	vimeo.com	612	Webflow	Webflow Basics: Build a Responsive Website from Scratch
+video	-	info	en	vimeo.com	0	Figma	Intro to Auto Layout in Figma
+video	-	info	en	vimeo.com	0	Smithsonian Institution	The Making of a Museum Exhibition
+video	-	info	en	www.youtube.com	0	Oversimplified	The Cold War - OverSimplified (Part 1)
+video	-	info	en	www.youtube.com	3010	Oversimplified	World War 2 - OverSimplified (Part 1)
+video	-	info	en	www.youtube.com	0	Oversimplified	The French Revolution - OverSimplified (Part 1)
+video	-	info	en	www.youtube.com	1511	Kings and Generals	The Fall of Constantinople 1453 - Ottoman Wars DOCUMENTARY
+video	-	info	en	www.youtube.com	1840	Kings and Generals	Battle of Cannae 216 BC - Hannibal's Masterpiece
+video	-	info	en	www.youtube.com	1602	Historia Civilis	The Rise and Fall of the Roman Republic
+video	-	info	en	www.youtube.com	1260	History Matters	Why Did Rome Fall?
+video	-	info	en	www.youtube.com	723	Extra History	The Peloponnesian War - Part 1
+video	-	info	en	www.youtube.com	1190	Epic History	The Hundred Years War in 15 Minutes
+video	-	info	en	www.youtube.com	1450	Real Time History	The Battle of Stalingrad Explained
+video	-	info	en	www.youtube.com	1085	Alex O'Connor	Why I Am No Longer a Christian
+video	-	info	en	www.youtube.com	1304	Wendover Productions	How Shipping Containers Changed the World
+video	-	info	en	www.youtube.com	1050	Wendover Productions	The Economics of Airport Hubs
+video	-	info	en	www.youtube.com	1021	CGP Grey	The Rules for Rulers
+video	-	info	en	www.youtube.com	562	CGP Grey	How Does the Electoral College Work?
+video	-	info	en	www.youtube.com	0	CGP Grey	The Trouble with the Brexit Referendum Explained
+video	-	info	en	www.youtube.com	1186	Johnny Harris	The Insane Geopolitics of the Arctic
+video	-	info	en	www.youtube.com	1262	Johnny Harris	Why the Strait of Hormuz Matters to the World
+video	-	info	en	www.youtube.com	1204	Johnny Harris	The Border Between the US and Canada Is Weird
+video	-	info	en	www.youtube.com	1021	Vox	Why the US Has So Many Different Kinds of Elections
+video	-	info	en	www.youtube.com	714	Vox	The economics of the Federal Reserve, explained
+video	-	info	en	www.youtube.com	604	Vox	How Gerrymandering Works
+video	-	info	en	www.youtube.com	1240	Caspian Report	Why Turkey Is Becoming a Regional Superpower
+video	-	info	en	www.youtube.com	0	Caspian Report	The Geopolitics of Central Asia
+video	-	info	en	www.youtube.com	1330	RealLifeLore	Why the Suez Canal Is So Important
+video	-	info	en	www.youtube.com	1010		Why Is Africa So Divided?
+video	-	info	en	www.youtube.com	1176	Geography Now	Geography Now! Mongolia
+video	-	info	en	www.youtube.com	856	Geography Now	Geography Now! Singapore
+video	-	info	en	www.youtube.com	1100	Practical Geopolitics	Why Poland Matters More Than You Think
+video	-	info	en	www.youtube.com	1410	Zeihan on Geopolitics	The Coming Demographic Collapse of China
+video	-	info	en	www.youtube.com	1260	PolyMatter	How China Became the World's Factory
+video	-	info	en	www.youtube.com	1008	PolyMatter	Why Nobody Can Fix the Housing Crisis
+video	-	info	en	www.youtube.com	0	Economics Explained	How Did Japan's Economy Stagnate for 30 Years?
+video	-	info	en	www.youtube.com	1215	Economics Explained	Why Is Switzerland So Rich?
+video	-	info	en	www.youtube.com	1500	Money & Macro	Why Is Everything So Expensive Now? Inflation Explained
+video	-	info	en	www.youtube.com	0	The Plain Bagel	How Do Interest Rates Affect the Stock Market?
+video	-	info	en	www.youtube.com	1420	The Plain Bagel	Index Funds vs ETFs vs Mutual Funds Explained
+video	-	info	en	www.youtube.com	1130	Ben Felix	Common Sense Investing - Why Index Funds Win
+video	-	info	en	www.youtube.com	1710		Is Dollar-Cost Averaging Better Than Lump Sum Investing?
+video	-	info	en	www.youtube.com	1010	Graham Stephan	How I Would Invest My First $10,000 in 2025
+video	-	info	en	www.youtube.com	930	Andrei Jikh	How to Start Investing for Beginners (Step by Step)
+video	-	info	en	www.youtube.com	1204	Mark Tilbury	How To Build Wealth In Your 20s
+video	-	info	en	www.youtube.com	1360	Aswath Damodaran	Valuation: Lecture 1 - Introduction
+video	-	info	en	www.youtube.com	1480	Patrick Boyle	How Hedge Funds Actually Make Money
+video	-	info	en	www.youtube.com	1302	Patrick Boyle	Why the Yield Curve Is Inverted and What It Means
+video	-	info	en	www.youtube.com	1050	Investopedia	Understanding the P/E Ratio
+video	-	info	en	www.youtube.com	820	CNBC Make It	How To Pay Off Debt Fast, According To Financial Experts
+video	-	info	en	www.youtube.com	2410	CNBC	Why Nvidia Is Dominating the AI Chip Market
+video	-	info	en	www.youtube.com	1260	CNBC	How the U.S. Debt Ceiling Works
+video	-	info	en	www.youtube.com	1125	Bloomberg Originals	How Taiwan Built the World's Chip Industry
+video	-	info	en	www.youtube.com	1420	Bloomberg Television	Bloomberg Markets: Fed Holds Rates Steady, Powell Press Conference
+video	-	info	en	www.youtube.com	1802	Bloomberg Originals	Inside the Race to Build the World's Largest Solar Farm
+video	-	info	en	www.youtube.com	754		Why is the world's largest economy so deep in debt?
+video	-	info	en	www.youtube.com	1260	The Economist	How Ozempic is changing the food industry
+video	-	info	en	www.youtube.com	1005	Financial Times	What's behind Europe's energy crisis?
+video	-	info	en	www.youtube.com	620	Wall Street Journal	How Boeing's Quality Problems Became a Crisis
+video	-	info	en	www.youtube.com	0	Wall Street Journal	The Race to Build Humanoid Robots
+video	-	info	en	www.youtube.com	740	Wall Street Journal	Why Tesla's Full Self-Driving Is Still Not Fully Self-Driving
+video	-	info	en	www.youtube.com	480	BBC News	Israel-Gaza ceasefire talks: What we know so far
+video	-	info	en	www.youtube.com	612	BBC News	US election 2024: Trump wins presidency - BBC News special
+video	-	info	en	www.youtube.com	723	BBC News	Ukraine war: Inside a frontline trench near Pokrovsk
+video	-	info	en	www.youtube.com	0	BBC News	Climate change: What does COP29 need to deliver?
+video	-	info	en	www.youtube.com	2340	BBC Newsnight	Newsnight: Is the UK economy heading for recession?
+video	-	info	en	www.youtube.com	1290	BBC Panorama	Panorama: The Hidden Cost of Fast Fashion
+video	-	info	en	www.youtube.com	1800	BBC Click	Click: How AI Is Changing Medicine
+video	-	info	en	www.youtube.com	0	BBC Earth	Planet Earth III: Coasts | Full Episode
+video	-	info	en	www.youtube.com	1610	BBC Earth	Blue Planet II: One Ocean
+video	-	info	en	www.youtube.com	5400	BBC Select	Inside the Mind of a Chess Grandmaster
+video	-	info	en	www.youtube.com	420	Sky News	Sky News Breakfast: Autumn Budget explained
+video	-	info	en	www.youtube.com	1920	Channel 4 News	Channel 4 News: The Crisis in NHS Waiting Lists
+video	-	info	en	www.youtube.com	0	Al Jazeera English	Sudan's war: Why is the conflict getting worse?
+video	-	info	en	www.youtube.com	1560		Inside Story: What's next for Syria?
+video	-	info	en	www.youtube.com	780	DW News	How Germany's Far Right Is Gaining Ground
+video	-	info	en	www.youtube.com	840	DW Documentary	Chernobyl: Life in the Exclusion Zone | DW Documentary
+video	-	info	en	www.youtube.com	2640	DW Documentary	The Battle for Rare Earths | DW Documentary
+video	-	info	en	www.youtube.com	3120	DW Documentary	Quiet Quitting - Is Work Still Worth It? | DW Documentary
+video	-	info	en	www.youtube.com	1020	France 24 English	Macron faces no-confidence vote: what happens next?
+video	-	info	en	www.youtube.com	1600	PBS NewsHour	PBS News Weekend full episode, Oct. 12, 2025
+video	-	info	en	www.youtube.com	3180	PBS NewsHour	Full Episode: Supreme Court hears tariffs case
+video	-	info	en	www.youtube.com	3300	FRONTLINE PBS	The Man Who Made Bitcoin | FRONTLINE
+video	-	info	en	www.youtube.com	3200	FRONTLINE PBS	Inside the Fight to Save the Colorado River
+video	-	info	en	www.youtube.com	920	NBC News	Why fewer young Americans are buying homes
+video	-	info	en	www.youtube.com	1780	CBS News	60 Minutes: Inside the AI Labs Racing to Build Superintelligence
+video	-	info	en	www.youtube.com	1470	ABC News	Nightline: The Rise of Ozempic
+video	-	info	en	www.youtube.com	2820	CNN	Fareed Zakaria GPS: The future of NATO
+video	-	info	en	www.youtube.com	1360	CNN	CNN Original Series: Putin's War Explained
+video	-	info	en	www.youtube.com	1900	Reuters	Reuters Explainer: How tariffs work
+video	-	info	en	www.youtube.com	0	Associated Press	AP Explains: What is the 25th Amendment?
+video	-	info	en	www.youtube.com	1210	Channel 5 News	Breaking: UK interest rate decision explained
+video	-	info	en	www.youtube.com	930	VICE News	Inside the Fentanyl Crisis in Philadelphia
+video	-	info	en	www.youtube.com	1740	VICE News	Vice News Tonight: Inside Myanmar's Resistance
+video	-	info	en	www.youtube.com	2150	ColdFusion	The Rise and Fall of Intel
+video	-	info	en	www.youtube.com	1810	ColdFusion	How AI Chatbots Are Changing the Internet
+video	-	info	en	www.youtube.com	1500		The Fall of Nokia
+video	-	info	en	www.youtube.com	2010	Asianometry	The Rise of TSMC
+video	-	info	en	www.youtube.com	1830	Asianometry	Why Is the Dutch Company ASML So Important?
+video	-	info	en	www.youtube.com	1710	Asianometry	The Decline of Japanese Semiconductors
+video	-	info	en	www.youtube.com	1004	Marques Brownlee	iPhone 16 Pro Review: Camera Control Changes Everything
+video	-	info	en	www.youtube.com	1210	Marques Brownlee	Samsung Galaxy S25 Ultra Review: The AI Phone
+video	-	info	en	www.youtube.com	930	Marques Brownlee	Tesla Cybertruck Review: Actually Impressive
+video	-	info	en	www.youtube.com	1105	Marques Brownlee	Vision Pro Review: 2 Weeks Later
+video	-	info	en	www.youtube.com	1022	Marques Brownlee	Pixel 9 Pro Review: The Most Improved Pixel
+video	-	info	en	www.youtube.com	1060	Marques Brownlee	M4 MacBook Pro Review: The Nano-Texture Display!
+video	-	info	en	www.youtube.com	810	Marques Brownlee	Meta Ray-Ban Display Glasses: Hands-On
+video	-	info	en	www.youtube.com	0	Mrwhosetheboss	Samsung Galaxy Z Fold 6 Review: The Truth After 2 Weeks
+video	-	info	en	www.youtube.com	0	Mrwhosetheboss	Testing the World's Weirdest Phones
+video	-	info	en	www.youtube.com	0	Dave2D	MacBook Air M3 Review - Better Than You Think
+video	-	info	en	www.youtube.com	960	Dave2D	Surface Laptop 7 Review: The Snapdragon Experience
+video	-	info	en	www.youtube.com	1250	The Verge	Apple iPhone 17 Air review: thin is in
+video	-	info	en	www.youtube.com	1130	The Verge	Sony WH-1000XM6 Review: Still the Noise Cancelling King
+video	-	info	en	www.youtube.com	780	The Verge	Nintendo Switch 2 review: finally here
+video	-	info	en	www.youtube.com	1320	Linus Tech Tips	The RTX 5090 is INSANE... but is it worth it?
+video	-	info	en	www.youtube.com	1480	Linus Tech Tips	I Switched From Windows to Linux for 30 Days
+video	-	info	en	www.youtube.com	1260	Gamers Nexus	NVIDIA GeForce RTX 5080 Founders Edition Review & Benchmarks
+video	-	info	en	www.youtube.com	2840	Gamers Nexus	AMD Ryzen 9 9950X3D CPU Review & Benchmarks vs. 9800X3D
+video	-	info	en	www.youtube.com	1140	Hardware Unboxed	Intel Core Ultra 9 285K Review: Gaming and Productivity Benchmarks
+video	-	info	en	www.youtube.com	1350	Jarrod'sTech	Best Budget Android Phones in 2025
+video	-	info	en	www.youtube.com	1020	Android Authority	Pixel 10 Pro XL Review: Three Months Later
+video	-	info	en	www.youtube.com	960	Unbox Therapy	iPhone 17 Pro Max Unboxing & Review
+video	-	info	en	www.youtube.com	1130	iJustine	Apple Watch Ultra 3 Review: Is It Worth It?
+video	-	info	en	www.youtube.com	770	Snazzy Labs	Why the Mac Mini M4 Is the Best Computer Apple Has Made
+video	-	info	en	www.youtube.com	1100		Steam Deck OLED vs ROG Ally X: Which Should You Buy?
+video	-	info	en	www.youtube.com	900	Rtings.com	OLED vs QLED: What's the Difference?
+video	-	info	en	www.youtube.com	0	Wirecutter	The Best Robot Vacuums, Tested
+video	-	info	en	www.youtube.com	872	Consumer Reports	Best Car Brands for Reliability in 2025
+video	-	info	en	www.youtube.com	1320	Doug DeMuro	This 2025 Toyota Land Cruiser Is Worth the Hype
+video	-	info	en	www.youtube.com	1590		Buying a Used Honda Civic? Watch This First
+video	-	info	en	www.youtube.com	1140	Engineering Explained	How Does a Hybrid Powertrain Actually Work?
+video	-	info	en	www.youtube.com	1250	Fully Charged Show	Rivian R2: First Drive and Full Review
+video	-	info	en	www.youtube.com	4210	Y Combinator	How to Start a Startup - Lecture 1 with Sam Altman and Dustin Moskovitz
+video	-	info	en	www.youtube.com	1620	Y Combinator	How to Build an AI Startup - Paul Graham
+video	-	info	en	www.youtube.com	3600	Stanford GSB	Jensen Huang, Founder and CEO of NVIDIA | View From The Top
+video	-	info	en	www.youtube.com	0	Stripe	Patrick Collison on Building Stripe | Fireside Chat
+video	-	info	en	www.youtube.com	3240	Bloomberg Originals	David Rubenstein Show: Warren Buffett Reflects on Investing
+video	-	info	en	www.youtube.com	3810	Hoover Institution	Uncommon Knowledge with Niall Ferguson: The End of American Primacy?
+video	-	info	en	www.youtube.com	3720	Big Think	Neil deGrasse Tyson: Why Science Literacy Matters
+video	-	info	en	www.youtube.com	610	Big Think	Michio Kaku: The Future of Quantum Physics
+video	-	info	en	www.youtube.com	730	Big Think	The Surprising Science of Happiness | Daniel Gilbert
+video	-	info	en	www.youtube.com	1240	Closer To Truth	Why Is There Something Rather Than Nothing?
+video	-	info	en	www.youtube.com	4110	Jordan B Peterson	Maps of Meaning 2017: Lecture 1 - Introduction
+video	-	info	en	www.youtube.com	1815	Vox	The case for ending daylight saving time
+video	-	info	en	www.youtube.com	1021	Adam Neely	How Music Theory Works in 16 Minutes
+video	-	info	en	www.youtube.com	1003	Adam Neely	Why Does Music Make You Feel Things? The Science of Tension
+video	-	info	en	www.youtube.com	1130	Rick Beato	What Makes This Chord Progression So Great?
+video	-	info	en	www.youtube.com	1460	Rick Beato	Ear Training for Beginners: Intervals Explained
+video	-	info	en	www.youtube.com	843	12tone	Why Do Chords Sound Happy or Sad? Music Theory Basics
+video	-	info	en	www.youtube.com	612	David Bennett Piano	Music Theory in 10 Minutes: Intervals, Scales and Chords
+video	-	info	en	www.youtube.com	1302	Signals Music Studio	Music Theory for Beginners - The Major Scale
+video	-	info	en	www.youtube.com	934	Music Matters	Music Theory: Understanding the Circle of Fifths
+video	-	info	en	www.youtube.com	1250	Piano Lessons on the Web	How to Play Piano: Lesson 1 for Complete Beginners
+video	-	info	en	www.youtube.com	1240	Pianote	Learn Piano in 30 Days: Day 1 - Finding Middle C
+video	-	info	en	www.youtube.com	1620	Pianote	5 Jazz Chords Every Pianist Should Know
+video	-	info	en	www.youtube.com	980	JustinGuitar	Beginner Guitar Lesson 1 - Your Very First Guitar Lesson
+video	-	info	en	www.youtube.com	1304	JustinGuitar	How to Play the F Chord (Easy Beginner Method)
+video	-	info	en	www.youtube.com	1220	Marty Music	How to Play Wonderwall by Oasis - Easy Guitar Lesson
+video	-	info	en	www.youtube.com	1042	Marty Music	Wish You Were Here - Pink Floyd Guitar Lesson
+video	-	info	en	www.youtube.com	860	Andrew Clarke Guitar	Easy Guitar Songs for Absolute Beginners
+video	-	info	en	www.youtube.com	1404	Paul Davids	How to Play Hotel California Solo - Eagles Guitar Lesson
+video	-	info	en	www.youtube.com	1220		Beginner Drum Lesson: Your First Drum Beat
+video	-	info	en	www.youtube.com	1420	Drumeo	How to Play Moby Dick Drum Lesson
+video	-	info	en	www.youtube.com	1100	Bass Buzz	Beginner Bass Lesson 1: How to Play Your First Bassline
+video	-	info	en	www.youtube.com	1050	Violin Lab	How to Hold a Violin and Bow Correctly
+video	-	info	en	www.youtube.com	1260	Ukulele Tricks	How to Play Ukulele: 4 Easy Chords to Start
+video	-	info	en	www.youtube.com	1500	Produce Like A Pro	How to Mix Vocals Like a Pro in Logic Pro X
+video	-	info	en	www.youtube.com	1600		Sidechain Compression Explained
+video	-	info	en	www.youtube.com	2200	Berklee Online	Songwriting Basics: Writing a Chorus That Sticks
+video	-	info	en	www.youtube.com	1308	Polyphonic	The Genius of Bach's Counterpoint Explained
+video	-	info	en	www.youtube.com	0	Vox	Why Every Pop Song Sounds the Same: The Four Chords
+video	-	info	en	www.youtube.com	1470	Nahre Sol	Understanding Modes: A Visual Guide
+video	-	info	en	www.youtube.com	0	Tom Scott	How Do Noise-Cancelling Headphones Actually Work?
+video	-	info	en	www.youtube.com	734	Tom Scott	The Basics of Cryptocurrency Explained
+video	-	info	en	www.youtube.com	0	Tasty	How to Make the Perfect Homemade Pizza | Tasty Recipes
+video	-	info	en	www.youtube.com	480	Tasty	3 Easy Chicken Dinners | Tasty
+video	-	info	en	www.youtube.com	1020	Joshua Weissman	But Better: Homemade Ramen
+video	-	info	en	www.youtube.com	1320	Joshua Weissman	How To Make Perfect Sourdough Bread At Home
+video	-	info	en	www.youtube.com	1090	Joshua Weissman	The Best Burger You Will Ever Make (Smash Burger)
+video	-	info	en	www.youtube.com	1022	Babish Culinary Universe	Basics with Babish: How to Cook Steak
+video	-	info	en	www.youtube.com	1140	Binging with Babish	Binging with Babish: Ratatouille from Ratatouille
+video	-	info	en	www.youtube.com	780	Ethan Chlebowski	The Easiest Way to Cook Perfect Rice Every Time
+video	-	info	en	www.youtube.com	1262	Ethan Chlebowski	How to Make Better Fried Rice at Home
+video	-	info	en	www.youtube.com	1004	J. Kenji López-Alt	The Food Lab: How to Make Perfect Scrambled Eggs
+video	-	info	en	www.youtube.com	1240		How to Make Authentic Carbonara
+video	-	info	en	www.youtube.com	901	Bon Appétit	Pro Chefs Make Their Favorite Pasta Dishes
+video	-	info	en	www.youtube.com	1290	Adam Ragusea	Why Salt Matters More Than You Think in Cooking
+video	-	info	en	www.youtube.com	821	Chef John	Food Wishes: Chicken Tikka Masala Recipe
+video	-	info	en	www.youtube.com	660		Nigella's Easy Banana Bread Step by Step
+video	-	info	en	www.youtube.com	1180	Mary Berry	Mary Berry's Classic Victoria Sponge Recipe
+video	-	info	en	www.youtube.com	984	Jamie Oliver	Jamie's 15-Minute Meals: Quick Chicken Curry
+video	-	info	en	www.youtube.com	1120		Gordon Ramsay's Ultimate Guide to Cooking Fish
+video	-	info	en	www.youtube.com	1640	Gordon Ramsay	How to Cook the Perfect Beef Wellington
+video	-	info	en	www.youtube.com	540	Ainsley Harriott	Easy Vegetable Stir Fry Recipe
+video	-	info	en	www.youtube.com	905	Sip and Feast	How to Make Authentic Pad Thai From Scratch
+video	-	info	en	www.youtube.com	1000	Pailin's Kitchen	Thai Green Curry Recipe Step by Step
+video	-	info	en	www.youtube.com	740	Ballerina Farm	How to Bake a Sourdough Sandwich Loaf From Start to Finish
+video	-	info	en	www.youtube.com	942	Sam The Cooking Guy	Perfect Homemade Pizza Dough Tutorial
+video	-	info	en	www.youtube.com	660	Kenji Lopez-Alt	Beginner's Guide to Using a Chef's Knife
+video	-	info	en	www.youtube.com	1250	This Old House	How to Install a Ceiling Fan Step by Step
+video	-	info	en	www.youtube.com	1600	This Old House	How to Tile a Bathroom Floor
+video	-	info	en	www.youtube.com	1304	Home RenoVision DIY	How to Install Laminate Flooring Like a Pro
+video	-	info	en	www.youtube.com	1170	Home Repair Tutor	How to Fix a Leaking Kitchen Faucet
+video	-	info	en	www.youtube.com	0	Roger Wakefield	How to Replace a Toilet Fill Valve
+video	-	info	en	www.youtube.com	1230	Essential Craftsman	Beginner Woodworking: 10 Joints Every Woodworker Should Know
+video	-	info	en	www.youtube.com	1740	Steve Ramsey - Woodworking for Mere Mortals	Build a Simple Workbench With a Few Tools
+video	-	info	en	www.youtube.com	1050		How to Build a Raised Garden Bed
+video	-	info	en	www.youtube.com	1122	Matthew Cremona	How to Change Your Brake Pads at Home
+video	-	info	en	www.youtube.com	1560	ChrisFix	How to Change Your Oil In 10 Minutes
+video	-	info	en	www.youtube.com	1130	ChrisFix	How to Replace a Car Battery: Step by Step
+video	-	info	en	www.youtube.com	1200	Scotty Kilmer	How to Tell If Your Car Needs a New Alternator
+video	-	info	en	www.youtube.com	1080	Eric the Car Guy	How to Diagnose a Misfire on Any Engine
+video	-	info	en	www.youtube.com	830	Fix It Fast	How to Replace an iPhone Battery in 10 Minutes
+video	-	info	en	www.youtube.com	1510	iFixit	MacBook Pro M3 Teardown and Repair Guide
+video	-	info	en	www.youtube.com	1240	Louis Rossmann	Why Soldering Skills Matter: Micro-Soldering Basics
+video	-	info	en	www.youtube.com	1030	Mr Fix It	How to Fix a Cracked Phone Screen Step by Step
+video	-	info	en	www.youtube.com	910	Sew Anastasia	How to Sew a Button By Hand: Beginner Tutorial
+video	-	info	en	www.youtube.com	2010	Professor Dave Explains	Organic Chemistry: Nucleophilic Substitution Reactions
+video	-	info	en	www.youtube.com	0	Professor Dave Explains	Introduction to Special Relativity
+video	-	info	en	www.youtube.com	2210	The Organic Chemistry Tutor	Calculus 1 - Full College Course
+video	-	info	en	www.youtube.com	1230	The Organic Chemistry Tutor	Balancing Chemical Equations Practice Problems
+video	-	info	en	www.youtube.com	0	Mathologer	What Is Euler's Formula Really? A Visual Proof
+video	-	info	en	www.youtube.com	1040	Stand-up Maths	Why Is There No Perfect Calendar?
+video	-	info	en	www.youtube.com	1370	Eddie Woo	Introduction to Trigonometry | Year 10 Maths
+video	-	info	en	www.youtube.com	1620	PatrickJMT	Solving Systems of Equations Using Substitution
+video	-	info	en	www.youtube.com	1130	Dr. Trefor Bazett	The Fundamental Theorem of Calculus Explained
+video	-	info	en	www.youtube.com	1500	blackpenredpen	Integral of sin^2(x): Four Ways
+video	-	info	en	www.youtube.com	1005	Zach Star	How the Fast Fourier Transform Works
+video	-	info	en	www.youtube.com	1510	Physics Explained	Why Time Slows Down Near a Black Hole
+video	-	info	en	www.youtube.com	640	Domain of Science	The Map of Physics
+video	-	info	en	www.youtube.com	0	Sabine Hossenfelder	Does Quantum Mechanics Describe Reality?
+video	-	info	en	www.youtube.com	1250	Dr. Becky	What Is Dark Matter and Why Can't We Find It?
+video	-	info	en	www.youtube.com	0	Fermilab	How Do Particle Accelerators Work?
+video	-	info	en	www.youtube.com	3710	NASA	NASA's Artemis II Mission Explained: Crew, Rocket and Route
+video	-	info	en	www.youtube.com	1805	SpaceX	Starship Flight Test Recap and What Comes Next
+video	-	info	en	www.youtube.com	2204	Anton Petrov	New Study Finds Water on an Exoplanet's Atmosphere
+video	-	info	en	www.youtube.com	0	Scott Manley	How KSP Taught Me Orbital Mechanics
+video	-	info	en	www.youtube.com	0	Smarter Every Day	How Do Rockets Steer? Thrust Vector Control
+video	-	info	en	www.youtube.com	0	AsapSCIENCE	The Science of Why We Procrastinate
+video	-	info	en	www.youtube.com	820	Kurzgesagt – In a Nutshell	How Does Caffeine Work?
+video	-	info	en	www.youtube.com	765	Ali Abdaal	How I Study Effectively: Evidence-Based Study Tips
+video	-	info	en	www.youtube.com	1060	Thomas Frank	How to Take Smart Notes in Notion
+video	-	info	en	www.youtube.com	1120	Matt D'Avella	The Minimalist Guide to Productivity
+video	-	info	en	www.youtube.com	0	Dr. Mike	Doctor Explains How Intermittent Fasting Works
+video	-	info	en	www.youtube.com	1072	Doctor Mike	Doctor Reacts to the Science of Cholesterol
+video	-	info	en	www.youtube.com	1350	Mayo Clinic	Understanding High Blood Pressure: Causes and Treatment
+video	-	info	en	www.youtube.com	480	NHS	How to Perform CPR on an Adult
+video	-	info	en	www.youtube.com	1022	Osmosis from Elsevier	Diabetes Mellitus: Pathophysiology and Treatment
+video	-	info	en	www.youtube.com	1150	Armando Hasudungan	Immunology: The Innate and Adaptive Immune Response
+video	-	info	en	www.youtube.com	0	Ninja Nerd	Cardiac Cycle: Physiology Lecture
+video	-	info	en	www.youtube.com	1020	Yoga With Adriene	Yoga For Complete Beginners - 20 Minute Home Yoga Workout!
+video	-	info	en	www.youtube.com	1810	Yoga With Adriene	Yoga For Back Pain | 30 Min Practice
+video	-	info	en	www.youtube.com	1600	Athlean-X	The Best Science-Based Chest Workout (Dumbbells Only)
+video	-	info	en	www.youtube.com	0	Jeff Nippard	The Smartest Way to Train for Muscle Growth: Science Explained
+video	-	info	en	www.youtube.com	1370	Jeff Nippard	Bench Press Technique: How to Bench Press Properly
+video	-	info	en	www.youtube.com	1042	Renaissance Periodization	How Many Sets Per Week Do You Need for Muscle Growth?
+video	-	info	en	www.youtube.com	1320	Chloe Ting	2 Weeks Shred Challenge: Full Body Workout Follow Along
+video	-	info	en	www.youtube.com	1210	Fitness Blender	30 Minute Full Body Workout for Beginners (No Equipment)
+video	-	info	en	www.youtube.com	1802	POPSUGAR Fitness	30-Minute Low-Impact Cardio Workout With Warm-Up
+video	-	info	en	www.youtube.com	1304	Calisthenicmovement	How To Do Your First Pull-Up: Beginner Progression
+video	-	info	en	www.youtube.com	1240	Squat University	How to Squat Properly: Mobility and Technique
+video	-	info	en	www.youtube.com	960	Mobility Wod	10-Minute Daily Hip Mobility Routine
+video	-	info	en	www.youtube.com	1480	Couch to 5K	Couch to 5K Week 1 Day 1 Guided Run
+video	-	info	en	www.youtube.com	762	Runner's World	How to Run Faster: Form Tips From a Coach
+video	-	info	en	www.youtube.com	1860	The Body Coach TV	Joe Wicks 45-Minute HIIT Workout for Beginners
+video	-	info	en	www.youtube.com	940	Learn English with Emma	How to Improve Your English Pronunciation: 5 Tips
+video	-	info	en	www.youtube.com	1012	BBC Learning English	6 Minute English: Is Social Media Making Us Lonelier?
+video	-	info	en	www.youtube.com	365	BBC Learning English	English in a Minute: Phrasal Verbs With 'Get'
+video	-	info	en	www.youtube.com	1204	Rachel's English	American English Pronunciation: The Schwa Sound
+video	-	info	en	www.youtube.com	1130	English with Lucy	How to Sound Fluent in English: 10 Native Expressions
+video	-	info	en	www.youtube.com	1260	Learn French with Alexa	French for Beginners: 50 Essential Phrases
+video	-	info	en	www.youtube.com	1480		Spanish Lesson 1: Greetings and Introductions
+video	-	info	en	www.youtube.com	1020	Easy German	Easy German 400 - Why Germans Love Bread
+video	-	info	en	www.youtube.com	1390	Japanesepod101	Learn Japanese in 30 Minutes: Basic Phrases for Travelers
+video	-	info	en	www.youtube.com	1650	Learn Mandarin with ChinesePod	Beginner Mandarin Lesson: Tones Explained
+video	-	info	en	www.youtube.com	1220	Langfocus	How Similar Are Spanish and Portuguese?
+video	-	info	en	www.youtube.com	1042	Paul Noble	Learn Italian With Paul Noble: Lesson 1
+video	-	info	en	www.youtube.com	1520	Dreaming Spanish	Beginner Spanish Comprehensible Input: Talking About My Day
+video	-	info	en	www.youtube.com	1240	Polyglot Pedia	How I Learned 8 Languages: My Method
+video	-	info	en	www.youtube.com	1130	Lindie Botes	How to Learn Any Language Using Shadowing
+video	-	info	en	www.youtube.com	0	Kurzgesagt – In a Nutshell	The Origin of Us
+video	-	info	en	nebula.tv	1604	Real Engineering	The Insane Engineering of the F-15
+video	-	info	en	nebula.tv	2110	Wendover Productions	Why Is Air Travel So Hard to Fix? (Nebula Exclusive)
+video	-	info	en	nebula.tv	0	Tom Scott Plus	How Vending Machines Learned to Take Cards
+video	-	info	en	nebula.tv	1420	Alt Shift X	The Collapse of Retail Giants Explained
+video	-	info	en	nebula.tv	1760	Sabine Hossenfelder	Is Physics Stuck? A Frank Conversation
+video	-	info	en	nebula.tv	2210	Lindsay Ellis	How Fandoms Shaped Modern Film Franchises
+video	-	info	en	nebula.tv	1470	Economics Explained	The Real Story Behind the Cost of Living Crisis
+video	-	info	en	nebula.tv	2530	Real Time History	The Battle of the Bulge: Full Documentary
+video	-	info	en	nebula.tv	0	Technology Connections	How Heat Pumps Actually Work
+video	-	info	en	nebula.tv	1304	Legal Eagle	The Supreme Court Just Changed Everything: Here's How
+video	-	info	en	nebula.tv	2060	Climate Town	Why Your Electric Bill Is Rising: A Deep Dive
+video	-	info	en	www.nytimes.com	312	The New York Times	How the Fed Decides Interest Rates
+video	-	info	en	www.nytimes.com	480	The New York Times	The Case for Rebuilding America's Rail
+video	-	info	en	www.nytimes.com	612		Inside the Battle for Control of the Arctic
+video	-	info	en	www.nytimes.com	0	The New York Times	Visual Investigation: What Happened at the Border
+video	-	info	en	www.nytimes.com	395	The New York Times	The Daily Video: The Future of Work After AI
+video	-	info	en	www.nytimes.com	540	The New York Times	How Cities Are Fighting Extreme Heat
+video	-	info	en	www.nytimes.com	0	The New York Times	Opinion | The Truth About Social Media and Teen Mental Health
+video	-	info	en	www.nytimes.com	372	The New York Times	Why Food Prices Keep Rising: Explained
+video	-	info	en	www.bbc.co.uk	420	BBC News	Cost of living: How are families coping this winter?
+video	-	info	en	www.bbc.co.uk	264	BBC News	Explained: What is the UK Spending Review?
+video	-	info	en	www.bbc.co.uk	1750	BBC Two	The Secret Life of the Zoo: Behind the Scenes
+video	-	info	en	www.bbc.co.uk	2940	BBC Four	Horizon: The Hunt for the Next Pandemic
+video	-	info	en	www.bbc.co.uk	3280	BBC Two	Dr Michael Mosley: Trust Me, I'm a Doctor - Sleep Special
+video	-	info	en	www.bbc.co.uk	2820		Timeshift: The Story of the Railway
+video	-	info	en	www.bbc.co.uk	0	BBC Weather	UK Weather Forecast: Storm Warning Explained
+video	-	info	en	www.bbc.co.uk	1280	BBC Ideas	Why Do We Sleep? The Science of Rest
+video	-	info	en	www.bbc.co.uk	2640	BBC Studios	The Planets: Mars - A Documentary with Brian Cox
+video	-	info	en	www.bbc.co.uk	3300	BBC Two	Wonders of the Universe: Destiny
+video	-	info	en	www.youtube.com	2890	National Geographic	Inside the World's Largest Cave: Documentary
+video	-	info	en	www.youtube.com	0	National Geographic	Secrets of the Great Pyramid | Full Documentary
+video	-	info	en	www.youtube.com	1710	National Geographic	How Do Volcanoes Erupt? Explained
+video	-	info	en	www.youtube.com	0	Smithsonian Channel	Secrets of the Titanic: Full Episode
+video	-	info	en	www.youtube.com	3420	Netflix Documentary	Our Planet: One Planet | Full Documentary
+video	-	info	en	www.youtube.com	2822		How Did Dinosaurs Actually Die Out?
+video	-	info	en	www.youtube.com	1480	PBS Terra	Why Is the Ocean Salty?
+video	-	info	en	www.youtube.com	1260	PBS Digital Studios	How Does the Immune System Remember? 
+video	-	info	en	www.youtube.com	2740	Journeyman Pictures	Documentary: Inside China's Social Credit System
+video	-	info	en	www.youtube.com	3420	Real Stories	The Hidden Life of Honey Bees | Full Documentary
+video	-	info	en	www.youtube.com	3030	Documentary Heaven	The Century of the Self: Happiness Machines
+video	-	info	en	www.youtube.com	1210	Insider	How a Penny Is Made at the U.S. Mint
+video	-	info	en	www.youtube.com	442	Business Insider	How Amazon's Warehouse Robots Work
+video	-	info	en	www.youtube.com	1140	Insider Tech	Inside Foxconn's iPhone Factory
+video	-	info	en	www.youtube.com	1062	Mighty	How Airplane Engines Are Made
+video	-	info	en	www.youtube.com	1860	Veritasium	How Quantum Computers Break The Internet... Starting Now
+video	-	info	en	www.youtube.com	2240	GitHub	GitHub Universe 2024: Keynote
+video	-	info	en	www.youtube.com	2100	AWS Events	AWS re:Invent 2024 - Keynote with CEO Matt Garman
+video	-	info	en	www.youtube.com	432	Notion	Notion 101: Getting Started in 7 Minutes
+video	-	info	en	www.youtube.com	912	Figma	Figma Config 2024: What's New in Figma Design
+video	-	info	en	www.youtube.com	387	Shopify	Shopify Tutorial for Beginners 2025: Set Up Your Store
+video	-	info	en	www.youtube.com	0	Canva	Canva Tutorial for Beginners: Design Anything in Minutes
+video	-	info	en	www.youtube.com	870	Adobe Photoshop	Photoshop for Beginners: Layers Explained
+video	-	info	en	www.youtube.com	3010	Blender Guru	Blender Tutorial for Complete Beginners - Part 1
+video	-	info	en	www.youtube.com	1860	Blender Guru	How to Make a Donut in Blender: Beginner Tutorial
+video	-	info	en	www.youtube.com	1230	Peter McKinnon	How to Edit Photos in Lightroom Like a Pro
+video	-	info	en	www.youtube.com	930	Premiere Gal	Premiere Pro Tutorial for Beginners 2025
+video	-	info	en	www.youtube.com	1180	DaVinci Resolve	Color Grading Basics in DaVinci Resolve 19

@@ -1,0 +1,172 @@
+{
+ "dev": {
+  "n": 401,
+  "type_acc": 0.9750623441396509,
+  "type_coverage": 0.9975062344139651,
+  "type_acc_answered": 0.9775,
+  "music_n": 223,
+  "genre_coverage": 0.9730941704035875,
+  "genre_acc_answered": 0.967741935483871,
+  "genre_acc_all": 0.9417040358744395,
+  "video_n": 95,
+  "vclass_coverage": 0.9789473684210527,
+  "vclass_acc_answered": 0.967741935483871,
+  "wrong_rate": 0.04738154613466334,
+  "generic_rate": 0.007481296758104738,
+  "genre_via": {
+   "table_ok": 177,
+   "model_bad": 5,
+   "model_ok": 33,
+   "table_bad": 2
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    30,
+    0.97,
+    0.97
+   ],
+   "western-pop": [
+    34,
+    0.97,
+    0.97
+   ],
+   "jpop": [
+    26,
+    1.0,
+    0.96
+   ],
+   "anime": [
+    28,
+    1.0,
+    1.0
+   ],
+   "cpop": [
+    38,
+    1.0,
+    0.92
+   ],
+   "electronic": [
+    23,
+    0.87,
+    1.0
+   ],
+   "lofi": [
+    11,
+    0.91,
+    1.0
+   ],
+   "classical": [
+    10,
+    1.0,
+    1.0
+   ],
+   "hiphop": [
+    12,
+    1.0,
+    0.92
+   ],
+   "other": [
+    11,
+    1.0,
+    1.0
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 0.988,
+   "ja": 0.97,
+   "en": 0.971,
+   "xx": 1.0
+  }
+ },
+ "test": {
+  "n": 562,
+  "type_acc": 0.9750889679715302,
+  "type_coverage": 0.998220640569395,
+  "type_acc_answered": 0.9768270944741533,
+  "music_n": 309,
+  "genre_coverage": 0.9870550161812298,
+  "genre_acc_answered": 0.9672131147540983,
+  "genre_acc_all": 0.9546925566343042,
+  "video_n": 144,
+  "vclass_coverage": 0.9652777777777778,
+  "vclass_acc_answered": 0.9496402877697842,
+  "wrong_rate": 0.05338078291814947,
+  "generic_rate": 0.0035587188612099642,
+  "genre_via": {
+   "table_ok": 237,
+   "model_ok": 58,
+   "model_bad": 7,
+   "table_bad": 3
+  },
+  "per_genre(n,cov,acc)": {
+   "rock": [
+    32,
+    0.97,
+    1.0
+   ],
+   "western-pop": [
+    36,
+    1.0,
+    0.94
+   ],
+   "jpop": [
+    33,
+    1.0,
+    0.88
+   ],
+   "anime": [
+    36,
+    1.0,
+    0.97
+   ],
+   "cpop": [
+    40,
+    1.0,
+    0.95
+   ],
+   "electronic": [
+    24,
+    1.0,
+    0.96
+   ],
+   "lofi": [
+    25,
+    0.92,
+    1.0
+   ],
+   "classical": [
+    22,
+    1.0,
+    1.0
+   ],
+   "hiphop": [
+    37,
+    1.0,
+    1.0
+   ],
+   "other": [
+    24,
+    0.96,
+    1.0
+   ]
+  },
+  "type_acc_by_lang": {
+   "zh": 0.958,
+   "ja": 0.971,
+   "en": 0.983,
+   "xx": 1.0
+  }
+ },
+ "config": {
+  "thresholds": {
+   "type": 0.4,
+   "genre": 0.3,
+   "vclass": 0.5
+  },
+  "artistBonus": {
+   "artist": 2,
+   "title": 0
+  }
+ },
+ "model_bytes": 2097256
+}
