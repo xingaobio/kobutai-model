@@ -1,0 +1,27 @@
+round,experiment,artist_bonus,synthetic_type,synthetic_genre,synthetic_vclass,real_type,real_genre,real_vclass,note
+3,all data (Apple charts included),1,0.989,0.951,0.962,0.950,0.761,0.783,no thresholds; synthetic = val dev+test; real = real dev+test
+3,all data (Apple charts included),2,0.989,0.951,0.962,0.950,0.778,0.783,
+3,all data (Apple charts included),3,0.989,0.947,0.962,0.950,0.786,0.783,
+3,without Apple chart songs,1,0.991,0.953,0.967,0.939,0.739,0.783,
+3,without Apple chart songs,2,0.991,0.959,0.967,0.939,0.753,0.783,
+3,without Apple chart songs,3,0.991,0.959,0.967,0.939,0.761,0.783,
+3,without Apple chart artists,1,0.989,0.959,0.962,0.950,0.750,0.783,
+3,without Apple chart artists,2,0.989,0.966,0.962,0.950,0.764,0.783,
+3,without Apple chart artists,3,0.989,0.968,0.962,0.950,0.783,0.783,
+3,without any Apple chart data,1,0.991,0.964,0.967,0.939,0.722,0.783,
+3,without any Apple chart data,2,0.991,0.968,0.967,0.939,0.750,0.783,
+3,without any Apple chart data,3,0.991,0.968,0.967,0.939,0.761,0.783,
+4,+ trending-style video/live titles,2,0.978,0.925,0.967,0.962,0.781,0.868,
+4,+ trending-style video/live titles,3,0.978,0.921,0.967,0.962,0.786,0.868,
+4,hash table doubled to 2^18 (4.2 MB),2,0.972,0.915,0.954,0.965,0.806,0.875,not adopted: gain within noise for 2x size
+4,hash table doubled to 2^18 (4.2 MB),3,0.972,0.914,0.954,0.965,0.808,0.875,
+4,curated artist lists overrule chart genres (adopted),2,0.981,0.942,0.967,0.964,0.819,0.862,
+4,curated artist lists overrule chart genres (adopted),3,0.981,0.942,0.967,0.964,0.828,0.862,
+5,+ memes / idols / anime data (adopted),2,0.980,0.940,0.958,0.970,0.831,0.875,
+5,+ memes / idols / anime data (adopted),3,0.980,0.938,0.958,0.970,0.833,0.875,
+6,+ 8982 teacher rows + 286 teacher corrections,2,0.978,0.942,0.967,0.954,0.814,0.796,not adopted
+6,+ 8982 teacher rows + 286 teacher corrections,3,0.978,0.940,0.967,0.954,0.819,0.796,
+6,+ 4030 balanced teacher rows + corrections,2,0.978,0.947,0.967,0.962,0.831,0.796,not adopted
+6,+ 4030 balanced teacher rows + corrections,3,0.978,0.945,0.967,0.962,0.833,0.796,
+6,teacher rows only (no corrections),3,0.978,0.945,0.962,0.970,0.831,0.849,not adopted
+6,teacher corrections only (no new rows),3,0.978,0.936,0.962,0.965,0.825,0.829,not adopted

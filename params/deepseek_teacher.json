@@ -1,0 +1,27 @@
+{
+ "teacher": "deepseek-ai/DeepSeek-V4.1-Flash, self-hosted on the user's Modal endpoint (OpenAI-compatible chat completions)",
+ "settings": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "response_format": "json_object",
+  "batch": "20 titles per request",
+  "parallel_requests": 12
+ },
+ "prompt": "system prompt = spec/LABELING.md label definitions + meme/idol/anime rules; asks for type, genre, vclass, confidence 0-1 and the named entity",
+ "inputs": "title, artist/channel, site, duration only (the same information the small model sees)",
+ "labelled": {
+  "unlabelled_real_titles": 16299,
+  "existing_training_rows_audited": 21535,
+  "evaluation_rows": 1960
+ },
+ "tokens_used": "at least 2.37 million (sum of the runs that printed a total: 1.55M pool + 0.65M extra pool + 0.17M evaluation sets; the label audit did not print its total)",
+ "distillation_filters": {
+  "keep_confidence_min": 0.8,
+  "max_rows_per_music_genre": 600,
+  "max_podcast_rows": 1500,
+  "override_when_confidence_min": 0.9,
+  "override_rule": "drop disputed hand-written rows; relabel rule-labelled chart rows"
+ },
+ "hybrid_rule": "hand the item to the teacher when the small model's combined confidence (type x genre/vclass) is below 0.9",
+ "credential_handling": "kept in a temporary file outside the project, passed via environment variable at run time; not in any project file or commit"
+}

@@ -1,0 +1,45 @@
+file,source,rows,music,video,live,podcast
+t01_music_zh.tsv,"LLM-written (Sonnet sub-agents, from memory)",639,639,0,0,0
+t02_music_ja.tsv,"LLM-written (Sonnet sub-agents, from memory)",646,646,0,0,0
+t03_music_en.tsv,"LLM-written (Sonnet sub-agents, from memory)",653,653,0,0,0
+t04_music_classical_lofi_other.tsv,"LLM-written (Sonnet sub-agents, from memory)",596,596,0,0,0
+t05_youtube_music.tsv,"LLM-written (Sonnet sub-agents, from memory)",683,683,0,0,0
+t06_bilibili_music.tsv,"LLM-written (Sonnet sub-agents, from memory)",677,677,0,0,0
+t07_video_ent_en.tsv,"LLM-written (Sonnet sub-agents, from memory)",620,0,620,0,0
+t08_video_ent_zhja.tsv,"LLM-written (Sonnet sub-agents, from memory)",650,0,650,0,0
+t09_video_info_en.tsv,"LLM-written (Sonnet sub-agents, from memory)",627,0,627,0,0
+t10_video_info_zhja.tsv,"LLM-written (Sonnet sub-agents, from memory)",655,0,655,0,0
+t11_live.tsv,"LLM-written (Sonnet sub-agents, from memory)",601,89,0,512,0
+t12_podcast.tsv,"LLM-written (Sonnet sub-agents, from memory)",626,0,0,0,626
+t13_music_hardcases.tsv,"LLM-written (Sonnet sub-agents, targeted hard cases)",550,550,0,0,0
+t14_nonmusic_hardcases.tsv,"LLM-written (Sonnet sub-agents, targeted hard cases)",611,0,303,139,169
+t15_video_trending_en.tsv,"LLM-written (Sonnet sub-agents, targeted hard cases)",600,0,600,0,0
+t16_video_trending_zhja.tsv,"LLM-written (Sonnet sub-agents, targeted hard cases)",750,0,600,150,0
+t20_apple_charts.tsv,Apple public genre charts (rule-labelled),8290,8290,0,0,0
+t21_bilibili_popular.tsv,Bilibili popular list (partition-labelled),361,0,361,0,0
+t22_youtube_trending.tsv,YouTube trending titles (LLM-labelled),214,104,101,9,0
+t30_memes_zh_en.tsv,LLM-written (memes / idols / anime),814,188,626,0,0
+t31_memes_ja.tsv,LLM-written (memes / idols / anime),606,193,413,0,0
+t32_jp_idols.tsv,LLM-written (memes / idols / anime),717,407,161,92,57
+t33_anime.tsv,LLM-written (memes / idols / anime),907,387,420,40,60
+artists/a01_chinese.tsv,artist list,568,,,,
+artists/a02_japanese.tsv,artist list,649,,,,
+artists/a03_anime.tsv,artist list,587,,,,
+artists/a04_westernpop_kpop.tsv,artist list,679,,,,
+artists/a05_rock.tsv,artist list,696,,,,
+artists/a06_hiphop.tsv,artist list,621,,,,
+artists/a07_electronic_lofi.tsv,artist list,543,,,,
+artists/a08_classical_other.tsv,artist list,601,,,,
+artists/b01_eastasia_midtail.tsv,artist list,581,,,,
+artists/b02_west_pop_rock_midtail.tsv,artist list,715,,,,
+artists/b03_hiphop_electronic_misc_midtail.tsv,artist list,753,,,,
+artists/c01_apple_charts.tsv,artist list,14223,,,,
+artists/d01_jp_idols.tsv,artist list,212,,,,
+artists/d02_anisong_more.tsv,artist list,352,,,,
+val/v_en.tsv,"evaluation: LLM-written, independent",320,176,80,26,38
+val/v_ja.tsv,"evaluation: LLM-written, independent",324,181,79,26,38
+val/v_zh.tsv,"evaluation: LLM-written, independent",319,175,80,26,38
+real/r_en.tsv,evaluation: scraped live chart / trending pages 2026-10-13,219,129,50,15,25
+real/r_ja.tsv,evaluation: scraped live chart / trending pages 2026-10-13,212,115,52,18,27
+real/r_zh.tsv,evaluation: scraped live chart / trending pages 2026-10-13,206,116,50,15,25
+focus/f_meme_idol_anime.tsv,evaluation: memes/idols/anime,360,129,197,14,20

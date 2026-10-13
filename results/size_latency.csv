@@ -1,0 +1,6 @@
+model,file_size_mb,compressed_mb,ms_per_title,measured_on,note
+linear hashed n-gram (shipped),2.10,1.20,0.85-0.97,Node 22 on 2-core cloud CPU,plus artist table 0.48 MB (0.19 MB gzip)
+linear hashed n-gram 2^18 buckets,4.19,1.82,,,round 4 test; not adopted
+mMiniLMv2 L6-H384 fp32 ONNX,428,,,,round 7
+mMiniLMv2 L6-H384 int8 ONNX,107,,6.6,onnxruntime 1.29 on 2-core cloud CPU,int8 lost accuracy: real test fully right 0.799 vs 0.846 fp32, both scored with the shipped artist-bonus settings (unified setting: fp32 0.841)
+DeepSeek V4.1 Flash (self-hosted on Modal),server,,~1000 per request of 20 titles,user's Modal endpoint,about 0.05 s per title when batched; network round trip included

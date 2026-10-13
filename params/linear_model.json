@@ -1,0 +1,44 @@
+{
+ "model": "multinomial logistic regression over hashed sparse features, three heads (type 4, genre 10, video class 2)",
+ "features": {
+  "title_and_artist": "Unicode code-point n-grams n=1..4 with ^/$ boundaries (first 160 code points), ASCII word unigrams and bigrams; tagged per field and also untagged ('x') for shared n>=2",
+  "other": [
+   "source host",
+   "duration bucket (U unknown, L live, a<60s, b<150, c<330, d<600, e<1500, f<3600, g)",
+   "source x duration"
+  ],
+  "normalisation": "NFKD, drop U+0300-036F, ASCII lowercase, whitespace collapse",
+  "hash": "FNV-1a 32-bit over UTF-8, masked to 2^17 buckets",
+  "feature_scaling": "binary, divided by sqrt(number of active features)"
+ },
+ "training": {
+  "solver": "scikit-learn 1.9.1 LogisticRegression (lbfgs)",
+  "C": 30.0,
+  "max_iter": 300,
+  "tol": 0.0001,
+  "class_weight": "balanced",
+  "augmentation": "one extra copy per row: artist blanked p=0.35, duration set unknown p=0.5, source blanked p=0.15 (rows kept only if changed)",
+  "artist_rows": "every artist-table key added twice to the genre head (artist-only view and title-only view)",
+  "seed": 7,
+  "train_time_s": "about 170-230 on 2 CPU cores"
+ },
+ "quantisation": "per-head symmetric int8, scale = max|W|/127; biases float32",
+ "file_format": "see kobutai-classifier/spec/SPEC.md section 4",
+ "pipeline": {
+  "site_rules": "music sites -> music, podcast sites -> podcast, film/course sites -> video only, live duration -> music or live",
+  "artist_table_bonus": {
+   "artist_field_hit": 3,
+   "title_segment_hit": 3
+  },
+  "thresholds_shipped": {
+   "type": 0.4,
+   "genre": 0.3,
+   "vclass": 0.5
+  }
+ },
+ "size": {
+  "weights_bytes": 2097256,
+  "buckets": 131072,
+  "classes_total": 16
+ }
+}

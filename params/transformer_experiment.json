@@ -1,0 +1,18 @@
+{
+ "base_model": "nreimers/mMiniLMv2-L6-H384-distilled-from-XLMR-Large (6 layers, hidden 384, 12 heads, XLM-R tokenizer, 250,002 tokens)",
+ "total_params": 107000080,
+ "trainable_params": 10999312,
+ "frozen": "word-embedding table (96M params)",
+ "input": "'{title} | {artist} | {source} | {duration bucket word}', max 64 tokens",
+ "pooling": "mean over tokens, dropout 0.1, three linear heads",
+ "optimiser": "AdamW lr 6e-5, weight decay 0.01, 200 warm-up steps then linear decay, grad clip 1.0",
+ "batch_size": 32,
+ "epochs": 3,
+ "steps": 2850,
+ "loss": "sum of three masked cross-entropies",
+ "augmentation": "artist blanked p=0.2, duration unknown p=0.25 (re-drawn each epoch)",
+ "data": "same training rows as the linear model (21,377 after guards) + 9,000 artist-name rows for the genre head = 30,377 examples",
+ "hardware": "2 CPU cores, no GPU; 37 minutes",
+ "framework": "PyTorch 2.14.1+cpu, transformers 5.19.0, onnxruntime 1.29.0",
+ "export": "ONNX opset 17; dynamic int8 quantisation"
+}

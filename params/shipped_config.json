@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "labels": {
+    "type": [
+      "music",
+      "video",
+      "live",
+      "podcast"
+    ],
+    "genre": [
+      "rock",
+      "western-pop",
+      "jpop",
+      "anime",
+      "cpop",
+      "electronic",
+      "lofi",
+      "classical",
+      "hiphop",
+      "other"
+    ],
+    "vclass": [
+      "ent",
+      "info"
+    ]
+  },
+  "thresholds": {
+    "type": 0.4,
+    "genre": 0.3,
+    "vclass": 0.5
+  },
+  "artistBonus": {
+    "artist": 3,
+    "title": 3
+  },
+  "rules": {
+    "musicSources": [
+      "music.youtube.com",
+      "music.apple.com",
+      "y.qq.com",
+      "kugou.com",
+      "kuwo.cn",
+      "tidal.com",
+      "deezer.com",
+      "bandcamp.com",
+      "music.amazon.com",
+      "music.amazon.co.jp",
+      "music.amazon.co.uk",
+      "music.line.me",
+      "pandora.com",
+      "soundcloud.com",
+      "listen.tidal.com",
+      "music.migu.cn"
+    ],
+    "podcastSources": [
+      "podcasts.apple.com",
+      "xiaoyuzhoufm.com",
+      "ximalaya.com",
+      "overcast.fm",
+      "pca.st",
+      "lizhi.fm",
+      "qingting.fm",
+      "voicy.jp",
+      "stand.fm",
+      "radiko.jp",
+      "audible.com",
+      "audible.co.jp",
+      "audible.co.uk",
+      "podcasts.google.com",
+      "castbox.fm",
+      "pocketcasts.com"
+    ],
+    "videoSources": [
+      "netflix.com",
+      "disneyplus.com",
+      "primevideo.com",
+      "crunchyroll.com",
+      "tver.jp",
+      "iqiyi.com",
+      "youku.com",
+      "mgtv.com",
+      "coursera.org",
+      "udemy.com",
+      "khanacademy.org",
+      "ted.com",
+      "hulu.com",
+      "max.com",
+      "icourse163.org",
+      "nebula.tv"
+    ]
+  },
+  "sourceAliases": {
+    "spotify.exe": "open.spotify.com",
+    "com.spotify.client": "open.spotify.com",
+    "spotify": "open.spotify.com",
+    "com.apple.music": "music.apple.com",
+    "applemusic.exe": "music.apple.com",
+    "itunes.exe": "music.apple.com",
+    "cloudmusic.exe": "music.163.com",
+    "com.netease.163music": "music.163.com",
+    "qqmusic.exe": "y.qq.com",
+    "com.tencent.qqmusicmac": "y.qq.com",
+    "com.apple.podcasts": "podcasts.apple.com"
+  }
+}

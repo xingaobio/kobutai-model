@@ -1,0 +1,24 @@
+file,confident_disagreements,rows,share
+t01_music_zh.tsv,2,526,0.004
+t02_music_ja.tsv,9,530,0.017
+t03_music_en.tsv,13,561,0.023
+t04_music_classical_lofi_other.tsv,0,553,0.0
+t05_youtube_music.tsv,8,639,0.013
+t06_bilibili_music.tsv,5,672,0.007
+t07_video_ent_en.tsv,15,617,0.024
+t08_video_ent_zhja.tsv,2,650,0.003
+t09_video_info_en.tsv,1,619,0.002
+t10_video_info_zhja.tsv,0,655,0.0
+t11_live.tsv,0,598,0.0
+t12_podcast.tsv,0,625,0.0
+t13_music_hardcases.tsv,0,543,0.0
+t14_nonmusic_hardcases.tsv,0,610,0.0
+t15_video_trending_en.tsv,9,596,0.015
+t16_video_trending_zhja.tsv,0,742,0.0
+t21_bilibili_popular.tsv,0,361,0.0
+t22_youtube_trending.tsv,2,214,0.009
+t30_memes_zh_en.tsv,5,787,0.006
+t31_memes_ja.tsv,6,576,0.010
+t32_jp_idols.tsv,10,686,0.015
+t33_anime.tsv,2,885,0.002
+t20_apple_charts.tsv (rule-labelled),197,8290,0.024
