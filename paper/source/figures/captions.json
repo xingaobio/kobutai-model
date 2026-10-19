@@ -1,0 +1,7 @@
+{
+ "fig_pipeline_overview": "The classification pipeline. Everything left of the dashed branch runs on the device; items whose combined confidence falls below the threshold tau can optionally be handed to a server-side large language model that sees the same four fields.",
+ "fig_size_vs_accuracy_real_test": "Fully-right accuracy on the 383-item real test set with 95% Wilson intervals; model size in parentheses. A 200-times larger multilingual encoder does not beat the 2.1 MB linear model; only access to a large language model closes the gap.",
+ "fig_hybrid_handoff_curve": "Real-test accuracy when items whose combined confidence is below tau are handed to the large language model, against the share handed off. The leftmost point is the shipped model alone with its thresholds, where abstentions count as errors (84.1%); the dotted line is the same model always answering (84.9%). Handing off about one third of items matches or exceeds sending everything.",
+ "fig_per_genre_accuracy_real_test": "Per-genre accuracy on real-test music items, ordered by the gap between the large language model and the shipped linear model. The largest gaps (other, lofi, hiphop, anime) are genres that require recognising the specific artist or song.",
+ "fig_synthetic_vs_real_gap": "Genre accuracy when answered on the LLM-written synthetic test split versus the scraped real test set, by development round. The synthetic set overstated real-world genre accuracy by 10.5 to 15.3 points."
+}

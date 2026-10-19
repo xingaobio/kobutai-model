@@ -1,0 +1,309 @@
+\begin{thebibliography}{42}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdaoui et~al.(2020)Abdaoui, Pradel, and Sigel]{abdaoui2020load}
+Amine Abdaoui, Camille Pradel, and Grégoire Sigel.
+\newblock {Load What You Need: Smaller Versions of Mutililingual BERT}.
+\newblock In \emph{Proceedings of SustaiNLP: Workshop on Simple and Efficient
+  Natural Language Processing}, 2020.
+\newblock \doi{10.18653/v1/2020.sustainlp-1.16}.
+
+\bibitem[Bojanowski et~al.(2017)Bojanowski, Grave, Joulin, and
+  Mikolov]{bojanowski2017enriching}
+P.~Bojanowski, E.~Grave, A.~Joulin, and Tomas Mikolov.
+\newblock {Enriching Word Vectors with Subword Information}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  2017.
+\newblock \doi{10.1162/tacl_a_00051}.
+
+\bibitem[Chen et~al.(2023)Chen, Zaharia, and Zou]{chen2023frugalgpt}
+Lingjiao Chen, M.~Zaharia, and James~Y. Zou.
+\newblock {FrugalGPT: How to Use Large Language Models While Reducing Cost and
+  Improving Performance}.
+\newblock arXiv preprint arXiv:2305.05176, 2023.
+
+\bibitem[Chow(1970)]{chow1970optimum}
+C.-K. Chow.
+\newblock {On optimum recognition error and reject tradeoff}.
+\newblock \emph{IEEE Transactions on Information Theory}, 1970.
+\newblock \doi{10.1109/tit.1970.1054406}.
+
+\bibitem[Conneau et~al.(2020)Conneau, Khandelwal, Goyal, Chaudhary, Wenzek,
+  Guzmán, Grave, Ott, Zettlemoyer, and Stoyanov]{conneau2020unsupervised}
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+  Wenzek, Francisco Guzmán, E.~Grave, Myle Ott, Luke Zettlemoyer, and Veselin
+  Stoyanov.
+\newblock {Unsupervised Cross-lingual Representation Learning at Scale}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, 2020.
+\newblock \doi{10.18653/v1/2020.acl-main.747}.
+
+\bibitem[{DeepSeek-AI} et~al.(2024)]{deepseekai2024deepseekv3}
+{DeepSeek-AI} et~al.
+\newblock {DeepSeek-V3 Technical Report}.
+\newblock arXiv preprint arXiv:2412.19437, 2024.
+
+\bibitem[Ding et~al.(2024)Ding, Mallick, Wang, Sim, Mukherjee, Rühle,
+  Lakshmanan, and Awadallah]{ding2024hybrid}
+Dujian Ding, Ankur Mallick, Chi Wang, Robert Sim, Subhabrata Mukherjee, Victor
+  Rühle, L.~Lakshmanan, and A.~Awadallah.
+\newblock {Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing}.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+\newblock \doi{10.48550/arXiv.2404.14618}.
+
+\bibitem[Fell and Sporleder(2014)]{fell2014lyrics}
+Michael Fell and C.~Sporleder.
+\newblock {Lyrics-based Analysis and Classification of Music}.
+\newblock In \emph{Proceedings of the International Conference on Computational
+  Linguistics (COLING)}, 2014.
+
+\bibitem[Filippova and Hall(2011)]{filippova2011improved}
+Katja Filippova and Keith~B. Hall.
+\newblock {Improved video categorization from text metadata and user comments}.
+\newblock In \emph{Proceedings of the 34th international ACM SIGIR conference
+  on Research and development in Information Retrieval}, 2011.
+\newblock \doi{10.1145/2009916.2010028}.
+
+\bibitem[Geifman and El-Yaniv(2017)]{geifman2017selective}
+Yonatan Geifman and Ran El-Yaniv.
+\newblock {Selective Classification for Deep Neural Networks}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2017.
+
+\bibitem[Gholami et~al.(2021)Gholami, Kim, Dong, Yao, Mahoney, and
+  Keutzer]{gholami2021survey}
+A.~Gholami, Sehoon Kim, Zhen Dong, Z.~Yao, Michael~W. Mahoney, and K.~Keutzer.
+\newblock {A Survey of Quantization Methods for Efficient Neural Network
+  Inference}.
+\newblock arXiv preprint arXiv:2103.13630, 2021.
+
+\bibitem[Gilardi et~al.(2023)Gilardi, Alizadeh, and Kubli]{gilardi2023chatgpt}
+F.~Gilardi, Meysam Alizadeh, and M.~Kubli.
+\newblock {ChatGPT outperforms crowd workers for text-annotation tasks}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 2023.
+\newblock \doi{10.1073/pnas.2305016120}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock {On Calibration of Modern Neural Networks}.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML)}, 2017.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distilling}
+Geoffrey~E. Hinton, O.~Vinyals, and Jeffrey Dean.
+\newblock {Distilling the Knowledge in a Neural Network}.
+\newblock arXiv preprint arXiv:1503.02531, 2015.
+
+\bibitem[Hsieh et~al.(2023)Hsieh, Li, Yeh, Nakhost, Fujii, Ratner, Krishna,
+  Lee, and Pfister]{hsieh2023distilling}
+Cheng-Yu Hsieh, Chun-Liang Li, Chih-Kuan Yeh, Hootan Nakhost, Yasuhisa Fujii,
+  Alexander~J. Ratner, Ranjay Krishna, Chen-Yu Lee, and Tomas Pfister.
+\newblock {Distilling Step-by-Step! Outperforming Larger Language Models with
+  Less Training Data and Smaller Model Sizes}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2023}, 2023.
+\newblock \doi{10.18653/v1/2023.findings-acl.507}.
+
+\bibitem[Joulin et~al.(2016)Joulin, Grave, Bojanowski, Douze, Jégou, and
+  Mikolov]{joulin2016fasttextzip}
+A.~Joulin, E.~Grave, P.~Bojanowski, Matthijs Douze, H.~Jégou, and Tomas
+  Mikolov.
+\newblock {FastText.zip: Compressing text classification models}.
+\newblock arXiv preprint arXiv:1612.03651, 2016.
+
+\bibitem[Joulin et~al.(2017)Joulin, Grave, Bojanowski, and
+  Mikolov]{joulin2017bag}
+A.~Joulin, E.~Grave, P.~Bojanowski, and Tomas Mikolov.
+\newblock {Bag of Tricks for Efficient Text Classification}.
+\newblock In \emph{Proceedings of the 15th Conference of the European Chapter
+  of the Association for Computational Linguistics: Volume 2, Short Papers},
+  2017.
+\newblock \doi{10.18653/v1/e17-2068}.
+
+\bibitem[Knees et~al.(2004)Knees, Pampalk, and Widmer]{knees2004artist}
+Peter Knees, E.~Pampalk, and G.~Widmer.
+\newblock {Artist Classification with Web-Based Data}.
+\newblock In \emph{Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, 2004.
+
+\bibitem[Lamere(2008)]{lamere2008social}
+Paul Lamere.
+\newblock {Social Tagging and Music Information Retrieval}.
+\newblock \emph{Journal of New Music Research}, 2008.
+\newblock \doi{10.1080/09298210802479284}.
+
+\bibitem[Li et~al.(2023)Li, Zhu, Lu, and Yin]{li2023synthetic}
+Zhuo-Yan Li, Hangxiao Zhu, Zhuo-Ran Lu, and Ming Yin.
+\newblock {Synthetic Data Generation with Large Language Models for Text
+  Classification: Potential and Limitations}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.647}.
+
+\bibitem[Liu and Nocedal(1989)]{liu1989limited}
+Dong~C. Liu and J.~Nocedal.
+\newblock {On the limited memory BFGS method for large scale optimization}.
+\newblock \emph{Mathematical Programming}, 1989.
+\newblock \doi{10.1007/bf01589116}.
+
+\bibitem[Long et~al.(2024)Long, Wang, Xiao, Zhao, Ding, Chen, and
+  Wang]{long2024llmsdriven}
+Lin Long, Rui Wang, Rui Xiao, Jun-Bo Zhao, Xiao Ding, Gang Chen, and Hao-Bo
+  Wang.
+\newblock {On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation:
+  A Survey}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, 2024.
+\newblock \doi{10.18653/v1/2024.findings-acl.658}.
+
+\bibitem[Loshchilov and Hutter(2017)]{loshchilov2017decoupled}
+Ilya Loshchilov and Frank Hutter.
+\newblock {Decoupled Weight Decay Regularization}.
+\newblock arXiv preprint arXiv:1711.05101, 2017.
+
+\bibitem[Mayer et~al.(2008)Mayer, Neumayer, and Rauber]{mayer2008rhyme}
+Rudolf Mayer, R.~Neumayer, and A.~Rauber.
+\newblock {Rhyme and Style Features for Musical Genre Classification by Song
+  Lyrics}.
+\newblock In \emph{Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, 2008.
+
+\bibitem[Mcnemar(1947)]{mcnemar1947note}
+Q.~Mcnemar.
+\newblock {Note on the sampling error of the difference between correlated
+  proportions or percentages}.
+\newblock \emph{Psychometrika}, 1947.
+\newblock \doi{10.1007/bf02295996}.
+
+\bibitem[Oramas et~al.(2017)Oramas, Nieto, Barbieri, and
+  Serra]{oramas2017multilabel}
+Sergio Oramas, Oriol Nieto, Francesco Barbieri, and Xavier Serra.
+\newblock {Multi-Label Music Genre Classification from Audio, Text and Images
+  Using Deep Features}.
+\newblock In \emph{Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, 2017.
+\newblock \doi{10.5072/ZENODO.243382}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Louppe, Prettenhofer, Weiss, Weiss, VanderPlas,
+  et~al.]{pedregosa2011scikitlearn}
+Fabian Pedregosa, G.~Varoquaux, Alexandre Gramfort, V.~Michel, B.~Thirion,
+  O.~Grisel, M.~Blondel, Gilles Louppe, P.~Prettenhofer, R.~Weiss, Ron~J.
+  Weiss, J.~VanderPlas, et~al.
+\newblock {Scikit-learn: Machine Learning in Python}.
+\newblock \emph{Journal of Machine Learning Research}, 2011.
+\newblock \doi{10.5555/1953048.2078195}.
+
+\bibitem[Peng et~al.(2003)Peng, Schuurmans, and Wang]{peng2003language}
+Fu-Chun Peng, Dale Schuurmans, and Shaojun Wang.
+\newblock {Language and Task Independent Text Categorization with Simple
+  Language Models}.
+\newblock In \emph{Proceedings of the 2003 Conference of the North American
+  Chapter of the Association for Computational Linguistics on Human Language
+  Technology - NAACL '03}, 2003.
+\newblock \doi{10.3115/1073445.1073470}.
+
+\bibitem[Sanh et~al.(2019)Sanh, Debut, Chaumond, and Wolf]{sanh2019distilbert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock {DistilBERT, a distilled version of BERT: smaller, faster, cheaper
+  and lighter}.
+\newblock arXiv preprint arXiv:1910.01108, 2019.
+
+\bibitem[Schedl et~al.(2014)Schedl, Gómez, and Urbano]{schedl2014music}
+M.~Schedl, E.~Gómez, and Julián Urbano.
+\newblock {Music Information Retrieval: Recent Developments and Applications}.
+\newblock \emph{Foundations and Trends in Information Retrieval}, 2014.
+\newblock \doi{10.1561/1500000042}.
+
+\bibitem[Sun et~al.(2023)Sun, Li, Li, Wu, Guo, Zhang, and Wang]{sun2023text}
+Xiaofei Sun, Xiaoya Li, Jiwei Li, Fei Wu, Shangwei Guo, Tian-Wei Zhang, and
+  Guoyin Wang.
+\newblock {Text Classification via Large Language Models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, 2023.
+\newblock \doi{10.18653/v1/2023.findings-emnlp.603}.
+
+\bibitem[Tang et~al.(2019)Tang, Lu, Liu, Mou, Vechtomova, and
+  Lin]{tang2019distilling}
+Raphael Tang, Yao Lu, Linqing Liu, Li-Li Mou, Olga Vechtomova, and Jimmy Lin.
+\newblock {Distilling Task-Specific Knowledge from BERT into Simple Neural
+  Networks}.
+\newblock arXiv preprint arXiv:1903.12136, 2019.
+
+\bibitem[Tsaptsinos(2017)]{tsaptsinos2017lyrics}
+Alexandros Tsaptsinos.
+\newblock {Lyrics-Based Music Genre Classification Using a Hierarchical
+  Attention Network}.
+\newblock In \emph{Proceedings of the International Society for Music
+  Information Retrieval Conference (ISMIR)}, 2017.
+
+\bibitem[Tzanetakis and Cook(2002)]{tzanetakis2002musical}
+G.~Tzanetakis and P.~Cook.
+\newblock {Musical genre classification of audio signals}.
+\newblock \emph{IEEE Transactions on Speech and Audio Processing}, 2002.
+\newblock \doi{10.1109/tsa.2002.800560}.
+
+\bibitem[Varshney and Baral(2022)]{varshney2022model}
+Neeraj Varshney and Chitta Baral.
+\newblock {Model Cascading: Towards Jointly Improving Efficiency and Accuracy
+  of NLP Systems}.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, 2022.
+\newblock \doi{10.18653/v1/2022.emnlp-main.756}.
+
+\bibitem[Wang et~al.(2021{\natexlab{a}})Wang, Liu, Xu, Zhu, and
+  Zeng]{wang2021want}
+Shuo-Hang Wang, Yang Liu, Yi-Chong Xu, Chen-Guang Zhu, and Michael Zeng.
+\newblock {Want To Reduce Labeling Cost? GPT-3 Can Help}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2021}, 2021{\natexlab{a}}.
+\newblock \doi{10.18653/v1/2021.findings-emnlp.354}.
+
+\bibitem[Wang and Manning(2012)]{wang2012baselines}
+Sida~I. Wang and Christopher~D. Manning.
+\newblock {Baselines and Bigrams: Simple, Good Sentiment and Topic
+  Classification}.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, 2012.
+
+\bibitem[Wang et~al.(2020)Wang, Wei, Dong, Bao, Yang, and Zhou]{wang2020minilm}
+Wen-Hui Wang, Furu Wei, Li~Dong, Hangbo Bao, Nan Yang, and Ming Zhou.
+\newblock {MiniLM: Deep Self-Attention Distillation for Task-Agnostic
+  Compression of Pre-Trained Transformers}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2020.
+
+\bibitem[Wang et~al.(2021{\natexlab{b}})Wang, Bao, Huang, Dong, and
+  Wei]{wang2021minilmv2}
+Wen-Hui Wang, Hangbo Bao, Shao-Han Huang, Li~Dong, and Furu Wei.
+\newblock {MiniLMv2: Multi-Head Self-Attention Relation Distillation for
+  Compressing Pretrained Transformers}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021}, 2021{\natexlab{b}}.
+\newblock \doi{10.18653/v1/2021.findings-acl.188}.
+
+\bibitem[Weinberger et~al.(2009)Weinberger, Dasgupta, Langford, Smola, and
+  Attenberg]{weinberger2009feature}
+Kilian~Q. Weinberger, A.~Dasgupta, John Langford, Alex Smola, and Josh
+  Attenberg.
+\newblock {Feature hashing for large scale multitask learning}.
+\newblock In \emph{Proceedings of the 26th Annual International Conference on
+  Machine Learning}, 2009.
+\newblock \doi{10.1145/1553374.1553516}.
+
+\bibitem[Wilson(1927)]{wilson1927probable}
+E.~B. Wilson.
+\newblock {Probable Inference, the Law of Succession, and Statistical
+  Inference}.
+\newblock \emph{Journal of the American Statistical Association}, 1927.
+\newblock \doi{10.1080/01621459.1927.10502953}.
+
+\bibitem[Zhang et~al.(2015)Zhang, Zhao, and LeCun]{zhang2015character}
+Xiang Zhang, J.~Zhao, and Yann LeCun.
+\newblock {Character-level Convolutional Networks for Text Classification}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2015.
+
+\end{thebibliography}

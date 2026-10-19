@@ -1,0 +1,151 @@
+{
+  "reviewed_file": "workspace/drafts/paper.tex (build/paper.pdf, 14 pp; main text ends on p. 10)",
+  "summary": "The paper builds a 2.1 MB on-device classifier for media titles in English, Japanese and Chinese. It predicts content type, one of ten music genres and an entertainment/informational label for video, from title, artist, site and duration only. The model is a hashed character n-gram multinomial logistic regression with three int8 heads, deterministic site rules and an updatable artist-to-genre logit bonus. On 383 real chart/trending titles it is fully right on 84.9% (no thresholds), against 95.3% for DeepSeek V4.1 Flash on the same fields. Two negative results follow: pseudo-label distillation from the LLM into the linear model does not help, and a 107M-parameter mMiniLMv2 reaches 84.1%. A confidence-gated hybrid that sends 31.9% of items to the LLM reaches 95.6%. LLM-written synthetic validation overstated real genre accuracy by 10.5-15.3 points. A licence-clean variant without chart data loses 5.0 points (p = 0.0026). The paper reads the residual gap as missing world knowledge rather than missing capacity.",
+  "axis_scores": {
+    "scientific_depth": {
+      "score": 58,
+      "justification": "Statistical hygiene is better than typical for workshop papers: Wilson intervals, exact McNemar tests, a +3-point adoption bar set in advance, and negative results reported honestly. The headline causal claim in the title ('Knowledge, Not Capacity') and abstract ('The remaining errors are knowledge errors') rests on inference: per-genre gaps, a qualitative reading of confusions, and two failed alternatives. No analysis splits errors by whether the artist is known to the table or training data, which would test it directly. The transformer baseline is under-tuned (3 epochs, CPU, frozen embeddings), which weakens the 'capacity does not help' half of the claim. Sec. 6.3 states that the real test split 'was used only for reporting', but the adoption decisions in Sec. 6.1/6.3 used dev+test combined and tau = 0.9 was picked after looking at the test curve. Hard cap 60 applies: the title claim is not directly supported by an experiment."
+    },
+    "technical_execution": {
+      "score": 66,
+      "justification": "The method is specified precisely enough to reimplement (normalisation, feature templates, FNV-1a, Eq. 1 with 1/sqrt(|S|), int8 scaling), and every detail checked matches spec/SPEC.md and train.py. Shared test vectors with a 559/559 TypeScript match are a good engineering practice. Gaps: the shipped artist-bonus values (beta_a = beta_t = 3, per config.json) are never stated; only the unified values (3, 0) are given. The procedure for choosing tau = 0.9 is not described. The augmentation sentence implies the three drops are mutually exclusive, but the code applies them independently. Hybrid latency and cost (about 1 s per 20-title request in the log) are missing, although they matter for a design whose selling point is staying on device."
+    },
+    "logical_flow": {
+      "score": 66,
+      "justification": "The macro-structure works (problem, system, setup, main result, error analysis, negative results), and the reverse outline of Sec. 5-6 reads cleanly. Related Work ends two paragraphs with the paper's own results ('We test both routes directly ... find that neither improves'; 'With a confidence threshold of 0.9, 31.9% ... are handed off'). Sec. 5.1 para 2 and Sec. 6.2 cover the transformer twice. The focus-subset paragraph (Sec. 5.3, 'Targeted data does help') sits in an error-analysis section and argues the opposite direction of the section's thesis without being connected to it. The licence-clean result appears in four places (contributions, Table 2, Sec. 5.2 last sentence, Sec. 6.3)."
+    },
+    "writing_clarity": {
+      "score": 60,
+      "justification": "Sentences are generally precise and free of AI filler vocabulary (no em dashes; 'curated' is used in its technical sense). Headline numbers are repeated heavily: 84.9% appears 8 times, 95.3% 7 times, 95.6% 5 times, 31.9% 4 times, '559 of 559' twice. Several terms are used without definition: MAD video (Sec. 3.1), NFKD, FNV-1a, VTuber, 'store'. The reference model is named in five ways ('the large language model', 'the large model', 'the teacher', 'DeepSeek', 'LLM') in close succession. There are 5.9 semicolons per 1,000 words (checklist threshold 2). 'Genre accuracy stayed within 83.3% to 81.9%' (Sec. 6.1) is awkward. Hard cap 60 applies because of the repetition and undefined acronyms."
+    },
+    "evidence_presentation": {
+      "score": 64,
+      "justification": "Every number in Tables 1-4 matches the experimental log (see factcheck.md), and every float is referenced from the text. Several presentation problems remain. Fig. 1's image claims 'identical outputs in Python, TypeScript, Swift and C#', which the paper itself says was never verified for Swift/C#. Fig. 2 is a 2.5:1 plot squeezed into a half-width minipage, so its axis labels are unreadable in print, and it duplicates Table 2's real-test column. Table 2's caption says all rows use the unified setting, but the hybrid row uses the shipped thresholds and title bonus. Fig. 3's 'tau=.9' annotation sits over the tau=0.8/0.85 points (~21-25% sent), not the tau=0.9 point at 31.9%. Page 6 is about one-third blank because of float placement."
+    },
+    "academic_style": {
+      "score": 70,
+      "justification": "The tone is measured and professional, and the AI-assistance disclosure is clear and appropriate. The Limitations section is factual rather than defensive. Terminology drifts: synthetic 'validation' vs 'test split' vs 'Synth.' (963 vs 562 rows), 'store charts' vs 'chart data' vs 'chart feed'. 'Anonymous' as author is odd for an arXiv preprint that links to a public, named release."
+    }
+  },
+  "overall_score": 63.5,
+  "overall_formula": "0.20*58 + 0.20*66 + 0.15*66 + 0.15*60 + 0.20*64 + 0.10*70 = 63.5",
+  "decision": "Borderline",
+  "decision_band": "Major Revision",
+  "strengths": [
+    "A clear, practically motivated problem (text-only, on-device, trilingual, cross-runtime) with a full specification. The method section is reproducible down to the hash function and the logit equation, and it matches the released spec.",
+    "Honest negative results under a matched protocol: three linear checkpoints restored from version control and re-scored, a pre-registered +3-point adoption bar for the transformer ensemble, and distillation variants that separate new rows from corrections (Table 3).",
+    "Correct small-sample statistics: Wilson intervals and exact McNemar tests, all of which reproduce exactly from the counts (e.g. 28 vs 9 gives p = 0.00256; 47 vs 7 gives p < 1e-7).",
+    "The synthetic-vs-real evaluation finding (Fig. 5, Sec. 6.3) is useful to practitioners building LLM-generated data pipelines. It includes the instructive detail that the only early warning was 91.1% on the 46 unknown-artist synthetic rows.",
+    "The design conclusion is well argued and actionable: keep the device model small, put knowledge in an updatable table plus a gated server model, and use deterministic site rules. The licence-clean ablation quantifies the cost of dropping chart data."
+  ],
+  "weaknesses": [
+    {
+      "id": "W1",
+      "severity": "critical",
+      "da": true,
+      "location": "Sec. 6.3 'Synthetic validation overstates accuracy', last sentence: 'from round 2 on, every decision was made on the real development split and the real test split was used only for reporting.'",
+      "issue": "This is contradicted by the inputs. The distillation decision (Table 3) and the chart/override/hash-table decisions (Sec. 6.3) were made on 'real development and test combined, 637 items' (experimental_log 2.8, 2.9). tau = 0.9 was chosen while reading the real-test curve (TIMELINE 13:30). The real-dev curve peaks at 0.95, not 0.9. So the 84.9% / 95.6% test numbers are not cleanly held out.",
+      "fix": "Delete or correct the sentence. State plainly in Sec. 4.1 or 4.2 which decisions used dev+test combined. Say how tau = 0.9 was chosen. Report tau = 0.95 (dev-optimal: 96.3% test, 40.5% sent) alongside 0.9, or present the whole curve as the result instead of a single operating point. All required numbers are already in Table 4 and the log."
+    },
+    {
+      "id": "W2",
+      "severity": "major",
+      "da": true,
+      "location": "Title; Abstract sentence 'The remaining errors are knowledge errors'; Conclusion 'Its remaining errors are knowledge errors'; Sec. 3.4 'so any gain over the small model comes from what the large model knows, not from extra input'.",
+      "issue": "Causal overclaim. The evidence is consistent with a knowledge gap but does not isolate it. The per-genre gaps and confusions are suggestive. The transformer comparison is confounded by under-training (3 CPU epochs, frozen embeddings). Distillation used hard pseudo-labels on a few thousand rows. The LLM's advantage could equally reflect better language understanding of the title (capacity), not only entity facts. The intro correctly calls this a 'hypothesis' (Sec. 1, para 5), but the title, abstract and conclusion state it as fact.",
+      "fix": "Hedge the abstract and conclusion to 'consistent with missing world knowledge'. Retitle (e.g. 'A 2 MB On-Device Classifier for What Is Playing: Where the Gap to an LLM Comes From'), or keep the title and add a sentence naming what was not tested. Drop 'any gain ... comes from what the large model knows' in Sec. 3.4; equal input rules out extra input, not extra capacity."
+    },
+    {
+      "id": "W3",
+      "severity": "major",
+      "location": "Abstract: 'gives identical outputs across runtimes'; Sec. 3.2 'Quantisation and portability': 'keeps the Python reference, TypeScript, Swift and C# runtimes identical'; Fig. 1 image footer: 'identical outputs in Python, TypeScript, Swift and C#'.",
+      "issue": "Unsupported. Only TypeScript was verified (559/559). The Swift and C# ports were never compiled or run, as the paper itself states in the contributions and in Sec. 7.",
+      "fix": "Abstract: 'gives identical outputs in Python and TypeScript (559/559 test vectors)'. Sec. 3.2: 'is designed to keep ... identical; agreement is verified for TypeScript'. Regenerate Fig. 1 with 'identical outputs verified in Python and TypeScript'."
+    },
+    {
+      "id": "W4",
+      "severity": "major",
+      "location": "Sec. 5.1 para 2 ('The transformer, 200 times larger'), Fig. 2 caption ('A 200-times larger multilingual encoder'), Conclusion ('a 200-times larger multilingual encoder'); Sec. 5.2 ('The hybrid can beat the large model alone'); Sec. 5.3 para 2 ('Targeted data does help').",
+      "issue": "Three framings overstate. (a) '200 times' compares the fp32 transformer file (428 MB) with the int8 linear file (2.1 MB). Like for like (int8 vs int8, or 107M vs about 2.1M parameters) the ratio is about 51x; the intro's '50 to 200 times' is the honest version. (b) The hybrid beats the LLM by 1 item out of 383 (366 vs 365), with overlapping intervals. (c) The targeted-data gains are measured on the LLM-written focus set, the same kind of synthetic evaluation that Sec. 6.3 shows to be optimistic. REPORT 5.4 itself warns that the absolute values are optimistic.",
+      "fix": "Use '50 times larger (int8)' or '50-200 times' consistently. Say 'matches the LLM (95.6% vs 95.3%, one item)'. Add one clause to Sec. 5.3 that the focus set is LLM-written, so the before/after deltas are trustworthy but the absolute values are optimistic."
+    },
+    {
+      "id": "W5",
+      "severity": "major",
+      "location": "Whole paper: length about 9.5 pages of main text against an 8-9 page target.",
+      "issue": "Redundancy and float placement waste about 1-1.5 pages (see 'cuts').",
+      "fix": "Apply the cuts listed under 'cuts' below."
+    },
+    {
+      "id": "W6",
+      "severity": "minor",
+      "location": "Table 2 caption: 'Fully right (%) on every evaluation set in the unified setting (no thresholds, same artist bonus)'; Fig. 3 caption: 'where abstentions count as errors (84.1%)'.",
+      "issue": "The hybrid row uses the shipped model with its thresholds and title bonus beta_t = 3, not the unified setting. In Fig. 3 the 0.8-point gap between 84.1 and 84.9 is 3 items, but abstentions are only 2 items (0.5%). The log attributes the rest to the title bonus, and the Appendix caption says so, but Fig. 3's caption does not.",
+      "fix": "Table 2 caption: add 'The hybrid row uses the shipped thresholds and artist bonus (Sec. 3.3)'. Fig. 3 caption: 'the shipped model alone with its thresholds and title bonus'. State the shipped beta_a = beta_t = 3 in Sec. 3.3."
+    },
+    {
+      "id": "W7",
+      "severity": "minor",
+      "location": "Sec. 6.1 first sentence: 'knowledge distillation \\citep{hinton2015distilling} should transfer...'; Sec. 2 para 3 'We test both routes directly'.",
+      "issue": "Hinton et al. distil soft targets (temperature-scaled logits). The experiment here adds hard teacher labels filtered at confidence >= 0.8 and drops or relabels rows, which is pseudo-labelling or label distillation in the sense of wang2021want. The negative result therefore says nothing about soft-target KD.",
+      "fix": "Call it 'distillation with hard teacher labels (pseudo-labelling)' and cite wang2021want/hsieh2023distilling at this point. Keep the Hinton cite only for the general idea."
+    },
+    {
+      "id": "W8",
+      "severity": "minor",
+      "location": "Fig. 2 (half-width), Fig. 3 annotation, page 6 layout; Sec. 3.1 'MAD'.",
+      "issue": "Fig. 2 labels are illegible at half width and duplicate Table 2 plus the Wilson intervals in Sec. 5.1. Fig. 3's 'tau=.9' label sits about 8 points left of the tau = 0.9 marker. 'MAD' is undefined.",
+      "fix": "Drop Fig. 2 and add a 95% CI column to Table 2, or set Fig. 2 at full width. Move the 'tau=.9' label next to the (31.9, 95.6) point. Define MAD ('fan-edited music video')."
+    }
+  ],
+  "cuts": [
+    "C1 (about 0.3 pp): Fix float placement. Page 6 is about one-third empty because Table 2 and Figs. 2/3 float to page 7. Dropping Fig. 2 (see W8) or using [!t]/[tb] placement with a tighter Table 1 recovers most of this.",
+    "C2 (about 0.3 pp): Related Work. Delete the result-restating closers: Sec. 2 para 3 'We test both routes directly ... find that neither improves real-world accuracy.' and Sec. 2 para 4 'With a confidence threshold of 0.9, 31.9% ... sending every item to the large model.' Merge the DistilBERT/MiniLM/MiniLMv2/tang2019 sentences into one. Shorten para 2's scikit-learn/L-BFGS/quantisation sentence, which Sec. 3.2 repeats.",
+    "C3 (about 0.25 pp): Introduction. Merge paras 4 and 5. Remove the numbers from para 5 ('2.1 MB ... 559 of 559 ... 84.9% ... 95.3%'), because the contribution bullets repeat them. Cut each bullet to one sentence. Move the licence-clean ablation out of bullet 4, which is about synthetic evaluation.",
+    "C4 (about 0.2 pp): Merge Sec. 6.2 into Sec. 5.1 para 2. Both state 84.1%, within-interval, worse on focus/synthetic, 428/107 MB. Keep only the new facts (int8 drop 84.6 -> 79.9, training caveat) in a 3-sentence paragraph. Delete the duplicate '559 of 559' sentence in Sec. 5.1.",
+    "C5 (about 0.15 pp): Conclusion. Reduce to 4 sentences without repeating every abstract number. Sec. 5.2: drop the per-set hand-off shares (26.8/20.0/18.0%), which are in Table 4.",
+    "C6 (optional, about 0.1 pp): Sec. 6.3 'Chart data and conflicting taxonomies' can lose the round-1 artist-table ablation sentence, which is on synthetic data and is not needed for the argument, or move it to the appendix."
+  ],
+  "questions": [
+    "How was tau = 0.9 chosen, and was the real test curve consulted? The real-dev curve (Table 4) peaks at tau = 0.95 (97.2%).",
+    "What is the end-to-end latency and per-item cost of the hybrid at tau = 0.9, given about 1 s per 20-title request to the self-hosted LLM? Can a media-change event wait for it?",
+    "What fraction of real-test errors involve artists absent from both the artist table and the training data, and what is the shipped model's accuracy on known vs unknown artists? This is the most direct test of the knowledge hypothesis.",
+    "How does the shipped model do per language (EN/JA/ZH) on the real test set? Only the licence-clean variant's breakdown exists (84.3/75.4/79.8), and the 'trilingual' framing invites the question."
+  ],
+  "da_findings": [
+    {
+      "id": "F1",
+      "severity": "critical",
+      "attack": "Sec. 6.3 claims the real test split was used only for reporting. Adoption decisions (Table 3, Sec. 6.3 ablations) used dev+test combined, and tau = 0.9 was chosen after reading the test curve. The headline test numbers are partly selection-biased and the paper says the opposite.",
+      "required_resolution": "Correct the sentence and disclose the actual protocol; describe how tau was chosen. A wording fix suffices; no new experiment is needed."
+    },
+    {
+      "id": "F2",
+      "severity": "major",
+      "attack": "Title and abstract assert a causal mechanism (knowledge, not capacity) that no experiment isolates. The capacity alternative was tested with an under-trained transformer.",
+      "required_resolution": "Hedge to 'consistent with', or name the untested alternative explicitly."
+    },
+    {
+      "id": "F3",
+      "severity": "major",
+      "attack": "Cross-runtime identity is claimed for four runtimes in the abstract, Sec. 3.2 and Fig. 1, but verified for two.",
+      "required_resolution": "Restrict the claim to Python/TypeScript everywhere, including the figure image."
+    }
+  ],
+  "writing_quality_check": {
+    "A_ai_vocabulary": "Clean. 'curated' appears twice but as a technical term (curated artist lists).",
+    "B_punctuation": "Em dashes: 0. Semicolons: 32 in about 5,400 words (5.9 per 1,000; threshold 2). Worst: Sec. 1 para 2, Sec. 3.1 label-guide sentence, Sec. 5.1 latency sentence.",
+    "C_throat_clearing": "None found.",
+    "D_structure": "No forced rule-of-three. Synonym cycling for the reference model: 'the large language model', 'the large model', 'the teacher', 'DeepSeek', 'LLM'. Pick one ('the LLM') after first naming DeepSeek V4.1 Flash.",
+    "E_burstiness": "Acceptable; sentence lengths vary."
+  },
+  "ai_failure_modes_gate": {
+    "1_impl_vs_description": "PASS. Hyperparameters match the log, spec/SPEC.md and train.py. Minor wording issue on augmentation independence.",
+    "2_hallucinated_citation": "PASS. All 42 cited keys resolve; no numeric claim contradicts an abstract. One mis-description (Hinton KD vs hard-label pseudo-labelling) and one loose attribution (DeepSeek V4.1 Flash cited to the V3 report).",
+    "3_hallucinated_result": "PASS. No numeric mismatches found (factcheck.md).",
+    "4_shortcut_reliance": "PASS. Component claims (artist table, chart data, hash size) have ablation rows.",
+    "5_bug_as_insight": "PASS. No 'surprisingly' or 'unexpectedly'.",
+    "6_methodology_fabrication": "PASS. Method details absent from the log (1/sqrt(|S|), untagged n>=2 copies, duration buckets, segment splitting, combined confidence, artist-only/title-only rows) were verified against spec/SPEC.md, train.py and scripts/collect_results.py.",
+    "7_frame_lock": "SUSPECTED. The title asserts the hypothesis as a finding; see W2."
+  }
+}

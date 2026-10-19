@@ -1,0 +1,2164 @@
+{
+  "papers": [
+    {
+      "paperId": "7ab881283270e427b05c6e9469562ff39dd6282a",
+      "bibtex_key": "tzanetakis2002musical",
+      "title": "Musical genre classification of audio signals",
+      "authors": [
+        {
+          "name": "G. Tzanetakis"
+        },
+        {
+          "name": "P. Cook"
+        }
+      ],
+      "year": 2002,
+      "venue": "IEEE Transactions on Speech and Audio Processing",
+      "abstract": "",
+      "externalIds": {
+        "DBLP": "journals/taslp/TzanetakisC02",
+        "MAG": "2133824856",
+        "DOI": "10.1109/tsa.2002.800560",
+        "CorpusId": 267880593
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "d51e5171bbb03ae4b984e6c7704b93c385618484",
+      "bibtex_key": "schedl2014music",
+      "title": "Music Information Retrieval: Recent Developments and Applications",
+      "authors": [
+        {
+          "name": "M. Schedl"
+        },
+        {
+          "name": "E. Gómez"
+        },
+        {
+          "name": "Julián Urbano"
+        }
+      ],
+      "year": 2014,
+      "venue": "Foundations and Trends in Information Retrieval",
+      "abstract": "We provide a survey of the field of Music Information Retrieval (MIR), in particular paying attention to latest developments, such as semantic auto-tagging and user-centric retrieval and recommendation approaches. We first elaborate on well-established and proven methods for feature extraction and music indexing, from both the audio signal and contextual data sources about music items, such as web pages or collaborative tags. These in turn enable a wide variety of music retrieval tasks, such as semantic music search or music identification (“query by example”). Subsequently, we review current work on user analysis and modeling in the context of music recommendation and retrieval, addressing the recent trend towards user-centric and adaptive approaches and systems. A discussion follows about the important aspect of how various MIR approaches to different problems are evaluated and compared. Eventually, a discussion about the major open challenges concludes the survey.",
+      "externalIds": {
+        "DBLP": "journals/ftir/SchedlGU14",
+        "MAG": "2031767620",
+        "DOI": "10.1561/1500000042",
+        "CorpusId": 207178741
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "892e53fe5cd39f037cb2a961499f42f3002595dd",
+      "bibtex_key": "joulin2017bag",
+      "title": "Bag of Tricks for Efficient Text Classification",
+      "authors": [
+        {
+          "name": "A. Joulin"
+        },
+        {
+          "name": "E. Grave"
+        },
+        {
+          "name": "P. Bojanowski"
+        },
+        {
+          "name": "Tomas Mikolov"
+        }
+      ],
+      "year": 2017,
+      "venue": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers",
+      "abstract": "This paper explores a simple and efficient baseline for text classification. Our experiments show that our fast text classifier fastText is often on par with deep learning classifiers in terms of accuracy, and many orders of magnitude faster for training and evaluation. We can train fastText on more than one billion words in less than ten minutes using a standard multicore CPU, and classify half a million sentences among 312K classes in less than a minute.",
+      "externalIds": {
+        "MAG": "2953283924",
+        "DBLP": "journals/corr/JoulinGBM16",
+        "ArXiv": "1607.01759",
+        "ACL": "E17-2068",
+        "DOI": "10.18653/v1/e17-2068",
+        "CorpusId": 1210515
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "5feb32a73dd1bd9e13f84a7b3344497a5545106b",
+      "bibtex_key": "joulin2016fasttextzip",
+      "title": "FastText.zip: Compressing text classification models",
+      "authors": [
+        {
+          "name": "A. Joulin"
+        },
+        {
+          "name": "E. Grave"
+        },
+        {
+          "name": "P. Bojanowski"
+        },
+        {
+          "name": "Matthijs Douze"
+        },
+        {
+          "name": "H. Jégou"
+        },
+        {
+          "name": "Tomas Mikolov"
+        }
+      ],
+      "year": 2016,
+      "venue": "arXiv preprint",
+      "abstract": "We consider the problem of producing compact architectures for text classification, such that the full model fits in a limited amount of memory. After considering different solutions inspired by the hashing literature, we propose a method built upon product quantization to store the word embeddings. While the original technique leads to a loss in accuracy, we adapt this method to circumvent the quantization artifacts. As a result, our approach produces a text classifier, derived from the fastText approach, which at test time requires only a fraction of the memory compared to the original one, without noticeably sacrificing the quality in terms of classification accuracy. Our experiments carried out on several benchmarks show that our approach typically requires two orders of magnitude less memory than fastText while being only slightly inferior with respect to accuracy. As a result, it outperforms the state of the art by a good margin in terms of the compromise between memory usage and accuracy.",
+      "externalIds": {
+        "DBLP": "journals/corr/JoulinGBDJM16",
+        "MAG": "2563351168",
+        "ArXiv": "1612.03651",
+        "CorpusId": 16196524
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.2]"
+      ]
+    },
+    {
+      "paperId": "00bbfde6af97ce5efcf86b3401d265d42a95603d",
+      "bibtex_key": "weinberger2009feature",
+      "title": "Feature hashing for large scale multitask learning",
+      "authors": [
+        {
+          "name": "Kilian Q. Weinberger"
+        },
+        {
+          "name": "A. Dasgupta"
+        },
+        {
+          "name": "John Langford"
+        },
+        {
+          "name": "Alex Smola"
+        },
+        {
+          "name": "Josh Attenberg"
+        }
+      ],
+      "year": 2009,
+      "venue": "Proceedings of the 26th Annual International Conference on Machine Learning",
+      "abstract": "Empirical evidence suggests that hashing is an effective strategy for dimensionality reduction and practical nonparametric estimation. In this paper we provide exponential tail bounds for feature hashing and show that the interaction between random subspaces is negligible with high probability. We demonstrate the feasibility of this approach with experimental results for a new use case --- multitask learning with hundreds of thousands of tasks.",
+      "externalIds": {
+        "MAG": "2953133476",
+        "ArXiv": "0902.2206",
+        "DBLP": "conf/icml/WeinbergerDLSA09",
+        "DOI": "10.1145/1553374.1553516",
+        "CorpusId": 291713
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "093253653cd0b55970c390d77b75137c4095dc29",
+      "bibtex_key": "gholami2021survey",
+      "title": "A Survey of Quantization Methods for Efficient Neural Network Inference",
+      "authors": [
+        {
+          "name": "A. Gholami"
+        },
+        {
+          "name": "Sehoon Kim"
+        },
+        {
+          "name": "Zhen Dong"
+        },
+        {
+          "name": "Z. Yao"
+        },
+        {
+          "name": "Michael W. Mahoney"
+        },
+        {
+          "name": "K. Keutzer"
+        }
+      ],
+      "year": 2021,
+      "venue": "arXiv preprint",
+      "abstract": "As soon as abstract mathematical computations were adapted to computation on digital computers, the problem of efficient representation, manipulation, and communication of the numerical values in those computations arose. Strongly related to the problem of numerical representation is the problem of quantization: in what manner should a set of continuous real-valued numbers be distributed over a fixed discrete set of numbers to minimize the number of bits required and also to maximize the accuracy of the attendant computations? This perennial problem of quantization is particularly relevant whenever memory and/or computational resources are severely restricted, and it has come to the forefront in recent years due to the remarkable performance of Neural Network models in computer vision, natural language processing, and related areas. Moving from floating-point representations to low-precision fixed integer values represented in four bits or less holds the potential to reduce the memory footprint and latency by a factor of 16x; and, in fact, reductions of 4x to 8x are often realized in practice in these applications. Thus, it is not surprising that quantization has emerged recently as an important and very active sub-area of research in the efficient implementation of computations associated with Neural Networks. In this article, we survey approaches to the problem of quantizing the numerical values in deep Neural Network computations, covering the advantages/disadvantages of current methods. With this survey and its organization, we hope to have presented a useful snapshot of the current research in quantization for Neural Networks and to have given an intelligent organization to ease the evaluation of future research in this area.",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2103-13630",
+        "ArXiv": "2103.13630",
+        "DOI": "10.1201/9781003162810-13",
+        "CorpusId": 232352683
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "a9e155fda1d97baa2b8712f580cc61887cc64e9b",
+      "bibtex_key": "gilardi2023chatgpt",
+      "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "authors": [
+        {
+          "name": "F. Gilardi"
+        },
+        {
+          "name": "Meysam Alizadeh"
+        },
+        {
+          "name": "M. Kubli"
+        }
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "abstract": "Many NLP applications require manual text annotations for a variety of tasks, notably to train classifiers or evaluate the performance of unsupervised models. Depending on the size and degree of complexity, the tasks may be conducted by crowd workers on platforms such as MTurk as well as trained annotators, such as research assistants. Using four samples of tweets and news articles (n = 6,183), we show that ChatGPT outperforms crowd workers for several annotation tasks, including relevance, stance, topics, and frame detection. Across the four datasets, the zero-shot accuracy of ChatGPT exceeds that of crowd workers by about 25 percentage points on average, while ChatGPT’s intercoder agreement exceeds that of both crowd workers and trained annotators for all tasks. Moreover, the per-annotation cost of ChatGPT is less than $0.003—about thirty times cheaper than MTurk. These results demonstrate the potential of large language models to drastically increase the efficiency of text classification.",
+      "externalIds": {
+        "ArXiv": "2303.15056",
+        "DBLP": "journals/corr/abs-2303-15056",
+        "DOI": "10.1073/pnas.2305016120",
+        "CorpusId": 257766307
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "4e263b4cd6998bff2501dd143e685f413179b12d",
+      "bibtex_key": "wang2021want",
+      "title": "Want To Reduce Labeling Cost? GPT-3 Can Help",
+      "authors": [
+        {
+          "name": "Shuo-Hang Wang"
+        },
+        {
+          "name": "Yang Liu"
+        },
+        {
+          "name": "Yi-Chong Xu"
+        },
+        {
+          "name": "Chen-Guang Zhu"
+        },
+        {
+          "name": "Michael Zeng"
+        }
+      ],
+      "year": 2021,
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "abstract": "Data annotation is a time-consuming and labor-intensive process for many NLP tasks. Although there exist various methods to produce pseudo data labels, they are often task-specific and require a decent amount of labeled data to start with. Recently, the immense language model GPT-3 with 175 billion parameters has achieved tremendous improvement across many few-shot learning tasks. In this paper, we explore ways to leverage GPT-3 as a low-cost data labeler to train other models. We find that, to make the downstream model achieve the same performance on a variety of NLU and NLG tasks, it costs 50% to 96% less to use labels from GPT-3 than using labels from humans. Furthermore, we propose a novel framework of combining pseudo labels from GPT-3 with human labels, which leads to even better performance with limited labeling budget. These results present a cost-effective data labeling methodology that is generalizable to many practical applications.",
+      "externalIds": {
+        "DBLP": "conf/emnlp/WangLXZZ21",
+        "ArXiv": "2108.13487",
+        "DOI": "10.18653/v1/2021.findings-emnlp.354",
+        "CorpusId": 237363383
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "29f07e73b7aaa7e9e950c59710472c62316be74a",
+      "bibtex_key": "li2023synthetic",
+      "title": "Synthetic Data Generation with Large Language Models for Text Classification: Potential and Limitations",
+      "authors": [
+        {
+          "name": "Zhuo-Yan Li"
+        },
+        {
+          "name": "Hangxiao Zhu"
+        },
+        {
+          "name": "Zhuo-Ran Lu"
+        },
+        {
+          "name": "Ming Yin"
+        }
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "abstract": "The collection and curation of high-quality training data is crucial for developing text classification models with superior performance, but it is often associated with significant costs and time investment. Researchers have recently explored using large language models (LLMs) to generate synthetic datasets as an alternative approach. However, the effectiveness of the LLM-generated synthetic data in supporting model training is inconsistent across different classification tasks. To better understand factors that moderate the effectiveness of the LLM-generated synthetic data, in this study, we look into how the performance of models trained on these synthetic data may vary with the subjectivity of classification. Our results indicate that subjectivity, at both the task level and instance level, is negatively associated with the performance of the model trained on synthetic data. We conclude by discussing the implications of our work on the potential and limitations of leveraging LLM for synthetic data generation.",
+      "externalIds": {
+        "DBLP": "conf/emnlp/LiZL023",
+        "ArXiv": "2310.07849",
+        "DOI": "10.18653/v1/2023.emnlp-main.647",
+        "CorpusId": 263909512
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "ffeb4c933b81f06724379603e69e1b8f9cfbdb64",
+      "bibtex_key": "long2024llmsdriven",
+      "title": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey",
+      "authors": [
+        {
+          "name": "Lin Long"
+        },
+        {
+          "name": "Rui Wang"
+        },
+        {
+          "name": "Rui Xiao"
+        },
+        {
+          "name": "Jun-Bo Zhao"
+        },
+        {
+          "name": "Xiao Ding"
+        },
+        {
+          "name": "Gang Chen"
+        },
+        {
+          "name": "Hao-Bo Wang"
+        }
+      ],
+      "year": 2024,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+      "abstract": "Within the evolving landscape of deep learning, the dilemma of data quantity and quality has been a long-standing problem. The recent advent of Large Language Models (LLMs) offers a data-centric solution to alleviate the limitations of real-world data with synthetic data generation. However, current investigations into this field lack a unified framework and mostly stay on the surface. Therefore, this paper provides an organization of relevant studies based on a generic workflow of synthetic data generation. By doing so, we highlight the gaps within existing research and outline prospective avenues for future study. This work aims to shepherd the academic and industrial communities towards deeper, more methodical inquiries into the capabilities and applications of LLMs-driven synthetic data generation.",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-15126",
+        "ArXiv": "2406.15126",
+        "DOI": "10.18653/v1/2024.findings-acl.658",
+        "CorpusId": 270688337
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "6001dce1c8f63350263e013e0e6ff69816f0a9af",
+      "bibtex_key": "sun2023text",
+      "title": "Text Classification via Large Language Models",
+      "authors": [
+        {
+          "name": "Xiaofei Sun"
+        },
+        {
+          "name": "Xiaoya Li"
+        },
+        {
+          "name": "Jiwei Li"
+        },
+        {
+          "name": "Fei Wu"
+        },
+        {
+          "name": "Shangwei Guo"
+        },
+        {
+          "name": "Tian-Wei Zhang"
+        },
+        {
+          "name": "Guoyin Wang"
+        }
+      ],
+      "year": 2023,
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "abstract": "Despite the remarkable success of large-scale Language Models (LLMs) such as GPT-3, their performances still significantly underperform fine-tuned models in the task of text classification. This is due to (1) the lack of reasoning ability in addressing complex linguistic phenomena (e.g., intensification, contrast, irony etc); (2) limited number of tokens allowed in in-context learning. In this paper, we introduce Clue And Reasoning Prompting (CARP). CARP adopts a progressive reasoning strategy tailored to addressing the complex linguistic phenomena involved in text classification: CARP first prompts LLMs to find superficial clues (e.g., keywords, tones, semantic relations, references, etc), based on which a diagnostic reasoning process is induced for final decisions. To further address the limited-token issue, CARP uses a fine-tuned model on the supervised dataset for $k$NN demonstration search in the in-context learning, allowing the model to take the advantage of both LLM's generalization ability and the task-specific evidence provided by the full labeled dataset. Remarkably, CARP yields new SOTA performances on 4 out of 5 widely-used text-classification benchmarks, 97.39 (+1.24) on SST-2, 96.40 (+0.72) on AGNews, 98.78 (+0.25) on R8 and 96.95 (+0.6) on R52, and a performance comparable to SOTA on MR (92.39 v.s. 93.3). More importantly, we find that CARP delivers impressive abilities on low-resource and domain-adaptation setups. Specifically, using 16 examples per class, CARP achieves comparable performances to supervised models with 1,024 examples per class.",
+      "externalIds": {
+        "ArXiv": "2305.08377",
+        "DBLP": "conf/emnlp/SunL0WGZ023",
+        "DOI": "10.18653/v1/2023.findings-emnlp.603",
+        "CorpusId": 258686184
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "intro"
+      ]
+    },
+    {
+      "paperId": "e07a7e57745b69c0f08601fbdd19cfdcafbe1152",
+      "bibtex_key": "deepseekai2024deepseekv3",
+      "title": "DeepSeek-V3 Technical Report",
+      "authors": [
+        {
+          "name": "DeepSeek-AI"
+        },
+        {
+          "name": "A. Liu"
+        },
+        {
+          "name": "B. Feng"
+        },
+        {
+          "name": "Bing Xue"
+        },
+        {
+          "name": "Bing-Li Wang"
+        },
+        {
+          "name": "Bochao Wu"
+        },
+        {
+          "name": "Cheng-Da Lu"
+        },
+        {
+          "name": "Cheng-Gang Zhao"
+        },
+        {
+          "name": "C. Deng"
+        },
+        {
+          "name": "Chen-Yu Zhang"
+        },
+        {
+          "name": "C. Ruan"
+        },
+        {
+          "name": "Da-Mai Dai"
+        },
+        {
+          "name": "Da-Ya Guo"
+        },
+        {
+          "name": "De-Jian Yang"
+        },
+        {
+          "name": "De-Li Chen"
+        },
+        {
+          "name": "Dong-Li Ji"
+        },
+        {
+          "name": "Erhang Li"
+        },
+        {
+          "name": "Fangyun Lin"
+        },
+        {
+          "name": "Fucong Dai"
+        },
+        {
+          "name": "Fuli Luo"
+        },
+        {
+          "name": "Guangbo Hao"
+        },
+        {
+          "name": "Guan-Ting Chen"
+        },
+        {
+          "name": "Guowei Li"
+        },
+        {
+          "name": "H. Zhang"
+        },
+        {
+          "name": "Han Bao"
+        },
+        {
+          "name": "Han-Wei Xu"
+        },
+        {
+          "name": "Hao-Cheng Wang"
+        },
+        {
+          "name": "Hao-Wei Zhang"
+        },
+        {
+          "name": "Honghui Ding"
+        },
+        {
+          "name": "Huajian Xin"
+        },
+        {
+          "name": "Hua-Zuo Gao"
+        },
+        {
+          "name": "Hui Li"
+        },
+        {
+          "name": "Hui Qu"
+        },
+        {
+          "name": "J.-L. Cai"
+        },
+        {
+          "name": "Jian Liang"
+        },
+        {
+          "name": "Jianzhong Guo"
+        },
+        {
+          "name": "J. Ni"
+        },
+        {
+          "name": "Jia-Shi Li"
+        },
+        {
+          "name": "Jia-Wei Wang"
+        },
+        {
+          "name": "Jin Chen"
+        },
+        {
+          "name": "Jing-Chang Chen"
+        },
+        {
+          "name": "Jing-Yang Yuan"
+        },
+        {
+          "name": "Jun-Jie Qiu"
+        },
+        {
+          "name": "Jun-Long Li"
+        },
+        {
+          "name": "Jun-Mei Song"
+        },
+        {
+          "name": "Kai Dong"
+        },
+        {
+          "name": "Kai Hu"
+        },
+        {
+          "name": "Kaige Gao"
+        },
+        {
+          "name": "Kang Guan"
+        },
+        {
+          "name": "Kexin Huang"
+        },
+        {
+          "name": "Kuai Yu"
+        },
+        {
+          "name": "Le-An Wang"
+        },
+        {
+          "name": "Lecong Zhang"
+        },
+        {
+          "name": "Lei Xu"
+        },
+        {
+          "name": "Leyi Xia"
+        },
+        {
+          "name": "Liang Zhao"
+        },
+        {
+          "name": "Li-Tong Wang"
+        },
+        {
+          "name": "Li-Yue Zhang"
+        },
+        {
+          "name": "Meng Li"
+        },
+        {
+          "name": "Miaojun Wang"
+        },
+        {
+          "name": "Ming-Chuan Zhang"
+        },
+        {
+          "name": "Ming-Hua Zhang"
+        },
+        {
+          "name": "M. Tang"
+        },
+        {
+          "name": "Ming-Ming Li"
+        },
+        {
+          "name": "Ning Tian"
+        },
+        {
+          "name": "Pan-Pan Huang"
+        },
+        {
+          "name": "Pei-Yi Wang"
+        },
+        {
+          "name": "Peng Zhang"
+        },
+        {
+          "name": "Qiancheng Wang"
+        },
+        {
+          "name": "Qi-Hao Zhu"
+        },
+        {
+          "name": "Qinyu Chen"
+        },
+        {
+          "name": "Qiushi Du"
+        },
+        {
+          "name": "R.-J. Chen"
+        },
+        {
+          "name": "R. Jin"
+        },
+        {
+          "name": "Ruiqi Ge"
+        },
+        {
+          "name": "Rui-Song Zhang"
+        },
+        {
+          "name": "Ruizhe Pan"
+        },
+        {
+          "name": "Runji Wang"
+        },
+        {
+          "name": "Run-Xin Xu"
+        },
+        {
+          "name": "Ruoyu Zhang"
+        },
+        {
+          "name": "Ru-Yi Chen"
+        },
+        {
+          "name": "S.-S. Li"
+        },
+        {
+          "name": "Shanghao Lu"
+        },
+        {
+          "name": "Shang-Yan Zhou"
+        },
+        {
+          "name": "Shanhuang Chen"
+        },
+        {
+          "name": "Shao-Kang Wu"
+        },
+        {
+          "name": "Shengfeng Ye"
+        },
+        {
+          "name": "Shi-Rong Ma"
+        },
+        {
+          "name": "Shiyu Wang"
+        },
+        {
+          "name": "Shuang Zhou"
+        },
+        {
+          "name": "Shuiping Yu"
+        },
+        {
+          "name": "Shun-Feng Zhou"
+        },
+        {
+          "name": "Shuting Pan"
+        },
+        {
+          "name": "T. Wang"
+        },
+        {
+          "name": "Tao Yun"
+        },
+        {
+          "name": "Tian Pei"
+        },
+        {
+          "name": "Tian-Yu Sun"
+        },
+        {
+          "name": "W. Xiao"
+        },
+        {
+          "name": "Wang-Ding Zeng"
+        },
+        {
+          "name": "Wanjia Zhao"
+        },
+        {
+          "name": "Wei An"
+        },
+        {
+          "name": "Wen Liu"
+        },
+        {
+          "name": "W. Liang"
+        },
+        {
+          "name": "Wen-Jun Gao"
+        },
+        {
+          "name": "Wen-xuan Yu"
+        },
+        {
+          "name": "Wentao Zhang"
+        },
+        {
+          "name": "X.-Q. Li"
+        },
+        {
+          "name": "Xiang-Yu Jin"
+        },
+        {
+          "name": "Xianzu Wang"
+        },
+        {
+          "name": "Xiaoling Bi"
+        },
+        {
+          "name": "Xiaodong Liu"
+        },
+        {
+          "name": "Xiao-Han Wang"
+        },
+        {
+          "name": "Xiaojin Shen"
+        },
+        {
+          "name": "Xiao-Kang Chen"
+        },
+        {
+          "name": "Xiaokang Zhang"
+        },
+        {
+          "name": "Xiaosha Chen"
+        },
+        {
+          "name": "X. Nie"
+        },
+        {
+          "name": "Xiaowen Sun"
+        },
+        {
+          "name": "Xiaoxiang Wang"
+        },
+        {
+          "name": "Xin Cheng"
+        },
+        {
+          "name": "Xin Liu"
+        },
+        {
+          "name": "Xin Xie"
+        },
+        {
+          "name": "Xing-Chao Liu"
+        },
+        {
+          "name": "Xing-Kai Yu"
+        },
+        {
+          "name": "Xinnan Song"
+        },
+        {
+          "name": "Xinxia Shan"
+        },
+        {
+          "name": "Xinyi Zhou"
+        },
+        {
+          "name": "Xin-Yu Yang"
+        },
+        {
+          "name": "Xin-Yuan Li"
+        },
+        {
+          "name": "Xuecheng Su"
+        },
+        {
+          "name": "Xuheng Lin"
+        },
+        {
+          "name": "Y.-K. Li"
+        },
+        {
+          "name": "Y.-Q. Wang"
+        },
+        {
+          "name": "Y.-X. Wei"
+        },
+        {
+          "name": "Y.-X. Zhu"
+        },
+        {
+          "name": "Yang Zhang"
+        },
+        {
+          "name": "Yan-Hong Xu"
+        },
+        {
+          "name": "Yan-Ping Huang"
+        },
+        {
+          "name": "Yao Li"
+        },
+        {
+          "name": "Yao Zhao"
+        },
+        {
+          "name": "Yao-Feng Sun"
+        },
+        {
+          "name": "Yao Li"
+        },
+        {
+          "name": "Yao-Hui Wang"
+        },
+        {
+          "name": "Yi Yu"
+        },
+        {
+          "name": "Yi Zheng"
+        },
+        {
+          "name": "Yichao Zhang"
+        },
+        {
+          "name": "Yifan Shi"
+        },
+        {
+          "name": "Yi Xiong"
+        },
+        {
+          "name": "Ying He"
+        },
+        {
+          "name": "Ying Tang"
+        },
+        {
+          "name": "Y. Piao"
+        },
+        {
+          "name": "Yi-Song Wang"
+        },
+        {
+          "name": "Yi-Xuan Tan"
+        },
+        {
+          "name": "Yi-Bing Ma"
+        },
+        {
+          "name": "Yiyuan Liu"
+        },
+        {
+          "name": "Yong-Qiang Guo"
+        },
+        {
+          "name": "Yu Wu"
+        },
+        {
+          "name": "Y. Ou"
+        },
+        {
+          "name": "Yu-Chen Zhu"
+        },
+        {
+          "name": "Yuduan Wang"
+        },
+        {
+          "name": "Yue Gong"
+        },
+        {
+          "name": "Yuheng Zou"
+        },
+        {
+          "name": "Yujia He"
+        },
+        {
+          "name": "Yukun Zha"
+        },
+        {
+          "name": "Yun-Fan Xiong"
+        },
+        {
+          "name": "Yun-Xiang Ma"
+        },
+        {
+          "name": "Yuting Yan"
+        },
+        {
+          "name": "Yu-Wei Luo"
+        },
+        {
+          "name": "Yu-Mei You"
+        },
+        {
+          "name": "Yuxuan Liu"
+        },
+        {
+          "name": "Yuyang Zhou"
+        },
+        {
+          "name": "Z.-F. Wu"
+        },
+        {
+          "name": "Z.-Z. Ren"
+        },
+        {
+          "name": "Zehui Ren"
+        },
+        {
+          "name": "Zhangli Sha"
+        },
+        {
+          "name": "Zhe Fu"
+        },
+        {
+          "name": "Zhe-An Xu"
+        },
+        {
+          "name": "Zhen Huang"
+        },
+        {
+          "name": "Zhen Zhang"
+        },
+        {
+          "name": "Zhen-Da Xie"
+        },
+        {
+          "name": "Zhengyan Zhang"
+        },
+        {
+          "name": "Zhewen Hao"
+        },
+        {
+          "name": "Zhibin Gou"
+        },
+        {
+          "name": "Zhicheng Ma"
+        },
+        {
+          "name": "Zhi-Gang Yan"
+        },
+        {
+          "name": "Zhi-Hong Shao"
+        },
+        {
+          "name": "Zhi-Peng Xu"
+        },
+        {
+          "name": "Zhi-Yu Wu"
+        },
+        {
+          "name": "Zhongyu Zhang"
+        },
+        {
+          "name": "Zhuo-Shu Li"
+        },
+        {
+          "name": "Zihui Gu"
+        },
+        {
+          "name": "Zi-jia Zhu"
+        },
+        {
+          "name": "Zijun Liu"
+        },
+        {
+          "name": "Zi-Long Li"
+        },
+        {
+          "name": "Zi-Wei Xie"
+        },
+        {
+          "name": "Zi-Han Song"
+        },
+        {
+          "name": "Zi-Yi Gao"
+        },
+        {
+          "name": "Zi-Zheng Pan"
+        }
+      ],
+      "year": 2024,
+      "venue": "arXiv preprint",
+      "abstract": "We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable. Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. The model checkpoints are available at https://github.com/deepseek-ai/DeepSeek-V3.",
+      "externalIds": {
+        "ArXiv": "2412.19437",
+        "CorpusId": 282749848
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "method"
+      ]
+    },
+    {
+      "paperId": "a9e4da15e30fd70947ffd5087a1bf2e9b11e7c01",
+      "bibtex_key": "fell2014lyrics",
+      "title": "Lyrics-based Analysis and Classification of Music",
+      "authors": [
+        {
+          "name": "Michael Fell"
+        },
+        {
+          "name": "C. Sporleder"
+        }
+      ],
+      "year": 2014,
+      "venue": "Proceedings of the International Conference on Computational Linguistics (COLING)",
+      "abstract": "",
+      "externalIds": {
+        "DBLP": "conf/coling/FellS14",
+        "ACL": "C14-1059",
+        "MAG": "2251192442",
+        "CorpusId": 9786783
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "e73b0d90e3bb37a8ec842db1888aa3cb4de517fb",
+      "bibtex_key": "mayer2008rhyme",
+      "title": "Rhyme and Style Features for Musical Genre Classification by Song Lyrics",
+      "authors": [
+        {
+          "name": "Rudolf Mayer"
+        },
+        {
+          "name": "R. Neumayer"
+        },
+        {
+          "name": "A. Rauber"
+        }
+      ],
+      "year": 2008,
+      "venue": "Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)",
+      "abstract": "",
+      "externalIds": {
+        "DBLP": "conf/ismir/MayerNR08",
+        "MAG": "131896369",
+        "CorpusId": 835902
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "3529b6fc24f9547d676af2fe989006593898e15a",
+      "bibtex_key": "tsaptsinos2017lyrics",
+      "title": "Lyrics-Based Music Genre Classification Using a Hierarchical Attention Network",
+      "authors": [
+        {
+          "name": "Alexandros Tsaptsinos"
+        }
+      ],
+      "year": 2017,
+      "venue": "Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)",
+      "abstract": "Music genre classification, especially using lyrics alone, remains a challenging topic in Music Information Retrieval. In this study we apply recurrent neural network models to classify a large dataset of intact song lyrics. As lyrics exhibit a hierarchical layer structure - in which words combine to form lines, lines form segments, and segments form a complete song - we adapt a hierarchical attention network (HAN) to exploit these layers and in addition learn the importance of the words, lines, and segments. We test the model over a 117-genre dataset and a reduced 20-genre dataset. Experimental results show that the HAN outperforms both non-neural models and simpler neural models, whilst also classifying over a higher number of genres than previous research. Through the learning process we can also visualise which words or lines in a song the model believes are important to classifying the genre. As a result the HAN provides insights, from a computational perspective, into lyrical structure and language features that differentiate musical genres.",
+      "externalIds": {
+        "MAG": "2952310188",
+        "DBLP": "journals/corr/Tsaptsinos17",
+        "ArXiv": "1707.04678",
+        "CorpusId": 615781
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "c85340a0d428ff0b47f1a4d92fc92157cb7664f0",
+      "bibtex_key": "oramas2017multilabel",
+      "title": "Multi-Label Music Genre Classification from Audio, Text and Images Using Deep Features",
+      "authors": [
+        {
+          "name": "Sergio Oramas"
+        },
+        {
+          "name": "Oriol Nieto"
+        },
+        {
+          "name": "Francesco Barbieri"
+        },
+        {
+          "name": "Xavier Serra"
+        }
+      ],
+      "year": 2017,
+      "venue": "Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)",
+      "abstract": "Music genres allow to categorize musical items that share common characteristics. Although these categories are not mutually exclusive, most related research is traditionally focused on classifying tracks into a single class. Furthermore, these categories (e.g., Pop, Rock) tend to be too broad for certain applications. In this work we aim to expand this task by categorizing musical items into multiple and fine-grained labels, using three different data modalities: audio, text, and images. To this end we present MuMu, a new dataset of more than 31k albums classified into 250 genre classes. For every album we have collected the cover image, text reviews, and audio tracks. Additionally, we propose an approach for multi-label genre classification based on the combination of feature embeddings learned with state-of-the-art deep learning methodologies. Experiments show major differences between modalities, which not only introduce new baselines for multi-label genre classification, but also suggest that combining them yields improved results.",
+      "externalIds": {
+        "DBLP": "conf/ismir/OramasNBS17",
+        "ArXiv": "1707.04916",
+        "MAG": "2963181423",
+        "DOI": "10.5072/ZENODO.243382",
+        "CorpusId": 4538136
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": null,
+      "bibtex_key": "lamere2008social",
+      "title": "Social Tagging and Music Information Retrieval",
+      "authors": [
+        {
+          "name": "Paul Lamere"
+        }
+      ],
+      "year": 2008,
+      "venue": "Journal of New Music Research",
+      "abstract": "",
+      "externalIds": {
+        "DOI": "10.1080/09298210802479284"
+      },
+      "verified_via": "crossref",
+      "verified_sources": [
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "48a48e01a53cc10c558ef556e447f6198b0f4c4d",
+      "bibtex_key": "filippova2011improved",
+      "title": "Improved video categorization from text metadata and user comments",
+      "authors": [
+        {
+          "name": "Katja Filippova"
+        },
+        {
+          "name": "Keith B. Hall"
+        }
+      ],
+      "year": 2011,
+      "venue": "Proceedings of the 34th international ACM SIGIR conference on Research and development in Information Retrieval",
+      "abstract": "",
+      "externalIds": {
+        "MAG": "1970191301",
+        "DBLP": "conf/sigir/FilippovaH11",
+        "DOI": "10.1145/2009916.2010028",
+        "CorpusId": 12184712
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "303b3bd108b64d42915abc6a9ef5414bae303554",
+      "bibtex_key": "knees2004artist",
+      "title": "Artist Classification with Web-Based Data",
+      "authors": [
+        {
+          "name": "Peter Knees"
+        },
+        {
+          "name": "E. Pampalk"
+        },
+        {
+          "name": "G. Widmer"
+        }
+      ],
+      "year": 2004,
+      "venue": "Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)",
+      "abstract": "",
+      "externalIds": {
+        "MAG": "1594761939",
+        "DBLP": "conf/ismir/KneesPW04",
+        "CorpusId": 12253540
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.1]"
+      ]
+    },
+    {
+      "paperId": "5e9fa46f231c59e6573f9a116f77f53703347659",
+      "bibtex_key": "wang2012baselines",
+      "title": "Baselines and Bigrams: Simple, Good Sentiment and Topic Classification",
+      "authors": [
+        {
+          "name": "Sida I. Wang"
+        },
+        {
+          "name": "Christopher D. Manning"
+        }
+      ],
+      "year": 2012,
+      "venue": "Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "abstract": "",
+      "externalIds": {
+        "ACL": "P12-2018",
+        "DBLP": "conf/acl/WangM12",
+        "MAG": "2154359981",
+        "CorpusId": 217537
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.2]"
+      ]
+    },
+    {
+      "paperId": "51a55df1f023571a7e07e338ee45a3e3d66ef73e",
+      "bibtex_key": "zhang2015character",
+      "title": "Character-level Convolutional Networks for Text Classification",
+      "authors": [
+        {
+          "name": "Xiang Zhang"
+        },
+        {
+          "name": "J. Zhao"
+        },
+        {
+          "name": "Yann LeCun"
+        }
+      ],
+      "year": 2015,
+      "venue": "Advances in Neural Information Processing Systems",
+      "abstract": "This article offers an empirical exploration on the use of character-level convolutional networks (ConvNets) for text classification. We constructed several large-scale datasets to show that character-level convolutional networks could achieve state-of-the-art or competitive results. Comparisons are offered against traditional models such as bag of words, n-grams and their TFIDF variants, and deep learning models such as word-based ConvNets and recurrent neural networks.",
+      "externalIds": {
+        "DBLP": "journals/corr/ZhangZL15",
+        "MAG": "2963012544",
+        "ArXiv": "1509.01626",
+        "CorpusId": 368182
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.2]"
+      ]
+    },
+    {
+      "paperId": "e2dba792360873aef125572812f3673b1a85d850",
+      "bibtex_key": "bojanowski2017enriching",
+      "title": "Enriching Word Vectors with Subword Information",
+      "authors": [
+        {
+          "name": "P. Bojanowski"
+        },
+        {
+          "name": "E. Grave"
+        },
+        {
+          "name": "A. Joulin"
+        },
+        {
+          "name": "Tomas Mikolov"
+        }
+      ],
+      "year": 2017,
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "abstract": "Continuous word representations, trained on large unlabeled corpora are useful for many natural language processing tasks. Popular models that learn such representations ignore the morphology of words, by assigning a distinct vector to each word. This is a limitation, especially for languages with large vocabularies and many rare words. In this paper, we propose a new approach based on the skipgram model, where each word is represented as a bag of character n-grams. A vector representation is associated to each character n-gram; words being represented as the sum of these representations. Our method is fast, allowing to train models on large corpora quickly and allows us to compute word representations for words that did not appear in the training data. We evaluate our word representations on nine different languages, both on word similarity and analogy tasks. By comparing to recently proposed morphological word representations, we show that our vectors achieve state-of-the-art performance on these tasks.",
+      "externalIds": {
+        "DBLP": "journals/tacl/BojanowskiGJM17",
+        "ArXiv": "1607.04606",
+        "MAG": "2493916176",
+        "ACL": "Q17-1010",
+        "DOI": "10.1162/tacl_a_00051",
+        "CorpusId": 207556454
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.2]"
+      ]
+    },
+    {
+      "paperId": "6e8dbaea47b8f31c6483c91dfb7514c4b86ab98f",
+      "bibtex_key": "peng2003language",
+      "title": "Language and Task Independent Text Categorization with Simple Language Models",
+      "authors": [
+        {
+          "name": "Fu-Chun Peng"
+        },
+        {
+          "name": "Dale Schuurmans"
+        },
+        {
+          "name": "Shaojun Wang"
+        }
+      ],
+      "year": 2003,
+      "venue": "Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology - NAACL '03",
+      "abstract": "We present a simple method for language independent and task independent text categorization learning, based on character-level n-gram language models. Our approach uses simple information theoretic principles and achieves effective performance across a variety of languages and tasks without requiring feature selection or extensive pre-processing. To demonstrate the language and task independence of the proposed technique, we present experimental results on several languages---Greek, English, Chinese and Japanese---in several text categorization problems---language identification, authorship attribution, text genre classification, and topic detection. Our experimental results show that the simple approach achieves state of the art performance in each case.",
+      "externalIds": {
+        "DBLP": "conf/naacl/PengSW03",
+        "ACL": "N03-1025",
+        "MAG": "2041413176",
+        "DOI": "10.3115/1073445.1073470",
+        "CorpusId": 662359
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.2]"
+      ]
+    },
+    {
+      "paperId": "ad4fd2c149f220a62441576af92a8a669fe81246",
+      "bibtex_key": "pedregosa2011scikitlearn",
+      "title": "Scikit-learn: Machine Learning in Python",
+      "authors": [
+        {
+          "name": "Fabian Pedregosa"
+        },
+        {
+          "name": "G. Varoquaux"
+        },
+        {
+          "name": "Alexandre Gramfort"
+        },
+        {
+          "name": "V. Michel"
+        },
+        {
+          "name": "B. Thirion"
+        },
+        {
+          "name": "O. Grisel"
+        },
+        {
+          "name": "M. Blondel"
+        },
+        {
+          "name": "Gilles Louppe"
+        },
+        {
+          "name": "P. Prettenhofer"
+        },
+        {
+          "name": "R. Weiss"
+        },
+        {
+          "name": "Ron J. Weiss"
+        },
+        {
+          "name": "J. VanderPlas"
+        },
+        {
+          "name": "A. Passos"
+        },
+        {
+          "name": "D. Cournapeau"
+        },
+        {
+          "name": "M. Brucher"
+        },
+        {
+          "name": "M. Perrot"
+        },
+        {
+          "name": "E. Duchesnay"
+        }
+      ],
+      "year": 2011,
+      "venue": "Journal of Machine Learning Research",
+      "abstract": "Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. This package focuses on bringing machine learning to non-specialists using a general-purpose high-level language. Emphasis is put on ease of use, performance, documentation, and API consistency. It has minimal dependencies and is distributed under the simplified BSD license, encouraging its use in both academic and commercial settings. Source code, binaries, and documentation can be downloaded from http://scikit-learn.sourceforge.net.",
+      "externalIds": {
+        "DBLP": "journals/jmlr/PedregosaVGMTGBPWDVPCBPD11",
+        "ArXiv": "1201.0490",
+        "MAG": "2101234009",
+        "DOI": "10.5555/1953048.2078195",
+        "CorpusId": 10659969
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "method"
+      ]
+    },
+    {
+      "paperId": "1267fe36b5ece49a9d8f913eb67716a040bbcced",
+      "bibtex_key": "liu1989limited",
+      "title": "On the limited memory BFGS method for large scale optimization",
+      "authors": [
+        {
+          "name": "Dong C. Liu"
+        },
+        {
+          "name": "J. Nocedal"
+        }
+      ],
+      "year": 1989,
+      "venue": "Mathematical Programming",
+      "abstract": "",
+      "externalIds": {
+        "MAG": "2051434435",
+        "DBLP": "journals/mp/LiuN89",
+        "DOI": "10.1007/bf01589116",
+        "CorpusId": 5681609
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "method"
+      ]
+    },
+    {
+      "paperId": "6fec3e579c7cd4f13bdabbee2b6ac2e8ff5941c6",
+      "bibtex_key": "conneau2020unsupervised",
+      "title": "Unsupervised Cross-lingual Representation Learning at Scale",
+      "authors": [
+        {
+          "name": "Alexis Conneau"
+        },
+        {
+          "name": "Kartikay Khandelwal"
+        },
+        {
+          "name": "Naman Goyal"
+        },
+        {
+          "name": "Vishrav Chaudhary"
+        },
+        {
+          "name": "Guillaume Wenzek"
+        },
+        {
+          "name": "Francisco Guzmán"
+        },
+        {
+          "name": "E. Grave"
+        },
+        {
+          "name": "Myle Ott"
+        },
+        {
+          "name": "Luke Zettlemoyer"
+        },
+        {
+          "name": "Veselin Stoyanov"
+        }
+      ],
+      "year": 2020,
+      "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "abstract": "This paper shows that pretraining multilingual language models at scale leads to significant performance gains for a wide range of cross-lingual transfer tasks. We train a Transformer-based masked language model on one hundred languages, using more than two terabytes of filtered CommonCrawl data. Our model, dubbed XLM-R, significantly outperforms multilingual BERT (mBERT) on a variety of cross-lingual benchmarks, including +14.6% average accuracy on XNLI, +13% average F1 score on MLQA, and +2.4% F1 score on NER. XLM-R performs particularly well on low-resource languages, improving 15.7% in XNLI accuracy for Swahili and 11.4% for Urdu over previous XLM models. We also present a detailed empirical analysis of the key factors that are required to achieve these gains, including the trade-offs between (1) positive transfer and capacity dilution and (2) the performance of high and low resource languages at scale. Finally, we show, for the first time, the possibility of multilingual modeling without sacrificing per-language performance; XLM-R is very competitive with strong monolingual models on the GLUE and XNLI benchmarks. We will make our code and models publicly available.",
+      "externalIds": {
+        "MAG": "2983040767",
+        "ArXiv": "1911.02116",
+        "DBLP": "conf/acl/ConneauKGCWGGOZ20",
+        "ACL": "2020.acl-main.747",
+        "DOI": "10.18653/v1/2020.acl-main.747",
+        "CorpusId": 207880568
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "c6c734e16f66fbfcefac7625cc64599e83292c1e",
+      "bibtex_key": "wang2020minilm",
+      "title": "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers",
+      "authors": [
+        {
+          "name": "Wen-Hui Wang"
+        },
+        {
+          "name": "Furu Wei"
+        },
+        {
+          "name": "Li Dong"
+        },
+        {
+          "name": "Hangbo Bao"
+        },
+        {
+          "name": "Nan Yang"
+        },
+        {
+          "name": "Ming Zhou"
+        }
+      ],
+      "year": 2020,
+      "venue": "Advances in Neural Information Processing Systems",
+      "abstract": "Pre-trained language models (e.g., BERT (Devlin et al., 2018) and its variants) have achieved remarkable success in varieties of NLP tasks. However, these models usually consist of hundreds of millions of parameters which brings challenges for fine-tuning and online serving in real-life applications due to latency and capacity constraints. In this work, we present a simple and effective approach to compress large Transformer (Vaswani et al., 2017) based pre-trained models, termed as deep self-attention distillation. The small model (student) is trained by deeply mimicking the self-attention module, which plays a vital role in Transformer networks, of the large model (teacher). Specifically, we propose distilling the self-attention module of the last Transformer layer of the teacher, which is effective and flexible for the student. Furthermore, we introduce the scaled dot-product between values in the self-attention module as the new deep self-attention knowledge, in addition to the attention distributions (i.e., the scaled dot-product of queries and keys) that have been used in existing works. Moreover, we show that introducing a teacher assistant (Mirzadeh et al., 2019) also helps the distillation of large pre-trained Transformer models. Experimental results demonstrate that our monolingual model outperforms state-of-the-art baselines in different parameter size of student models. In particular, it retains more than 99% accuracy on SQuAD 2.0 and several GLUE benchmark tasks using 50% of the Transformer parameters and computations of the teacher model. We also obtain competitive results in applying deep self-attention distillation to multilingual pre-trained models.",
+      "externalIds": {
+        "MAG": "3101045333",
+        "DBLP": "conf/nips/WangW0B0020",
+        "ArXiv": "2002.10957",
+        "CorpusId": 211296536
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "b5b006dc558cb7fbd532d67e989173b536e8ac80",
+      "bibtex_key": "wang2021minilmv2",
+      "title": "MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers",
+      "authors": [
+        {
+          "name": "Wen-Hui Wang"
+        },
+        {
+          "name": "Hangbo Bao"
+        },
+        {
+          "name": "Shao-Han Huang"
+        },
+        {
+          "name": "Li Dong"
+        },
+        {
+          "name": "Furu Wei"
+        }
+      ],
+      "year": 2021,
+      "venue": "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+      "abstract": "We generalize deep self-attention distillation in MiniLM (Wang et al., 2020) by only using self-attention relation distillation for task-agnostic compression of pretrained Transformers. In particular, we define multi-head self-attention relations as scaled dot-product between the pairs of query, key, and value vectors within each self-attention module. Then we employ the above relational knowledge to train the student model. Besides its simplicity and unified principle, more favorably, there is no restriction in terms of the number of student's attention heads, while most previous work has to guarantee the same head number between teacher and student. Moreover, the fine-grained self-attention relations tend to fully exploit the interaction knowledge learned by Transformer. In addition, we thoroughly examine the layer selection strategy for teacher models, rather than just relying on the last layer as in MiniLM. We conduct extensive experiments on compressing both monolingual and multilingual pretrained models. Experimental results demonstrate that our models distilled from base-size and large-size teachers (BERT, RoBERTa and XLM-R) outperform the state-of-the-art.",
+      "externalIds": {
+        "ArXiv": "2012.15828",
+        "DBLP": "conf/acl/WangBHDW21",
+        "ACL": "2021.findings-acl.188",
+        "DOI": "10.18653/v1/2021.findings-acl.188",
+        "CorpusId": 229923069
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "a54b56af24bb4873ed0163b77df63b92bd018ddc",
+      "bibtex_key": "sanh2019distilbert",
+      "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+      "authors": [
+        {
+          "name": "Victor Sanh"
+        },
+        {
+          "name": "Lysandre Debut"
+        },
+        {
+          "name": "Julien Chaumond"
+        },
+        {
+          "name": "Thomas Wolf"
+        }
+      ],
+      "year": 2019,
+      "venue": "arXiv preprint",
+      "abstract": "As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-specific models, we leverage knowledge distillation during the pre-training phase and show that it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster. To leverage the inductive biases learned by larger models during pre-training, we introduce a triple loss combining language modeling, distillation and cosine-distance losses. Our smaller, faster and lighter model is cheaper to pre-train and we demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device study.",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-1910-01108",
+        "ArXiv": "1910.01108",
+        "MAG": "2978017171",
+        "CorpusId": 203626972
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+      "bibtex_key": "hinton2015distilling",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "authors": [
+        {
+          "name": "Geoffrey E. Hinton"
+        },
+        {
+          "name": "O. Vinyals"
+        },
+        {
+          "name": "Jeffrey Dean"
+        }
+      ],
+      "year": 2015,
+      "venue": "arXiv preprint",
+      "abstract": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.",
+      "externalIds": {
+        "ArXiv": "1503.02531",
+        "MAG": "1821462560",
+        "DBLP": "journals/corr/HintonVD15",
+        "CorpusId": 7200347
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "b1b848860dc03366665fdcafc96a8c096d8c80ef",
+      "bibtex_key": "abdaoui2020load",
+      "title": "Load What You Need: Smaller Versions of Mutililingual BERT",
+      "authors": [
+        {
+          "name": "Amine Abdaoui"
+        },
+        {
+          "name": "Camille Pradel"
+        },
+        {
+          "name": "Grégoire Sigel"
+        }
+      ],
+      "year": 2020,
+      "venue": "Proceedings of SustaiNLP: Workshop on Simple and Efficient Natural Language Processing",
+      "abstract": "Pre-trained Transformer-based models are achieving state-of-the-art results on a variety of Natural Language Processing data sets. However, the size of these models is often a drawback for their deployment in real production applications. In the case of multilingual models, most of the parameters are located in the embeddings layer. Therefore, reducing the vocabulary size should have an important impact on the total number of parameters. In this paper, we propose to extract smaller models that handle fewer number of languages according to the targeted corpora. We present an evaluation of smaller versions of multilingual BERT on the XNLI data set, but we believe that this method may be applied to other multilingual transformers. The obtained results confirm that we can generate smaller models that keep comparable results, while reducing up to 45% of the total number of parameters. We compared our models with DistilmBERT (a distilled version of multilingual BERT) and showed that unlike language reduction, distillation induced a 1.7% to 6% drop in the overall accuracy on the XNLI data set. The presented models and code are publicly available.",
+      "externalIds": {
+        "DBLP": "conf/emnlp/AbdaouiPS20",
+        "MAG": "3092926887",
+        "ACL": "2020.sustainlp-1.16",
+        "ArXiv": "2010.05609",
+        "DOI": "10.18653/v1/2020.sustainlp-1.16",
+        "CorpusId": 222291680
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "aad167be3c902388ea625da4117fcae4325b8b7d",
+      "bibtex_key": "hsieh2023distilling",
+      "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+      "authors": [
+        {
+          "name": "Cheng-Yu Hsieh"
+        },
+        {
+          "name": "Chun-Liang Li"
+        },
+        {
+          "name": "Chih-Kuan Yeh"
+        },
+        {
+          "name": "Hootan Nakhost"
+        },
+        {
+          "name": "Yasuhisa Fujii"
+        },
+        {
+          "name": "Alexander J. Ratner"
+        },
+        {
+          "name": "Ranjay Krishna"
+        },
+        {
+          "name": "Chen-Yu Lee"
+        },
+        {
+          "name": "Tomas Pfister"
+        }
+      ],
+      "year": 2023,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "abstract": "Deploying large language models (LLMs) is challenging because they are memory inefficient and compute-intensive for practical applications. In reaction, researchers train smaller task-specific models by either finetuning with human labels or distilling using LLM-generated labels. However, finetuning and distillation require large amounts of training data to achieve comparable performance to LLMs. We introduce Distilling step-by-step, a new mechanism that (a) trains smaller models that outperform LLMs, and (b) achieves so by leveraging less training data needed by finetuning or distillation. Our method extracts LLM rationales as additional supervision for training small models within a multi-task framework. We present three findings across 4 NLP benchmarks: First, compared to both finetuning and distillation, our mechanism achieves better performance with much fewer labeled/unlabeled training examples. Second, compared to few-shot prompted LLMs, we achieve better performance using substantially smaller model sizes. Third, we reduce both the model size and the amount of data required to outperform LLMs; our finetuned 770M T5 model outperforms the few-shot prompted 540B PaLM model using only 80% of available data on a benchmark, whereas standard finetuning the same T5 model struggles to match even by using 100% of the dataset. We release the code at: https://github.com/google-research/distilling-step-by-step .",
+      "externalIds": {
+        "ArXiv": "2305.02301",
+        "DBLP": "journals/corr/abs-2305-02301",
+        "DOI": "10.18653/v1/2023.findings-acl.507",
+        "CorpusId": 258461606
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": "a08293b2c9c5bcddb023cc7eb3354d4d86bfae89",
+      "bibtex_key": "tang2019distilling",
+      "title": "Distilling Task-Specific Knowledge from BERT into Simple Neural Networks",
+      "authors": [
+        {
+          "name": "Raphael Tang"
+        },
+        {
+          "name": "Yao Lu"
+        },
+        {
+          "name": "Linqing Liu"
+        },
+        {
+          "name": "Li-Li Mou"
+        },
+        {
+          "name": "Olga Vechtomova"
+        },
+        {
+          "name": "Jimmy Lin"
+        }
+      ],
+      "year": 2019,
+      "venue": "arXiv preprint",
+      "abstract": "In the natural language processing literature, neural networks are becoming increasingly deeper and complex. The recent poster child of this trend is the deep language representation model, which includes BERT, ELMo, and GPT. These developments have led to the conviction that previous-generation, shallower neural networks for language understanding are obsolete. In this paper, however, we demonstrate that rudimentary, lightweight neural networks can still be made competitive without architecture changes, external training data, or additional input features. We propose to distill knowledge from BERT, a state-of-the-art language representation model, into a single-layer BiLSTM, as well as its siamese counterpart for sentence-pair tasks. Across multiple datasets in paraphrasing, natural language inference, and sentiment classification, we achieve comparable results with ELMo, while using roughly 100 times fewer parameters and 15 times less inference time.",
+      "externalIds": {
+        "ArXiv": "1903.12136",
+        "DBLP": "journals/corr/abs-1903-12136",
+        "MAG": "2924902521",
+        "CorpusId": 85543565
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.3]"
+      ]
+    },
+    {
+      "paperId": null,
+      "bibtex_key": "loshchilov2017decoupled",
+      "title": "Decoupled Weight Decay Regularization",
+      "authors": [
+        {
+          "name": "Ilya Loshchilov"
+        },
+        {
+          "name": "Frank Hutter"
+        }
+      ],
+      "year": 2017,
+      "venue": "arXiv preprint",
+      "abstract": "L$_2$ regularization and weight decay regularization are equivalent for standard stochastic gradient descent (when rescaled by the learning rate), but as we demonstrate this is \\emph{not} the case for adaptive gradient algorithms, such as Adam. While common implementations of these algorithms employ L$_2$ regularization (often calling it \"weight decay\" in what may be misleading due to the inequivalence we expose), we propose a simple modification to recover the original formulation of weight decay regularization by \\emph{decoupling} the weight decay from the optimization steps taken w.r.t. the loss function. We provide empirical evidence that our proposed modification (i) decouples the optimal choice of weight decay factor from the setting of the learning rate for both standard SGD and Adam and (ii) substantially improves Adam's generalization performance, allowing it to compete with SGD with momentum on image classification datasets (on which it was previously typically outperformed by the latter). Our proposed decoupled weight decay has already been adopted by many researchers, and the community has implemented it in TensorFlow and PyTorch; the complete source code for our experiments is available at https://github.com/loshchil/AdamW-and-SGDW",
+      "externalIds": {
+        "ArXiv": "1711.05101"
+      },
+      "verified_via": "arxiv",
+      "verified_sources": [
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "setup"
+      ]
+    },
+    {
+      "paperId": "55ba58d229ed6b3c2f3ad4615279d203873906ab",
+      "bibtex_key": "chow1970optimum",
+      "title": "On optimum recognition error and reject tradeoff",
+      "authors": [
+        {
+          "name": "C.-K. Chow"
+        }
+      ],
+      "year": 1970,
+      "venue": "IEEE Transactions on Information Theory",
+      "abstract": "The performance of a pattern recognition system is characterized by its error and reject tradeoff. This paper describes an optimum rejection rule and presents a general relation between the error and reject probabilities and some simple properties of the tradeoff in the optimum recognition system. The error rate can be directly evaluated from the reject function. Some practical implications of the results are discussed. Examples in normal distributions and uniform distributions are given.",
+      "externalIds": {
+        "DBLP": "journals/tit/Chow70",
+        "MAG": "2118377301",
+        "DOI": "10.1109/tit.1970.1054406",
+        "CorpusId": 206730137
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "2ed7cc027367295b1a7d7cd49406acfa5c580138",
+      "bibtex_key": "geifman2017selective",
+      "title": "Selective Classification for Deep Neural Networks",
+      "authors": [
+        {
+          "name": "Yonatan Geifman"
+        },
+        {
+          "name": "Ran El-Yaniv"
+        }
+      ],
+      "year": 2017,
+      "venue": "Advances in Neural Information Processing Systems",
+      "abstract": "Selective classification techniques (also known as reject option) have not yet been considered in the context of deep neural networks (DNNs). These techniques can potentially significantly improve DNNs prediction performance by trading-off coverage. In this paper we propose a method to construct a selective classifier given a trained neural network. Our method allows a user to set a desired risk level. At test time, the classifier rejects instances as needed, to grant the desired risk (with high probability). Empirical results over CIFAR and ImageNet convincingly demonstrate the viability of our method, which opens up possibilities to operate DNNs in mission-critical applications. For example, using our method an unprecedented 2% error in top-5 ImageNet classification can be guaranteed with probability 99.9%, and almost 60% test coverage.",
+      "externalIds": {
+        "MAG": "2963613748",
+        "ArXiv": "1705.08500",
+        "DBLP": "conf/nips/GeifmanE17",
+        "CorpusId": 491127
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "d65ce2b8300541414bfe51d03906fca72e93523c",
+      "bibtex_key": "guo2017calibration",
+      "title": "On Calibration of Modern Neural Networks",
+      "authors": [
+        {
+          "name": "Chuan Guo"
+        },
+        {
+          "name": "Geoff Pleiss"
+        },
+        {
+          "name": "Yu Sun"
+        },
+        {
+          "name": "Kilian Q. Weinberger"
+        }
+      ],
+      "year": 2017,
+      "venue": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "abstract": "Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions.",
+      "externalIds": {
+        "MAG": "2950953798",
+        "DBLP": "conf/icml/GuoPSW17",
+        "ArXiv": "1706.04599",
+        "CorpusId": 28671436
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "585f8b9725f5f5e5495c3508d39f70d1c053e190",
+      "bibtex_key": "chen2023frugalgpt",
+      "title": "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+      "authors": [
+        {
+          "name": "Lingjiao Chen"
+        },
+        {
+          "name": "M. Zaharia"
+        },
+        {
+          "name": "James Y. Zou"
+        }
+      ],
+      "year": 2023,
+      "venue": "arXiv preprint",
+      "abstract": "There is a rapidly growing number of large language models (LLMs) that users can query for a fee. We review the cost associated with querying popular LLM APIs, e.g. GPT-4, ChatGPT, J1-Jumbo, and find that these models have heterogeneous pricing structures, with fees that can differ by two orders of magnitude. In particular, using LLMs on large collections of queries and text can be expensive. Motivated by this, we outline and discuss three types of strategies that users can exploit to reduce the inference cost associated with using LLMs: 1) prompt adaptation, 2) LLM approximation, and 3) LLM cascade. As an example, we propose FrugalGPT, a simple yet flexible instantiation of LLM cascade which learns which combinations of LLMs to use for different queries in order to reduce cost and improve accuracy. Our experiments show that FrugalGPT can match the performance of the best individual LLM (e.g. GPT-4) with up to 98% cost reduction or improve the accuracy over GPT-4 by 4% with the same cost. The ideas and findings presented here lay a foundation for using LLMs sustainably and efficiently.",
+      "externalIds": {
+        "ArXiv": "2305.05176",
+        "DBLP": "journals/corr/abs-2305-05176",
+        "DOI": "10.48550/arXiv.2305.05176",
+        "CorpusId": 258564349
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "97b6f4357d1e3ab40a7ee60acb5260a948e3641d",
+      "bibtex_key": "ding2024hybrid",
+      "title": "Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing",
+      "authors": [
+        {
+          "name": "Dujian Ding"
+        },
+        {
+          "name": "Ankur Mallick"
+        },
+        {
+          "name": "Chi Wang"
+        },
+        {
+          "name": "Robert Sim"
+        },
+        {
+          "name": "Subhabrata Mukherjee"
+        },
+        {
+          "name": "Victor Rühle"
+        },
+        {
+          "name": "L. Lakshmanan"
+        },
+        {
+          "name": "A. Awadallah"
+        }
+      ],
+      "year": 2024,
+      "venue": "International Conference on Learning Representations (ICLR)",
+      "abstract": "Large language models (LLMs) excel in most NLP tasks but also require expensive cloud servers for deployment due to their size, while smaller models that can be deployed on lower cost (e.g., edge) devices, tend to lag behind in terms of response quality. Therefore in this work we propose a hybrid inference approach which combines their respective strengths to save cost and maintain quality. Our approach uses a router that assigns queries to the small or large model based on the predicted query difficulty and the desired quality level. The desired quality level can be tuned dynamically at test time to seamlessly trade quality for cost as per the scenario requirements. In experiments our approach allows us to make up to 40% fewer calls to the large model, with no drop in response quality.",
+      "externalIds": {
+        "ArXiv": "2404.14618",
+        "DBLP": "conf/iclr/DingM0SMRLA24",
+        "DOI": "10.48550/arXiv.2404.14618",
+        "CorpusId": 269303119
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "5bb42863524b0ae4e5a47c46c53d9e7ec9552fef",
+      "bibtex_key": "varshney2022model",
+      "title": "Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems",
+      "authors": [
+        {
+          "name": "Neeraj Varshney"
+        },
+        {
+          "name": "Chitta Baral"
+        }
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "abstract": "Do all instances need inference through the big models for a correct prediction? Perhaps not; some instances are easy and can be answered correctly by even small capacity models. This provides opportunities for improving the computational efficiency of systems. In this work, we present an explorative study on ‘model cascading’, a simple technique that utilizes a collection of models of varying capacities to accurately yet efficiently output predictions. Through comprehensive experiments in multiple task settings that differ in the number of models available for cascading (K value), we show that cascading improves both the computational efficiency and the prediction accuracy. For instance, in K=3 setting, cascading saves up to 88.93% computation cost and consistently achieves superior prediction accuracy with an improvement of up to 2.18%. We also study the impact of introducing additional models in the cascade and show that it further increases the efficiency improvements. Finally, we hope that our work will facilitate development of efficient NLP systems making their widespread adoption in real-world applications possible.",
+      "externalIds": {
+        "ACL": "2022.emnlp-main.756",
+        "DBLP": "conf/emnlp/VarshneyB22",
+        "ArXiv": "2210.05528",
+        "DOI": "10.18653/v1/2022.emnlp-main.756",
+        "CorpusId": 252815489
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "arxiv",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "related_work[2.4]"
+      ]
+    },
+    {
+      "paperId": "b14f4269f09ef77ad310581ea82d502402d90fb9",
+      "bibtex_key": "wilson1927probable",
+      "title": "Probable Inference, the Law of Succession, and Statistical Inference",
+      "authors": [
+        {
+          "name": "E. B. Wilson"
+        }
+      ],
+      "year": 1927,
+      "venue": "Journal of the American Statistical Association",
+      "abstract": "",
+      "externalIds": {
+        "MAG": "2020018978",
+        "DOI": "10.1080/01621459.1927.10502953",
+        "CorpusId": 121572396
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "setup"
+      ]
+    },
+    {
+      "paperId": "cdb48a96036b8cd2367eea596cff2db828305150",
+      "bibtex_key": "mcnemar1947note",
+      "title": "Note on the sampling error of the difference between correlated proportions or percentages",
+      "authors": [
+        {
+          "name": "Q. Mcnemar"
+        }
+      ],
+      "year": 1947,
+      "venue": "Psychometrika",
+      "abstract": "Two formulas are presented for judging the significance of the difference between correlated proportions. The chi square equivalent of one of the developed formulas is pointed out.",
+      "externalIds": {
+        "MAG": "2084413241",
+        "DOI": "10.1007/bf02295996",
+        "CorpusId": 46226024
+      },
+      "verified_via": "semantic_scholar",
+      "verified_sources": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "match_score": 100,
+      "discovered_for": [
+        "setup"
+      ]
+    }
+  ],
+  "cutoff_date": "2026-10-01",
+  "min_cite_paper_count": 37
+}

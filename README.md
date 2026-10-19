@@ -5,7 +5,7 @@
 **A 2 MB on-device classifier that tells what you're playing from the title alone.**<br>
 **一个 2 MB 的端侧分类器：只看标题，就知道你在放什么。**
 
-[English](#english) · [中文](#中文) · [Kobutai extension 扩展](https://github.com/xingaobio/kobutai) · [Website 官网](https://kobutai.pages.dev)
+[English](#english) · [中文](#中文) · [Kobutai extension 扩展](https://github.com/xingaobio/kobutai) · [Website 官网](https://kobutai.pages.dev) · [Paper 论文](paper/kobutai-paper.pdf)
 
 ![size](https://img.shields.io/badge/model-2.1%20MB%20int8-ff8dbb?style=flat-square)
 ![latency](https://img.shields.io/badge/latency-%3C1%20ms-7cd6b4?style=flat-square)
