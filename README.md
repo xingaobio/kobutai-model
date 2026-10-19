@@ -5,7 +5,7 @@
 **A 2 MB on-device classifier that tells what you're playing from the title alone.**<br>
 **一个 2 MB 的端侧分类器：只看标题，就知道你在放什么。**
 
-[English](#english) · [中文](#中文) · [Kobutai extension 扩展](https://github.com/xingaobio/kobutai) · [Website 官网](https://kobutai.pages.dev)
+[English](#english) · [中文](#中文) · [Kobutai extension 扩展](https://github.com/xingaobio/kobutai) · [Website 官网](https://kobutai.pages.dev) · [Hugging Face](https://huggingface.co/xingaouk/kobutai-media-classifier) · [Demo 演示](https://huggingface.co/spaces/xingaouk/kobutai-media-classifier)
 
 ![size](https://img.shields.io/badge/model-2.1%20MB%20int8-ff8dbb?style=flat-square)
 ![latency](https://img.shields.io/badge/latency-%3C1%20ms-7cd6b4?style=flat-square)
@@ -96,12 +96,12 @@ Algorithm and file format: [`kobutai-classifier/spec/SPEC.md`](kobutai-classifie
 
 ### Data note
 
-This public version keeps the training data written by language models (about 13,000 rows of titles, plus the artist lists) and the synthetic validation and focus sets. It **leaves out data collected from other websites**: Apple's public genre charts, Bilibili and YouTube trending lists, the 637-title real-world dev/test set, the unlabelled pools and DeepSeek's answers on them. Training with only what's here works but will not reproduce the numbers exactly. The released model weights were trained with all of it; the terms of Apple's chart feed haven't been checked, so treat the weights as non-commercial until they are.
+This public version keeps the training data written by language models (about 13,000 rows of titles, plus the artist lists) and the synthetic validation and focus sets. It **leaves out data collected from other websites**: Apple's public genre charts, Bilibili and YouTube trending lists, the 637-title real-world dev/test set, the unlabelled pools and DeepSeek's answers on them. Training with only what's here works but will not reproduce the numbers exactly. The released model weights were trained with all of it; the terms of Apple's chart feed haven't been checked, so the weights are licensed for non-commercial use only. A version trained without Apple's data is on [Hugging Face](https://huggingface.co/xingaouk/kobutai-media-classifier) (79.9% fully right on the same real test set).
 
 ### Credits and licence
 
 - Project lead: **Xin Gao**. Implementation and experiments: Claude (Anthropic) in Claude Code; data generation by Claude Sonnet sub-agents; teacher model DeepSeek V4.1 Flash on a self-hosted endpoint.
-- Code: MIT ([`LICENSE`](LICENSE)). Report, charts, data and model weights: CC BY 4.0 ([`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md)), subject to the data note above.
+- Code: MIT ([`LICENSE`](LICENSE)). Report, charts and results: CC BY 4.0 ([`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md)). Data and model weights: CC BY-NC 4.0, non-commercial ([`LICENSE-CC-BY-NC-4.0.md`](LICENSE-CC-BY-NC-4.0.md)); they were CC BY 4.0 until 19 October 2026.
 
 ---
 
@@ -171,9 +171,9 @@ This public version keeps the training data written by language models (about 13
 
 ### 数据说明
 
-公开版保留了由大模型编写的训练数据（约 13,000 行标题和歌手名单），以及合成验证集和专项集；**去掉了从其他网站收集的数据**：Apple 公开曲风榜单、B 站和 YouTube 热门列表、637 条真实开发/测试集、未标注的数据池和 DeepSeek 对它们的回答。只用公开数据可以训练，但不能完全复现报告里的数字。发布的模型权重是用全部数据训练的；Apple 榜单接口的使用条款还没核实，在核实之前请只做非商业使用。
+公开版保留了由大模型编写的训练数据（约 13,000 行标题和歌手名单），以及合成验证集和专项集；**去掉了从其他网站收集的数据**：Apple 公开曲风榜单、B 站和 YouTube 热门列表、637 条真实开发/测试集、未标注的数据池和 DeepSeek 对它们的回答。只用公开数据可以训练，但不能完全复现报告里的数字。发布的模型权重是用全部数据训练的；Apple 榜单接口的使用条款还没核实，因此模型权重只许非商业使用。不含 Apple 数据的版本发布在 [Hugging Face](https://huggingface.co/xingaouk/kobutai-media-classifier)（同一真实测试集完全判对 79.9%）。
 
 ### 致谢与许可
 
 - 项目负责人：**Xin Gao**。实现与实验：Claude（Anthropic），在 Claude Code 中完成；数据由 Claude Sonnet 子代理生成；教师模型为作者自建端点上的 DeepSeek V4.1 Flash。
-- 代码：MIT（[`LICENSE`](LICENSE)）。报告、图表、数据和模型权重：CC BY 4.0（[`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md)），并受上面"数据说明"约束。
+- 代码：MIT（[`LICENSE`](LICENSE)）。报告、图表和结果：CC BY 4.0（[`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md)）。数据和模型权重：CC BY-NC 4.0，禁止商用（[`LICENSE-CC-BY-NC-4.0.md`](LICENSE-CC-BY-NC-4.0.md)）；2026 年 10 月 19 日之前为 CC BY 4.0。
