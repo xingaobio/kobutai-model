@@ -1,0 +1,62 @@
+{
+ "created_at": "2026-10-19T08:58:57.552415+00:00",
+ "inputs": {
+  "idea.md": {
+   "sha256": "4a23edb00a902da8bf7a967d120e94910fa9cbd85b155227b0ff6876ea06b0a0",
+   "bytes": 8712
+  },
+  "experimental_log.md": {
+   "sha256": "c8ea22156d72ad1085b95a05b6f5ceeea54336bda4e6c4c59bea497be5e1a326",
+   "bytes": 20400
+  },
+  "template.tex": {
+   "sha256": "044cb390d426be8b3edf2b76d407e98798487bd071bb18c112f54c5b22d32bf4",
+   "bytes": 720
+  },
+  "conference_guidelines.md": {
+   "sha256": "9c0dd8ee0e7a535135f987601aea33cbb4cf73cea30a0ea9e420e8d8d75b36ce",
+   "bytes": 1366
+  }
+ },
+ "outline.json": {
+  "sha256": "cc5a2a6c249ddd57dd5677d18ad8b041947c05fb8d235ae2a75227474ffb3fcd"
+ },
+ "refs.bib": {
+  "sha256": "bd2b1bb7a2bc80f29203c91cc9913cc8ebad4ad3881bcde7e9b9c97cdb7f3dc6",
+  "n_entries": 42
+ },
+ "figures": {
+  "fig_hybrid_handoff_curve.pdf": {
+   "sha256": "fd69c869e32614b05a5c1f9efb21846d221b7b13e7109e4620c857e9a429dd49"
+  },
+  "fig_per_genre_accuracy_real_test.pdf": {
+   "sha256": "33a85a442f1c1b5a273242edd6cebba840c3ba41fb47bd0bd8de725d0c6a2222"
+  },
+  "fig_pipeline_overview.pdf": {
+   "sha256": "1ef3f1bb818c468b011714df06c36274300aa6e18f15fcd048ecee6c5b936761"
+  },
+  "fig_size_vs_accuracy_real_test.pdf": {
+   "sha256": "f9a608cb375ccea111024037ba2f83faa6512b927118114d318338368e01e60f"
+  },
+  "fig_synthetic_vs_real_gap.pdf": {
+   "sha256": "4ec204eb874b99bf7440d829f07a28e383b03f69e1e72b7c930d922b07d4c74f"
+  }
+ },
+ "final": {
+  "paper.tex": {
+   "sha256": "e6950af9746857a0fceffe0ff8edf8ef12ecc4101b72c2246816bf63a6ff7a55"
+  },
+  "paper.pdf": {
+   "sha256": "50c3cb526cd42a2a1448e81984371af526cf70aa80ff04dc0725186a47872bda"
+  }
+ },
+ "refinement": {
+  "iter1_overall": 63.5,
+  "iter2_overall": 68.7,
+  "iterations": 2,
+  "halted_because": "remaining issues fixed; score improved"
+ },
+ "skill_versions": {
+  "paper-orchestra": "Ar9av/PaperOrchestra (MIT), cloned 2026-10-19"
+ }
+}

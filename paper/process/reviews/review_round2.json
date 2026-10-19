@@ -1,0 +1,145 @@
+{
+  "reviewed_file": "workspace/refinement/iter2/paper.tex (paper.pdf, 14 pp; main text ends on p. 10)",
+  "summary": "The paper builds a 2.1 MB on-device classifier for media titles in English, Japanese and Chinese. It predicts content type, one of ten music genres and an entertainment/informational label for video, from title, artist, site and duration only. The model is a hashed character n-gram logistic regression with int8 heads, site rules and an updatable artist-to-genre bonus. On 383 real chart/trending titles it is fully right on 84.9%, against 95.3% for DeepSeek V4.1 Flash on the same fields. The revision adds a direct test of the knowledge hypothesis: genre accuracy is 90.5% on artists known to the system and 47.8% on unknown ones (46 items), where the LLM reaches 87.0%. It also adds per-language results, discloses the evaluation protocol, and fixes all ten iter1 numeric or description errors except one leftover sentence. Pseudo-labelling from the LLM and a 107M-parameter mMiniLMv2 (84.1%) do not help. A confidence gate that sends 31.9% of items to the LLM reaches 95.6%. LLM-written validation overstated real genre accuracy by 10.5-15.3 points.",
+  "axis_scores": {
+    "scientific_depth": {
+      "score": 66,
+      "justification": "The main iter1 gap is addressed. The known/unknown-artist split (Table 3) directly tests the knowledge half of the claim: 90.5% vs 47.8% for the linear model, and 24 of its 40 genre errors on 21% of items. The protocol is now disclosed honestly (Sec. 6.2: ablations on dev+test, tau chosen on the test curve, dev-optimal 0.95 reported). Three problems remain. (1) The 'not capacity' half is still weakly tested: the transformer is under-trained, and the one in-family capacity ablation (2^18 buckets, +2 genre points) is dismissed as noise. Yet the title still asserts 'Knowledge, Not Capacity'. (2) The LLM also drops 8.2 points on unknown artists, so part of the linear model's drop is item difficulty, and the paper does not discuss this. (3) The known/unknown definition is loose, and the split shifts by 2-5 items under reasonable alternative matching rules. Because the knowledge claim now has a direct experiment, the <=60 hard cap no longer binds."
+    },
+    "technical_execution": {
+      "score": 72,
+      "justification": "All iter1 execution gaps are closed: the shipped beta_a = beta_t = 3 is stated, augmentation independence matches train.py, the tau procedure is described, LLM batch latency is given (about 1 s per 20 titles), and latency runtimes are named. I recomputed the Fig. 2 decomposition (2 abstentions + 1 title-bonus item) and the per-language values from the released model, and both reproduce. Remaining gaps: the transformer baseline is still 3 CPU epochs with frozen embeddings. The exact 'known artist' rule is not given. The release excludes the real-world evaluation set (README 'Data note'), so headline numbers cannot be reproduced from the artefacts, and the paper does not say so."
+    },
+    "logical_flow": {
+      "score": 70,
+      "justification": "The structure is cleaner. The transformer discussion is merged into Sec. 5.1, the Related Work closers that restated results are replaced by hypotheses, contribution bullets are one sentence each, and the new Table 3 paragraph connects error analysis to the thesis. Remaining issues: Sec. 4.1 (L142) still says the test split was 'used only for reporting', which Sec. 6.2 and Limitations contradict. The 'Capacity' paragraph in Sec. 6.2 is a one-sentence orphan, although it bears on the paper's central claim. The licence-clean result still appears in four places (Table 2, Sec. 5.2, Sec. 6.2, Conclusion)."
+    },
+    "writing_clarity": {
+      "score": 60,
+      "justification": "MAD is now defined and the prose is precise. Repetition remains heavy: 84.9% and 95.3% each appear 8 times and 95.6% 6 times in about 5,400 words. The reference model still cycles between 'large model' (18), 'large language model' (16), 'teacher' (13), 'LLM' (9) and 'DeepSeek' (5). Semicolons run at about 6 per 1,000 words (threshold 2). 'close to the large model's 95.2%' understates a 4.7-point gap. The hard cap of 60 still applies for repetitive phrasing."
+    },
+    "evidence_presentation": {
+      "score": 72,
+      "justification": "The figure and caption errors are fixed: Fig. 1 runtimes, the tau = 0.9 annotation, the Table 2 caption on the hybrid setting, and the Fig. 2 abstention/title-bonus explanation (verified). The redundant size-accuracy figure was dropped. The new Table 3 is compact and every value matches LOG 2.11. All tables and figures are referenced. Remaining issues: Figs. 3 and 4 are set at half width, so their tick and legend labels print at about 5 pt. Per-language accuracies are given in prose without n, and they silently exclude 12 untagged items (n = 371, not 383). Table 3 has no intervals, though n = 46 makes 47.8% uncertain (Wilson about 34-62)."
+    },
+    "academic_style": {
+      "score": 72,
+      "justification": "The tone is measured. Limitations now openly state the imperfect hold-out and the hard-label scope, and the AI disclosure is appropriate. Remaining issues: 'Anonymous' authorship alongside a named public release with no URL. Terminology drifts between 'store charts', 'chart feed' and 'chart data'. The DeepSeek V4.1 Flash citation points to the V3 report."
+    }
+  },
+  "overall_score": 68.7,
+  "overall_formula": "0.20*66 + 0.20*72 + 0.15*70 + 0.15*60 + 0.20*72 + 0.10*72 = 68.7",
+  "decision": "Borderline",
+  "decision_band": "Minor Revision",
+  "strengths": [
+    "The new known/unknown-artist analysis (Table 3; 90.5% vs 47.8% for the linear model, 95.2% vs 87.0% for the LLM) is a direct, cheap test of the paper's central hypothesis. It reproduces approximately from the released model.",
+    "Honest protocol disclosure: Sec. 6.2 and Limitations state that ablations used dev+test, that tau was chosen on the test curve, and that the dev-optimal tau is 0.95. The test numbers are called 'somewhat optimistic'.",
+    "All ten iter1 description errors are fixed or reduced to a single leftover sentence. Cross-runtime claims are restricted to Python/TypeScript everywhere, including the figure image.",
+    "Rigorous small-sample statistics (Wilson intervals, exact McNemar) and honest negative results (pseudo-labelling, transformer, hash doubling) under a matched protocol.",
+    "A practical, actionable design conclusion: keep the device model small, put knowledge in an updatable table plus a gated server model, and evaluate on real titles rather than LLM-written ones."
+  ],
+  "weaknesses": [
+    {
+      "id": "W1",
+      "severity": "major",
+      "da": true,
+      "location": "Sec. 4.1 L142: '383 test rows (214 of them music), used only for reporting.'",
+      "issue": "This is a residual of iter1 W1/E4. It contradicts Sec. 6.2 L273 ('the ablations ... were scored on development and test combined, and tau was chosen on the test curve'), Limitations L284 and LOG 2.12. A reader of Sec. 4.1 gets the wrong protocol.",
+      "fix": "Replace with '... and 383 test rows (214 of them music), used for reporting and, as described in Section 6.2, for some ablations and the choice of tau.'"
+    },
+    {
+      "id": "W2",
+      "severity": "major",
+      "da": true,
+      "location": "Title 'Knowledge, Not Capacity'; contribution 2; Sec. 5.3 para 2; Sec. 6.2 'Capacity'.",
+      "issue": "The knowledge half now has direct evidence. The 'not capacity' half does not. The transformer is under-trained. The only in-family capacity test (2^18 buckets) moved genre by +2 points and is dismissed as noise without an interval. Unknown-artist items are also harder for the LLM (95.2 -> 87.0), so the 42.7-point drop mixes missing knowledge with item difficulty.",
+      "fix": "Add one sentence to Sec. 5.3: 'The large model also loses 8 points on unknown artists, so part of the drop reflects harder items, but the gap between the models widens from 4.7 to 39.2 points.' Either retitle (e.g. 'Missing Knowledge, Not Missing Features: ...') or add a clause naming the capacity tests as limited (a briefly trained transformer and one hash-size ablation). Merge the one-sentence 'Capacity' paragraph into Sec. 5.1 next to the transformer result."
+    },
+    {
+      "id": "W3",
+      "severity": "minor",
+      "location": "Sec. 5.3 L223 and Table 3 caption; Sec. 5.1 L191 per-language sentence.",
+      "issue": "The 'known artist' rule is imprecise. LOG 2.11 includes title-segment table matches and music training rows, and alternative rules move 2-5 items between groups. 'close to the large model's 95.2%' understates a 4.7-point gap. Per-language results omit n and leave out 12 untagged items (66.7%), so the three groups sum to 371 rather than 383.",
+      "fix": "State the rule exactly as in LOG 2.11 and give the n's (159/94/118, plus 12 untagged). Say 'within 5 points of'. Consider Wilson intervals in Table 3 (unknown: about 34-62%)."
+    },
+    {
+      "id": "W4",
+      "severity": "minor",
+      "location": "Conclusion L291 (release statement); author 'Anonymous'.",
+      "issue": "No URL is given. The release omits the real-world dev/test set, chart data and teacher answers (README 'Data note'), so the reported numbers cannot be reproduced from the released artefacts, and the paper does not say so.",
+      "fix": "Add the repository/HF URLs (or 'URL withheld for review'). Add one sentence: 'The real-world evaluation set and chart-derived data are not redistributed; their source URLs are.' (if true)."
+    },
+    {
+      "id": "W5",
+      "severity": "minor",
+      "location": "Whole paper (writing); Figs. 3 and 4.",
+      "issue": "Headline numbers repeat 6-8 times each. The reference model is called by five names. Semicolons run at about 6 per 1,000 words. The two half-width figures have labels of about 5 pt. The DeepSeek V4.1 Flash citation is to the V3 report.",
+      "fix": "After first naming DeepSeek V4.1 Flash, call it 'the LLM' throughout ('teacher' only in Sec. 6.1). Remove the repeated numbers from Sec. 5.2's first sentence and the Conclusion. Set Figs. 3 and 4 at full width, stacked, or enlarge their fonts. Cite DeepSeek as 'a successor of DeepSeek-V3'."
+    }
+  ],
+  "cuts": [
+    "C1 (about 0.15 pp): Merge the one-sentence 'Capacity' paragraph (Sec. 6.2) into Sec. 5.1 after the transformer result.",
+    "C2 (about 0.15 pp): State the licence-clean result once in Sec. 6.2 plus Table 2. Drop the hybrid licence-clean sentence in Sec. 5.2 or move it to Table 5.",
+    "C3 (about 0.1 pp): Conclusion para 1: drop the 84.9/95.3 repetition and keep the design lesson.",
+    "C4 (about 0.2 pp): Place Fig. 2 (0.6 width) side by side with Table 5's content, or set it at 0.5 width with text wrap. Currently about 40% of its row on p. 7 is empty margin."
+  ],
+  "questions": [
+    "What exactly counts as a 'known' artist (full-string vs segment match; music training rows only?), and how sensitive is Table 3 to that rule?",
+    "How much of the unknown-artist drop is item difficulty? The LLM also falls 8.2 points. Could you report the gap restricted to unknown items that the LLM gets right?",
+    "With longer GPU training and unfrozen embeddings, does the transformer gain on unknown artists in particular? That would test the 'not capacity' half of the title.",
+    "Which parts of the release would let a reader reproduce Table 2, given that the real-world set is not redistributed?"
+  ],
+  "da_findings": [
+    {
+      "id": "F1",
+      "severity": "major",
+      "attack": "Sec. 4.1 still claims the test split was used only for reporting, contradicting the paper's own Sec. 6.2, Limitations and LOG 2.12.",
+      "required_resolution": "One-sentence correction at L142. The rest of the iter1 F1 resolution (protocol disclosure, how tau was chosen, dev-optimal tau) is done.",
+      "status_vs_iter1": "partly resolved (downgraded from critical)"
+    },
+    {
+      "id": "F2",
+      "severity": "major",
+      "attack": "The title asserts 'Not Capacity'. The new experiment supports 'knowledge' but not the exclusion of capacity, and it does not control for item difficulty (the LLM also drops on unknown artists).",
+      "required_resolution": "Hedge the title or name the limited capacity tests. Add the difficulty caveat to Sec. 5.3.",
+      "status_vs_iter1": "partly resolved (abstract/conclusion hedged; direct test added)"
+    },
+    {
+      "id": "F3",
+      "severity": "resolved",
+      "attack": "Cross-runtime identity claimed for four runtimes.",
+      "required_resolution": "None. Fixed in abstract, Sec. 3.2 and Fig. 1.",
+      "status_vs_iter1": "resolved"
+    }
+  ],
+  "iter1_status": {
+    "W1": "partly fixed (L142 residual)",
+    "W2": "partly fixed (direct knowledge test added; title unchanged; capacity side still weak)",
+    "W3": "fixed",
+    "W4": "fixed",
+    "W5": "partly fixed (Fig. 2 removed, duplicates merged; main text still ends on p. 10)",
+    "W6": "fixed",
+    "W7": "fixed",
+    "W8": "partly fixed (size figure dropped, tau label fixed, MAD defined; Figs. 3-4 still half-width)",
+    "E1-E10": "E1, E2, E3, E5-E10 fixed; E4 partly fixed",
+    "U1-U8": "U3-U8 fixed; U1, U2 partly fixed",
+    "C1": "fixed",
+    "C2": "not fixed"
+  },
+  "writing_quality_check": {
+    "A_ai_vocabulary": "Clean.",
+    "B_punctuation": "Em dashes: 0. Semicolons: 33 in about 5,400 words (about 6 per 1,000; threshold 2), unchanged from iter1.",
+    "C_throat_clearing": "None found.",
+    "D_structure": "No forced rule-of-three. Synonym cycling for the reference model persists: 'large model' 18, 'large language model' 16, 'teacher' 13, 'LLM' 9, 'DeepSeek' 5.",
+    "E_burstiness": "Acceptable."
+  },
+  "ai_failure_modes_gate": {
+    "1_impl_vs_description": "PASS. Augmentation, beta and thresholds match train.py, config.json and core.py.",
+    "2_hallucinated_citation": "PASS. All keys resolve. One loose attribution remains (DeepSeek V4.1 Flash cited to the V3 report).",
+    "3_hallucinated_result": "PASS. 0 numeric mismatches. New LOG 2.11/2.12 numbers verified, and the Fig. 2 decomposition and per-language values recomputed from the model.",
+    "4_shortcut_reliance": "PASS.",
+    "5_bug_as_insight": "PASS.",
+    "6_methodology_fabrication": "PASS.",
+    "7_frame_lock": "SUSPECTED (weaker than iter1). The title still asserts 'Not Capacity'; see W2."
+  }
+}
